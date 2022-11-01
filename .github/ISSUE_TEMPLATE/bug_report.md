@@ -38,4 +38,4 @@ If applicable, add screenshots to help explain your problem.
 Add any other context about the problem here.
 
 **
-Sincerely yours, the Stupin.ch-Team
+Sincerely yours, the couchbreak.ch-Team

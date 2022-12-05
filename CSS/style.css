@@ -39,7 +39,8 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-
+  
+  color: blue;
   margin-top: 25px;
   margin-bottom: 50px;
   margin-left: 25px;

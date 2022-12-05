@@ -1,27 +1,47 @@
+:root {
+  box-sizing: border-box; /*Prevent overflow/vertical scroll bars*/
+  scroll-behavior: smooth;
+  --default-text-color: #eee;
+  --default-background-color: #202020 / #252525;
+}
+
+html {
+  background-color: var(--default-background-color);
+  color: var(--default-text-color);
+  height: 100%;
+}
+
+body {
+  padding: 0; /*reset default padding; [rem]*/
+  margin: 0 auto; /*reset default margin [rem]*/
+  height: 100%;
+  font-family: ;
+  /*font-size: 1rem;*/
+}
 
 * {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    font-style: normal;
-    letter-spacing: 0.05em;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 #logo-header {
-    max-width: 200px;
-    max-height: auto;
+  max-width: 200px;
+  max-height: auto;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
-    margin-top: 25px;
-    margin-bottom: 50px;
-    margin-left: 25px;
-    margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
 }

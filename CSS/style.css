@@ -1,3 +1,15 @@
+:root {
+    box-sizing: border-box; /*Prevent overflow/vertical scroll bars*/
+    scroll-behavior: smooth;
+    --default-text-color: rgb(0, 0, 0);
+    --default-background-color: #ffffff;
+}
+
+html {
+    background-color: var(--default-background-color);
+    color: var(--default-text-color);
+    height: 100%;
+}
 
 * {
     font-family: 'Quicksand', sans-serif;
@@ -7,6 +19,13 @@
     letter-spacing: 0.05em;
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+
+body {
+    padding: 0; /*reset default padding; [rem]*/
+    margin: 0 auto; /*reset default margin [rem]*/
+    height: 100%;
+    font-size: 1rem;
 }
 
 #logo-header {
@@ -19,10 +38,9 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    
     background-color: black;
     color: white;
-
     padding: 25px;
     margin: 0;
 }

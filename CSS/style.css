@@ -8,3 +8,8 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
+
+#logo-header {
+    max-width: 200px;
+    max-height: auto;
+  }

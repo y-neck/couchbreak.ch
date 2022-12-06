@@ -66,14 +66,14 @@ header a {
     margin-bottom: 80px;
 }
 
-#left {
+#index.html_left {
     margin-top: 250px;
     margin-right: 5vw;
     margin-left: 5vw;
     width: 10vw;
 }
 
-#left p {
+#index.html_left p {
     padding-bottom: 20px;
 }
 
@@ -82,15 +82,15 @@ header a {
     margin: 0px;
 }
 
-#right img {
+#index.html_right img {
     transform: rotate(-0.25turn) scale(1, -1);
 }
 
-#middle {
+#index.html_middle {
     width: 50vw;
 }
 
-#right {
+#index.html_right {
     margin-bottom: 150px;
     margin-left: 5vw;
     margin-right: 10vw;
@@ -98,7 +98,7 @@ header a {
     width: 10vw;
 }
 
-#right p {
+#index.html_right p {
     padding: 0;
 }
 
@@ -141,12 +141,24 @@ header a {
 }
     
 
+<<<<<<< HEAD
 
 .fliesstext{
   background-color: #9EB4A5;
   border-radius: 35px;
   padding: 30px 100px;
   margin: 10vw;
+=======
+.fliesstext{
+    background-color: #9EB4A5;
+    border-radius: 35px;
+    padding: 30px 100px;
+    margin: 10vw;
+}
+
+h1 {
+   font-size: 2rem; 
+>>>>>>> a99578cf7692bef3b333cd3a19ebf6812d4b6a46
 }
 
 #login_form {

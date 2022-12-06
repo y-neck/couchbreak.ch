@@ -173,4 +173,7 @@ header a {
 #Bild_Gin {
     height: 250px;
     width: auto;
+    position: absolute;
+    top: 100px;
+    right: 0;
 }

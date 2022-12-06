@@ -3,71 +3,76 @@
 <!--Default language german, reading from l. to r.-->
 
 <body>
-<head>
-    <meta charset="utf-8">
-    <!--Default character set: https://www.w3schools.com/html/html_charset.asp-->
-    <title></title>
-    <!--Tab title-->
-    <meta name="description" content="">
-    <!--Description of web page-->
-    <meta name="keywords" content="">
-    <!--define keywords for search engines-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Responsive web design:https://www.w3schools.com/css/css_rwd_viewport.asp-->
 
-    <link rel="icon" href="">
-    <!--Tab image-->
+    <head>
+        <meta charset="utf-8">
+        <!--Default character set: https://www.w3schools.com/html/html_charset.asp-->
+        <title></title>
+        <!--Tab title-->
+        <meta name="description" content="">
+        <!--Description of web page-->
+        <meta name="keywords" content="">
+        <!--define keywords for search engines-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Responsive web design:https://www.w3schools.com/css/css_rwd_viewport.asp-->
 
-    <link rel="stylesheet" href="../css/style.css">
-    <!--Insert CSS file-->
-   
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <!--Font-->
+        <link rel="icon" href="">
+        <!--Tab image-->
 
-</head>
+        <link rel="stylesheet" href="../css/style.css">
+        <!--Insert CSS file-->
 
-<body>
-    <header>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <!--Font-->
+
+    </head>
+
+    <body>
+        <header>
             <a href="index.html">
-                <img id="logo-header" src="..img/logo/Logo_Couchbreak_invert.png" alt="Logo"> <!--Nav Logo-->
+                <img id="logo-header" src="..img/logo/Logo_Couchbreak_invert.png" alt="Logo">
+                <!--Nav Logo-->
             </a>
-        <nav>
-            <a href="events.html">Events</a>
-            <a href="team.html">Team</a>
-            <a id="nav-login" href="login.html">Login</a>
-        </nav>
-    </header>
+            <nav>
+                <a href="events.html">Events</a>
+                <a href="team.html">Team</a>
+                <a id="nav-login" href="login.html">Login</a>
+            </nav>
+        </header>
 
-<main id="login.html_main">
-<div id="login_form">
-       <form action="/action_page.php" method="post">
-        
-
-<div id="credential_container">
-      <div id="login_btn_Matrikelnummer">
-        <label for="uname">Matrikelnummer</label><br>
-        <input type="text" placeholder="123-456-789" name="uname" id="uname" required="">
-    </div>
-<div id="pw_btn">
-        <label for="psw">Passwort</label><br>
-        <input type="password" placeholder="*****" name="psw" id="psw" required="">
-  </div> 
- </div>
-    <div id="Letsgo_btn">
-        <button type="submit">Let's go</button>
-    </div>
-        
-
-<div>
-        <p>Noch keinen Account?</p>
-        <span class="login_btn"><a href="#">Hier registrieren</a></span><br>
-        <span class="login_btn"><a href="#">Passwort vergessen?</a></span>
-      </div>
-     </form>
-    </div>
-       <img id="Bild_Gin"src="../img/illustrationen/Cocktail.svg">
+        <main id="login.html_main">
+            <div id="login_form">
+                <form action="/action_page.php" method="post">
 
 
-  </main>
-</body>
+                    <div id="credential_container">
+                        <div id="login_btn_Matrikelnummer">
+                            <label for="uname">Matrikelnummer</label><br>
+                            <input type="text" placeholder="123-456-789" name="uname" id="uname" required="">
+                        </div>
+                        <div id="pw_btn">
+                            <label for="psw">Passwort</label><br>
+                            <input type="password" placeholder="*****" name="psw" id="psw" required="">
+                        </div>
+                    </div>
+                    <div id="Letsgo_btn">
+                        <button type="submit">Let's go</button>
+                    </div>
+
+
+                    <div>
+                        <p>Noch keinen Account?</p>
+                        <span class="login_btn"><a href="#">Hier registrieren</a></span><br>
+                        <span class="login_btn"><a href="#">Passwort vergessen?</a></span>
+                    </div>
+                </form>
+            </div>
+            <img id="Bild_Gin" src="../img/illustrationen/Cocktail.svg">
+
+
+        </main>
+    </body>
+
 </html>

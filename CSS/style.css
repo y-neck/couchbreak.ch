@@ -48,6 +48,9 @@ header a {
     padding: 10px;
 }
 
+header a, #nav-login {
+    
+}
 
 
 

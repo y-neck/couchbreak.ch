@@ -115,7 +115,7 @@ header a {
 
 
 .mitglieder img {
-     
+  height: 100px;  
 }
 
 #profiles{
@@ -127,24 +127,6 @@ header a {
 
 .lorem p {
  
-}
-
-
-
-
-
-
-
-
-#letsgo_btn input {
-    border: none;
-}
-    
-
-#Bild_Gin {
-    display: flex; 
-    justify-content: right; 
-    align-items: right;
 }
 
 #lorem-text{

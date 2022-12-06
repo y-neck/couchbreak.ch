@@ -66,14 +66,14 @@ header a {
     margin-bottom: 80px;
 }
 
-#index.html_left {
+#index_left {
     margin-top: 250px;
     margin-right: 5vw;
     margin-left: 5vw;
     width: 10vw;
 }
 
-#index.html_left p {
+#index_left p {
     padding-bottom: 20px;
 }
 
@@ -82,15 +82,15 @@ header a {
     margin: 0px;
 }
 
-#index.html_right img {
+#index_right img {
     transform: rotate(-0.25turn) scale(1, -1);
 }
 
-#index.html_middle {
+#index_middle {
     width: 50vw;
 }
 
-#index.html_right {
+#index_right {
     margin-bottom: 150px;
     margin-left: 5vw;
     margin-right: 10vw;
@@ -98,7 +98,7 @@ header a {
     width: 10vw;
 }
 
-#index.html_right p {
+#index_right p {
     padding: 0;
 }
 
@@ -141,14 +141,6 @@ header a {
 }
     
 
-<<<<<<< HEAD
-
-.fliesstext{
-  background-color: #9EB4A5;
-  border-radius: 35px;
-  padding: 30px 100px;
-  margin: 10vw;
-=======
 .fliesstext{
     background-color: #9EB4A5;
     border-radius: 35px;
@@ -158,7 +150,6 @@ header a {
 
 h1 {
    font-size: 2rem; 
->>>>>>> a99578cf7692bef3b333cd3a19ebf6812d4b6a46
 }
 
 #login_form {
@@ -183,4 +174,7 @@ h1 {
 #Bild_Gin {
     height: 250px;
     width: auto;
+    position: absolute;
+    top: 100px;
+    right: 0;
 }

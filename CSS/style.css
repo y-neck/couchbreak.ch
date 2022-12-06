@@ -90,9 +90,22 @@ header a {
 
 
 .mitglieder img {
-    width: 300px;
+     
+}
+
+#profiles{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
 }
 
 .lorem p {
  ;
+}
+
+#lorem-text{
+  background-color: #9EB4A5;
+  border-radius: 15px;
+  padding: 10px 15px;
 }

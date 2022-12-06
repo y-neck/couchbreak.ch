@@ -2,7 +2,7 @@
     box-sizing: border-box; /*Prevent overflow/vertical scroll bars*/
     scroll-behavior: smooth;
     --default-text-color: rgb(0, 0, 0);     /*Define global text color*/
-    --default-background-color: #ffffff;        /*Define global background color*/
+    --default-background-color: #f2eede;        /*Define global background color*/
 }
 
 html {
@@ -68,8 +68,14 @@ header a {
 
 #left {
     margin-top: 250px;
+}
 
-    font-size: 2rem;
+#welcome-screen p {
+    font-size: 1.6rem;
+}
+
+#left img {
+    width: 30vw;
 }
 
 #middle {

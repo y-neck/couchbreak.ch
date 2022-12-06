@@ -145,11 +145,12 @@ padding: 10px;
     background-color: #9EB4A5;
     border-radius: 35px;
     padding: 30px 100px;
-    margin: 10vw;
+    margin: 0vw 10vw;
 }
 
 h1 {
    font-size: 2rem; 
+   margin: 5vw 10vw;
 }
 
 #login_form {
@@ -175,6 +176,6 @@ h1 {
     height: 250px;
     width: auto;
     position: absolute;
-    top: 100px;
-    right: 0;
+    top: 130px;
+    right: 40px;
 }

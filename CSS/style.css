@@ -118,19 +118,23 @@ header a {
 
 .profiles{
   display: flex;
+  align-items: center;
   flex-direction: row;
 padding: 0px;
 }
 
 
 h3{
-  padding-left: 180px;  
+ 
+}
+
+.mitglieder h3{
+    padding-left: 100px;
+    text-align: left;
 }
 
 
-
-
-
+ 
 
 
 #login.html_main {
@@ -150,7 +154,7 @@ h3{
     background-color: #9EB4A5;
     border-radius: 35px;
     padding: 30px 100px;
-    margin: 0vw 10vw;
+    /* margin: 0vw 10vw; */
 }
 
 h2 {

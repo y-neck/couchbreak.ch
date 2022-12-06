@@ -29,7 +29,7 @@
 <body>
     <header>
             <a href="index.html">
-                <img id="logo-header" src="..img/logo/Logo_Couchbreak.png" alt="Logo"> <!--Nav Logo-->
+                <img id="logo-header" src="..img/logo/Logo_Couchbreak_invert.png" alt="Logo"> <!--Nav Logo-->
             </a>
         <nav>
             <a href="events.html">Events</a>
@@ -40,31 +40,34 @@
 
 <main>
 <div id="login_form">
-    <!-- inspired by https://www.w3schools.com/howto/howto_css_login_form.asp, https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form -->
-
-    <form action="/action_page.php" method="post">
-      <div class="container_benutzerbild">
-        <!--https://freeicons.io/benutzerbilds-2/benutzerbild-icon-44136-->
-        <!--<img src="img/avatar2.svg" alt="Avatar" class="avatar">-->
-        <img src="../img/illustrationen/Cocktail.svg" width="250px" height="250px">
+       <form action="/action_page.php" method="post">
+      <div id="Bild_Gin">
+        <img src="../img/illustrationen/Cocktail.svg" width="500px" height="500px">
       </div>
-
-      <div id="credentials">
-        <label for="uname">Matrikelnummer</label>
+<div id="credential_container">
+      <div id="login_btn_Matrikelnummer">
+        <label for="uname">Matrikelnummer</label><br>
         <input type="text" placeholder="123-456-789" name="uname" id="uname" required="">
-
-        <label for="psw">Passwort</label>
+    </div>
+<div id="pw_btn">
+        <label for="psw">Passwort</label><br>
         <input type="password" placeholder="*****" name="psw" id="psw" required="">
-
+  </div> 
+ </div>
+    <div id="Letsgo_btn">
         <button type="submit">Let's go</button>
+    </div>
         
-      </div>
 
+<div>
         <p>Noch keinen Account?</p>
-        <span id="login_pw_btn"><a href="#">Passwort vergessen?</a></span>
+        <span class="login_btn"><a href="#">Hier registrieren</a></span>
+        <span class="login_btn"><a href="#">Passwort vergessen?</a></span>
       </div>
-    </form>
-  </div>
+     </form>
+    </div>
+   
+
   </main>
 </body>
 </html>

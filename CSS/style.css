@@ -75,11 +75,16 @@ header a {
 }
 
 #left img {
-    width: 30vw;
+    width: 10vw;
+}
+
+#right img {
+    width: 10vw;
+    transform: rotate(-0.25turn);
 }
 
 #middle {
-    width: 70vw;
+    width: 60vw;
 }
 
 #right {
@@ -114,4 +119,21 @@ header a {
   background-color: #9EB4A5;
   border-radius: 15px;
   padding: 10px 15px;
+}
+
+#login_form {
+    margin: 0;
+    text-align: center;
+}
+
+
+#credential_container div {
+    padding: 10px;
+}
+
+
+#login_form input {
+    border: 1px black solid;
+    border-radius: 15px;
+
 }

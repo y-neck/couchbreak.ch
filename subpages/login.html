@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<!--Default language german, reading from l. to r.-->
+
+<body>
+<head>
+    <meta charset="utf-8">
+    <!--Default character set: https://www.w3schools.com/html/html_charset.asp-->
+    <title></title>
+    <!--Tab title-->
+    <meta name="description" content="">
+    <!--Description of web page-->
+    <meta name="keywords" content="">
+    <!--define keywords for search engines-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Responsive web design:https://www.w3schools.com/css/css_rwd_viewport.asp-->
+
+    <link rel="icon" href="">
+    <!--Tab image-->
+
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Insert CSS file-->
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <!--Font-->
+
+</head>
+
+<body>
+    <header>
+            <a href="index.html">
+                <img id="logo-header" src="../img/logo/Logo_Couchbreak_invert.png" alt="Logo"> <!--Nav Logo-->
+            </a>
+        <nav>
+            <a href="events.html">Events</a>
+            <a href="team.html">Team</a>
+            <a id="nav-login" href="login.html">Login</a>
+        </nav>
+    </header>
+
+<main>
+<div id="login_form">
+    <!-- inspired by https://www.w3schools.com/howto/howto_css_login_form.asp, https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form -->
+
+    <form action="/action_page.php" method="post">
+      <div class="container_benutzerbild">
+        <!--https://freeicons.io/benutzerbilds-2/benutzerbild-icon-44136-->
+        <!--<img src="img/avatar2.svg" alt="Avatar" class="avatar">-->
+        <img src="img/benutzerbild.svg" width="250px" height="250px">
+      </div>
+
+      <div id="credentials">
+        <label for="uname">Username</label>
+        <input type="text" placeholder="Bitte Username eingeben" name="uname" id="uname" required="">
+
+        <label for="psw">Password</label>
+        <input type="password" placeholder="Bitte Password eingeben" name="psw" id="psw" required="">
+
+        <button type="submit">Anmelden</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Angemeldet bleiben
+        </label>
+      </div>
+
+        <button type="button" id="login_cancel_btn">Abbrechen</button>
+        <span id="login_pw_btn"><a href="#">Password vergessen?</a></span>
+      </div>
+    </form>
+  </div>
+  </main>
+</body>
+</html>

@@ -66,14 +66,14 @@ header a {
     margin-bottom: 80px;
 }
 
-#index.html_left {
+#index_left {
     margin-top: 250px;
     margin-right: 5vw;
     margin-left: 5vw;
     width: 10vw;
 }
 
-#index.html_left p {
+#index_left p {
     padding-bottom: 20px;
 }
 
@@ -82,15 +82,15 @@ header a {
     margin: 0px;
 }
 
-#index.html_right img {
+#index_right img {
     transform: rotate(-0.25turn) scale(1, -1);
 }
 
-#index.html_middle {
+#index_middle {
     width: 50vw;
 }
 
-#index.html_right {
+#index_right {
     margin-bottom: 150px;
     margin-left: 5vw;
     margin-right: 10vw;
@@ -98,7 +98,7 @@ header a {
     width: 10vw;
 }
 
-#index.html_right p {
+#index_right p {
     padding: 0;
 }
 

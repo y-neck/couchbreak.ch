@@ -150,6 +150,7 @@ header a {
 
 h1 {
    font-size: 2rem; 
+   margin: 10vw;
 }
 
 #login_form {

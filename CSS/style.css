@@ -47,3 +47,7 @@ header a {
     color: white;
     padding: 10px;
 }
+
+header a, #nav-login {
+    
+}

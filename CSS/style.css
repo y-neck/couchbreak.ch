@@ -2,7 +2,7 @@
     box-sizing: border-box; /*Prevent overflow/vertical scroll bars*/
     scroll-behavior: smooth;
     --default-text-color: rgb(0, 0, 0);     /*Define global text color*/
-    --default-background-color: #ffffff;        /*Define global background color*/
+    --default-background-color: #f2eede;        /*Define global background color*/
 }
 
 html {
@@ -13,9 +13,9 @@ html {
 
 * {
     font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    font-style: normal;
+    font-weight: normal; /* Thickness */
+    font-size: 1rem;
+    font-style: normal; /* Font Slant */
     letter-spacing: 0.05em;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -25,7 +25,6 @@ body {
     padding: 0; /*reset default padding; [rem]*/
     margin: 0 auto; /*reset default margin [rem]*/
     height: 100%;
-    font-size: 1rem;
 }
 
 #logo-header {
@@ -57,10 +56,34 @@ header a {
 }
 
 #welcome-screen {
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 80vw;
+
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#left {
+    margin-top: 250px;
+}
+
+#welcome-screen p {
+    font-size: 1.6rem;
+}
+
+#left img {
+    width: 30vw;
+}
+
+#middle {
+    width: 70vw;
+}
+
+#right {
+    margin-bottom: 150px;
 }
 
 
@@ -71,8 +94,16 @@ header a {
 
 
 
+
 .mitglieder img {
-    width: 300px;
+     
+}
+
+#profiles{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .lorem p {
@@ -98,4 +129,10 @@ header a {
     display: flex; 
     justify-content: right; 
     align-items: right;
+}
+
+#lorem-text{
+  background-color: #9EB4A5;
+  border-radius: 15px;
+  padding: 10px 15px;
 }

@@ -142,10 +142,14 @@ header a {
     
 
 .fliesstext{
-  background-color: #9EB4A5;
-  border-radius: 35px;
-  padding: 30px 100px;
-  margin: 10vw;
+    background-color: #9EB4A5;
+    border-radius: 35px;
+    padding: 30px 100px;
+    margin: 10vw;
+}
+
+h1 {
+   font-size: 2rem; 
 }
 
 #login_form {

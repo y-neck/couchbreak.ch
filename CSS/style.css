@@ -18,7 +18,7 @@ html {
     font-style: normal; /* Font Slant */
     letter-spacing: 0.05em;
     color: rgb(0, 0, 0);
-    text-decoration: none;
+    text-decoration: none;y
 }
 
 body {
@@ -109,9 +109,8 @@ header a {
 
 #profiles{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: row;
+ 
 }
 
 .lorem p {

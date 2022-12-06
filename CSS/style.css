@@ -1,8 +1,8 @@
 :root {
     box-sizing: border-box; /*Prevent overflow/vertical scroll bars*/
     scroll-behavior: smooth;
-    --default-text-color: rgb(0, 0, 0);
-    --default-background-color: #ffffff;
+    --default-text-color: rgb(0, 0, 0);     /*Define global text color*/
+    --default-background-color: #ffffff;        /*Define global background color*/
 }
 
 html {

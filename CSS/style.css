@@ -66,14 +66,14 @@ header a {
     margin-bottom: 80px;
 }
 
-#left {
+#index_left {
     margin-top: 250px;
     margin-right: 5vw;
     margin-left: 5vw;
     width: 10vw;
 }
 
-#left p {
+#index_left p {
     padding-bottom: 20px;
 }
 
@@ -82,23 +82,23 @@ header a {
     margin: 0px;
 }
 
-#right img {
+#index_right img {
     transform: rotate(-0.25turn) scale(1, -1);
 }
 
-#middle {
+#index_middle {
     width: 50vw;
 }
 
-#right {
+#index_right {
     margin-bottom: 150px;
-    margin-left: 10vw;
-    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-right: 10vw;
     padding: 0;
     width: 10vw;
 }
 
-#right p {
+#index_right p {
     padding: 0;
 }
 
@@ -141,12 +141,15 @@ header a {
 }
     
 
+.fliesstext{
+    background-color: #9EB4A5;
+    border-radius: 35px;
+    padding: 30px 100px;
+    margin: 10vw;
+}
 
-#lorem-text{
-  background-color: #9EB4A5;
-  border-radius: 35px;
-  padding: 30px 100px;
-  margin: 10vw;
+h1 {
+   font-size: 2rem; 
 }
 
 #login_form {
@@ -154,11 +157,9 @@ header a {
     text-align: center;
 }
 
-
 #credential_container div {
     padding: 10px;
 }
-
 
 #login_form input {
     border: 1px black solid;

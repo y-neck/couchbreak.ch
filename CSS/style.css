@@ -118,7 +118,11 @@ header a {
 
 
 
-
+#login.html_main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 
 
@@ -127,11 +131,6 @@ header a {
 }
     
 
-#Bild_Gin {
-    display: flex; 
-    justify-content: right; 
-    align-items: right;
-}
 
 #lorem-text{
   background-color: #9EB4A5;
@@ -154,4 +153,13 @@ header a {
     border: 1px black solid;
     border-radius: 15px;
 
+}
+
+.login_btn {
+    text-decoration: underline;
+}
+
+#Bild_Gin {
+    height: 250px;
+    width: auto;
 }

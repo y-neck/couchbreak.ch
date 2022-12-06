@@ -70,6 +70,7 @@ header a {
     margin-top: 250px;
     margin-right: 5vw;
     margin-left: 5vw;
+    width: 10vw;
 }
 
 #left p {
@@ -81,12 +82,7 @@ header a {
     margin: 0px;
 }
 
-#left img {
-    width: 10vw;
-}
-
 #right img {
-    width: 10vw;
     transform: rotate(-0.25turn) scale(1, -1);
 }
 
@@ -99,6 +95,7 @@ header a {
     margin-left: 10vw;
     margin-right: 5vw;
     padding: 0;
+    width: 10vw;
 }
 
 #right p {

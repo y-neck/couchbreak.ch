@@ -150,19 +150,25 @@ h3{
     background-color: #9EB4A5;
     border-radius: 35px;
     padding: 30px 100px;
-    margin: 0vw 100px;
+    margin: 0px 100px;
+}
+
+.index_untertitel {
+    margin: 0px;
+    padding: 0px;
 }
 
 .fleck {
-    z-index: 0;
-    transform: translateY(80px);
+    transform: translateY(150px);
+    position: absolute;
     width: 30%;
-    margin: 0px 0px 0px 100px;
+    margin: 50px 0px 50px 100px;
+    z-index: 0;
 }
 
 h2 {
    font-size: 2rem; 
-   margin: 0px 0px 5vw 100px;
+   margin: 50px 0px 50px 100px;
    z-index: 1;
 }
 

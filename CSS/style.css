@@ -107,7 +107,7 @@ header a {
 }
 
 .lorem p {
- ;
+ 
 }
 
 
@@ -116,14 +116,11 @@ header a {
 
 
 
-#login_form input {
-    border: 1px black solid;
-    border-radius: 15px;
 
-}
 #letsgo_btn input {
-    border: none
+    border: none;
 }
+    
 
 #Bild_Gin {
     display: flex; 
@@ -135,4 +132,21 @@ header a {
   background-color: #9EB4A5;
   border-radius: 15px;
   padding: 10px 15px;
+}
+
+#login_form {
+    margin: 0;
+    text-align: center;
+}
+
+
+#credential_container div {
+    padding: 10px;
+}
+
+
+#login_form input {
+    border: 1px black solid;
+    border-radius: 15px;
+
 }

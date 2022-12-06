@@ -75,11 +75,16 @@ header a {
 }
 
 #left img {
-    width: 30vw;
+    width: 10vw;
+}
+
+#right img {
+    width: 10vw;
+    transform: rotate(-0.25turn);
 }
 
 #middle {
-    width: 70vw;
+    width: 60vw;
 }
 
 #right {

@@ -118,19 +118,23 @@ header a {
 
 .profiles{
   display: flex;
+  align-items: center;
   flex-direction: row;
 padding: 0px;
 }
 
 
 h3{
-  padding-left: 180px;  
+ 
+}
+
+.mitglieder h3{
+    padding-left: 100px;
+    text-align: left;
 }
 
 
-
-
-
+ 
 
 
 #login.html_main {

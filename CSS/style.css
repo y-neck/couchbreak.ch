@@ -60,7 +60,7 @@ header a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80vw;
+    width: 100vw;
 
     margin-top: 40px;
     margin-bottom: 80px;
@@ -68,10 +68,12 @@ header a {
 
 #left {
     margin-top: 250px;
+    margin-right: 10vw;
 }
 
 #welcome-screen p {
     font-size: 1.6rem;
+    margin: 0px;
 }
 
 #left img {
@@ -80,7 +82,7 @@ header a {
 
 #right img {
     width: 10vw;
-    transform: rotate(-0.25turn);
+    transform: rotate(-0.25turn) scale(1, -1);
 }
 
 #middle {
@@ -89,6 +91,7 @@ header a {
 
 #right {
     margin-bottom: 150px;
+    margin-left: 10vw;
 }
 
 

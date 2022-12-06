@@ -57,8 +57,14 @@ header a {
 }
 
 #welcome-screen {
-    display: ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
 }
+
+
+
 
 
 
@@ -70,13 +76,26 @@ header a {
 }
 
 .lorem p {
-  color: blue;
+ ;
 }
 
 
 
 
 
-#credentials {
-color: yellow;
+
+
+#login_form input {
+    border: 1px black solid;
+    border-radius: 15px;
+
+}
+#letsgo_btn input {
+    border: none
+}
+
+#Bild_Gin {
+    display: flex; 
+    justify-content: right; 
+    align-items: right;
 }

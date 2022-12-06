@@ -111,14 +111,14 @@ header a {
 
 
 
-.mitglieder img {
+.mitglieder_bild {
   height: 100px;  
 }
 
 .profiles{
   display: flex;
   flex-direction: row;
-
+padding: 10px;
 }
 
 .lorem p {
@@ -145,12 +145,12 @@ header a {
     background-color: #9EB4A5;
     border-radius: 35px;
     padding: 30px 100px;
-    margin: 10vw;
+    margin: 0vw 10vw;
 }
 
 h1 {
    font-size: 2rem; 
-   margin: 10vw;
+   margin: 5vw 10vw;
 }
 
 #login_form {

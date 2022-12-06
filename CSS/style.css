@@ -118,14 +118,31 @@ header a {
 .profiles{
   display: flex;
   flex-direction: row;
- 
+
 }
 
 .lorem p {
  
 }
 
-.fliesstext{
+
+
+
+#login.html_main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+#letsgo_btn input {
+    border: none;
+}
+    
+
+
+#lorem-text{
   background-color: #9EB4A5;
   border-radius: 35px;
   padding: 30px 100px;
@@ -145,4 +162,13 @@ header a {
     border: 1px black solid;
     border-radius: 15px;
 
+}
+
+.login_btn {
+    text-decoration: underline;
+}
+
+#Bild_Gin {
+    height: 250px;
+    width: auto;
 }

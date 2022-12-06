@@ -114,11 +114,11 @@ header a {
 
 
 
-.mitglieder img {
+#mitglieder img {
   height: 100px;  
 }
 
-#profiles{
+.profiles{
   display: flex;
   flex-direction: row;
  
@@ -128,7 +128,7 @@ header a {
  
 }
 
-#lorem-text{
+.fliesstext{
   background-color: #9EB4A5;
   border-radius: 15px;
   padding: 10px 15px;

@@ -92,8 +92,8 @@ header a {
 
 #right {
     margin-bottom: 150px;
-    margin-left: 10vw;
-    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-right: 10vw;
     padding: 0;
     width: 10vw;
 }
@@ -137,11 +137,9 @@ header a {
     text-align: center;
 }
 
-
 #credential_container div {
     padding: 10px;
 }
-
 
 #login_form input {
     border: 1px black solid;

@@ -60,7 +60,7 @@ header a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80vw;
+    width: 100vw;
 
     margin-top: 40px;
     margin-bottom: 80px;
@@ -68,27 +68,38 @@ header a {
 
 #left {
     margin-top: 250px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    width: 10vw;
+}
+
+#left p {
+    padding-bottom: 20px;
 }
 
 #welcome-screen p {
     font-size: 1.6rem;
-}
-
-#left img {
-    width: 10vw;
+    margin: 0px;
 }
 
 #right img {
-    width: 10vw;
-    transform: rotate(-0.25turn);
+    transform: rotate(-0.25turn) scale(1, -1);
 }
 
 #middle {
-    width: 60vw;
+    width: 50vw;
 }
 
 #right {
     margin-bottom: 150px;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    padding: 0;
+    width: 10vw;
+}
+
+#right p {
+    padding: 0;
 }
 
 
@@ -101,14 +112,13 @@ header a {
 
 
 .mitglieder img {
-     
+  height: 100px;  
 }
 
-#profiles{
+.profiles{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: row;
+
 }
 
 .lorem p {
@@ -134,8 +144,9 @@ header a {
 
 #lorem-text{
   background-color: #9EB4A5;
-  border-radius: 15px;
-  padding: 10px 15px;
+  border-radius: 35px;
+  padding: 30px 100px;
+  margin: 10vw;
 }
 
 #login_form {

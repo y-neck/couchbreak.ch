@@ -111,22 +111,21 @@ header a {
 
 
 
-.mitglieder img {
+#mitglieder img {
   height: 100px;  
 }
 
-#profiles{
+.profiles{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: row;
+ 
 }
 
 .lorem p {
  
 }
 
-#lorem-text{
+.fliesstext{
   background-color: #9EB4A5;
   border-radius: 15px;
   padding: 10px 15px;

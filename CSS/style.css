@@ -144,9 +144,9 @@ padding: 10px;
     margin: 0vw 10vw;
 }
 
-h1 {
+h2 {
    font-size: 2rem; 
-   margin: 5vw 10vw;
+   margin: 5vw 0vw 5vw 10vw;
 }
 
 #login_form {

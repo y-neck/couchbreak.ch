@@ -34,12 +34,15 @@ body {
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-  background-color: black;
-  color: white;
-  padding: 25px;
+    background-color: black;
+    padding: 25px;
+}
+
+header a {
+    color: white;
 }

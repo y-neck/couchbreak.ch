@@ -56,6 +56,10 @@ header a {
     padding: 10px 15px;
 }
 
+#welcome-screen {
+    display: ;
+}
+
 
 
 
@@ -63,4 +67,8 @@ header a {
 
 .mitglieder img {
     width: 300px;
+}
+
+.lorem p {
+  color: blue;
 }

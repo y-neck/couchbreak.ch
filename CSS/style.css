@@ -345,6 +345,18 @@ footer {
 /* MOBIL */
 
 @media screen and (max-width: 600px) {
+
+/* INDEX ------------------------------------------------------------ */
+
+    #index_right, #index_left {
+        display: none; /* hide left and right element */
+    }
+
+    #index_middle {
+        width: 75vw;
+        align-items: center;
+    }
+    
     #Bild_Gin {
       height: 120px;
       width: auto;
@@ -355,10 +367,11 @@ footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-  }
-  .footer-nav a, .footer-nav p {
+    }
+    
+    .footer-nav a, .footer-nav p {
     margin: 5px;
-}
+    }
 }
 
 

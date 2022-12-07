@@ -221,12 +221,7 @@ display: block;
     align-items: center;
     justify-content: flex-end;
 }
-
-
-#letsgo_btn input {
-    border: none;
-}
-    
+   
 
 
 #login_form {
@@ -253,10 +248,19 @@ display: block;
 
 }
 
-#letsgo_btn {
-    border: none;
-    position: absolute;
-    font-size: 3rem;
+
+button.letsgo_btn {
+    /* reset button */
+    border: none !important;
+    background-color: transparent !important;
+    font-family: inherit !important;
+    padding: 0 !important;
+    position: absolute !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    /* style */
+    font-size: 3rem !important;
 }
 
 .login_btn {

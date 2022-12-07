@@ -115,6 +115,12 @@ header a {
     height: 180px;
 }
 
+#index_teamlink {
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+}
+
 
 
 

@@ -380,21 +380,22 @@ footer {
 
  /* HEADER ---------------------------------------------------------- */
 
- #logo-header {
-    max-width: 200px;
-    max-height: auto;
-}
+    #logo-header {
+        max-width: 220px;
+        max-height: auto;
+        justify-content: center;
+    }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    header {
+        justify-content: space-evenly;
 
-    background-color: black;
-    padding: 25px 100px;
-}
+        padding: 25px 40px;
+    }
 
+    header a {
+        margin: 10px;
+    }
+    
 
 /* INDEX ------------------------------------------------------------ */
 

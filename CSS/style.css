@@ -170,19 +170,13 @@ margin: 0 auto;
     transform: translateX(20px);
 }
 
-#Lo_Gin :hover + #lo {
-    color: orange;
+#Lo_Gin:hover #lo {
+    visibility: hidden;
 }
 
-#Lo_Gin :hover + #tonic {
+#Lo_Gin:hover #tonic {
 display: block;
 }
-
-#lo {
-    display: block;
-    transform: translateX(0);
-}
-
 
 
 #login.html_main {

@@ -205,6 +205,11 @@ header a {
     text-align: left;
 }
 
+.video {
+    align-content: center;
+    
+}
+
 
 /* LOGIN.HTML ------------------------------------------------------- */
 

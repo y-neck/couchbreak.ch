@@ -208,8 +208,18 @@ header a {
 .video {
     background-color: var(--accent-color-2);
     border-radius: 35px;
-    padding: 30px 80px;
+    padding: 50px 20px;
     margin: 0px 100px;
+    margin-left: 250px;
+}
+
+
+iframe{
+    padding-left: 200px;
+}
+
+#video_title{
+    margin-left: 250px ;
 }
 
 
@@ -261,6 +271,9 @@ display: block;
 #password {
     text-align: center;
 }
+#text {
+    text-align: center;
+}
 
 
 #login_btn_Matrikelnummer input {
@@ -281,16 +294,15 @@ display: block;
 
 #letsgo_btn {
     /* reset button */
-    border: none !important;
-    background-color: transparent !important;
-    font-family: inherit !important;
-    padding: 0 !important;
-    position: absolute !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    /* style */
-    font-size: 3rem !important;
+    border: none;
+    background-color: transparent;
+    position: center;
+    font-size: 3rem
+}
+
+#bild_pfeil {
+width: 100px;
+transform: translateY(-20px);
 }
 
 .login_btn {
@@ -301,11 +313,13 @@ display: block;
     height: 250px;
     width: auto;
     position: absolute;
-    top: 130px;
+    top: 150px;
     right: 40px;
 }
 
-
+#text_login p {
+    margin: 0;
+}
 
 
  /* Footer ----------------------------------------------------------- */
@@ -421,9 +435,10 @@ footer {
 /* LOGIN ------------------------------------------------------------ */
     
     #Bild_Gin {
-        height: 120px;
-        width: auto;
-        top: 170px;
+      height: 90px;
+      width: auto;
+      top: 170px;
+      right: 10px;
     }
     
 
@@ -453,13 +468,43 @@ footer {
         margin-inline: 10px;
     }
 
+    #Lo_Gin p {
+    font-size: 2rem;
+    }
+
+    #Lo_Gin {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin: 0 auto;
+        }
+        
+        #Lo_Gin p {
+            font-size: 2rem;
+        }
+        
+        #tonic {
+            display: none;
+            transform: translateX(10px);
+        }
+        
+        #Lo_Gin:hover #lo {
+            visibility: hidden;
+        }
+        
+        #Lo_Gin:hover #tonic {
+        display: block;
+        }
+
+        #pw_btn input {
+            width: 300px;
+        }
+
+        #login_btn_Matrikelnummer input {
+            width: 300px;
+        }        
+        
 }
-
-
-
-
-
-
 
 
 

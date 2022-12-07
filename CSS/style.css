@@ -230,8 +230,6 @@ display: block;
     justify-content: flex-end;
 }
    
-
-
 #login_form {
     margin: 0;
     text-align: center;
@@ -241,7 +239,17 @@ display: block;
     padding: 10px;
 }
 
+::placeholder {
+    text-align: center;
+}
 
+#password {
+    text-align: center;
+}
+
+#text {
+    text-align: center;
+}
 
 #login_btn_Matrikelnummer input {
     width: 500px;
@@ -251,12 +259,12 @@ display: block;
     width: 500px;
 }
 
+
 #login_form input {
     border: 1px black solid;
     border-radius: 15px;
 
 }
-
 
 #letsgo_btn {
     /* reset button */

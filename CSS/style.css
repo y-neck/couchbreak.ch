@@ -208,8 +208,18 @@ header a {
 .video {
     background-color: var(--accent-color-2);
     border-radius: 35px;
-    padding: 30px 80px;
+    padding: 50px 20px;
     margin: 0px 100px;
+    margin-left: 250px;
+}
+
+
+iframe{
+    padding-left: 200px;
+}
+
+#video_title{
+    margin-left: 250px ;
 }
 
 

@@ -1,3 +1,4 @@
+/* GLOBAL ------------------------------------------------------------ */
 :root {
     box-sizing: border-box; /*Prevent overflow/vertical scroll bars*/
     scroll-behavior: smooth;
@@ -29,6 +30,45 @@ body {
     height: 100%;
 }
 
+.fliesstext{
+    background-color: var(--accent-color-2);
+    border-radius: 35px;
+    padding: 30px 100px;
+    margin: 0px 100px;
+}
+
+.fliesstext a {
+    text-decoration: underline;
+}
+
+.fleck {
+    max-width: none;
+    transform: translateY(-60px);
+    position: absolute;
+    width: 20rem;
+    margin: 41px 0px 50px 70px;
+    z-index: 0;
+}
+
+h2 {
+   font-size: 2rem;
+   position: relative;
+   margin: 150px 0px 80px 100px;
+   z-index: 1;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal; /* Thickness */
+    font-size: 1.5rem;
+    font-style: normal; /* Font Slant */
+    letter-spacing: 0.05em;
+    color: rgb(0, 0, 0);
+}
+
+
+/* HEADER ----------------------------------------------------------- */
+
 #logo-header {
     max-width: 200px;
     max-height: auto;
@@ -56,6 +96,9 @@ header a {
 
     padding: 10px 15px;
 }
+
+
+/* INDEX.HTML ------------------------------------------------------- */
 
 #welcome-screen {
     margin: auto;
@@ -115,21 +158,25 @@ header a {
     height: 180px;
 }
 
+#index_teamlink {
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
 
 
 
-
-
-
-
-
+/* TEAM.HTML ------------------------------------------------------- */
 
 .team_mitglieder_bild {
     height: 180px;
     padding-left: 20px;  
 }
 
-.profiles{
+.profiles {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -137,22 +184,13 @@ header a {
     margin-bottom: 100px;
 }
 
-
-h3{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: normal; /* Thickness */
-    font-size: 1.5rem;
-    font-style: normal; /* Font Slant */
-    letter-spacing: 0.05em;
-    color: rgb(0, 0, 0);
-
-}
-
 .mitglieder h3{
     padding-left: 100px;
     text-align: left;
 }
 
+
+/* LOGIN.HTML ------------------------------------------------------- */
 
  #Lo_Gin {
 display: flex;
@@ -178,7 +216,6 @@ margin: 0 auto;
 display: block;
 }
 
-
 #login.html_main {
     display: flex;
     align-items: center;
@@ -186,38 +223,11 @@ display: block;
 }
 
 
-
-
+#letsgo_btn input {
+    border: none;
+}
     
-    
 
-.fliesstext{
-    background-color: var(--accent-color-2);
-    border-radius: 35px;
-    padding: 30px 100px;
-    margin: 0px 100px;
-}
-
-.index_untertitel {
-    margin: 0px;
-    padding: 0px;
-}
-
-.fleck {
-    max-width: none;
-    transform: translateY(-60px);
-    position: absolute;
-    width: 20rem;
-    margin: 41px 0px 50px 70px;
-    z-index: 0;
-}
-
-h2 {
-   font-size: 2rem;
-   position: relative;
-   margin: 150px 0px 80px 100px;
-   z-index: 1;
-}
 
 #login_form {
     margin: 0;
@@ -261,6 +271,34 @@ h2 {
     right: 40px;
 }
 
+
+
+h4 {
+   font-size: 4rem;
+   position:relative;
+   text-align: center;
+   margin: 150px 0px 80px 100px;
+   z-index: 1;
+}
+
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 25px;
+  }
+
+
+  #socialmedia{
+    max-width: 200px;
+    max-height: auto;
+/* MEDIA QUERIES ---------------------------------------------------- */
+
+
+/* MOBIL */
 
 @media screen and (max-width: 600px) {
     #Bild_Gin {

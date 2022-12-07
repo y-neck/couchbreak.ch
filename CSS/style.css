@@ -106,6 +106,8 @@ header a {
 
 .index_mitglieder_bild {
     display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
 }
 
 .index_mitglieder_bild img {

@@ -171,6 +171,7 @@ header a {
 
 .index_mitglieder_bild img {
     height: 180px;
+    margin: 20px 20px;
 }
 
 #index_teamlink {
@@ -202,6 +203,23 @@ header a {
 .mitglieder h3{
     padding-left: 100px;
     text-align: left;
+}
+
+.video {
+    background-color: var(--accent-color-2);
+    border-radius: 35px;
+    padding: 50px 20px;
+    margin: 0px 100px;
+    margin-left: 250px;
+}
+
+
+iframe{
+    padding-left: 200px;
+}
+
+#video_title{
+    margin-left: 250px ;
 }
 
 
@@ -355,22 +373,42 @@ footer {
 
 /* MOBIL */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
 
-    #Bild_Gin {
-        height: 170px;
-        width: auto;
-        top: 170px;
-        right: 10px;
-      }
+    .fliesstext{
+        border-radius: 35px;
+        padding: 20px 35px;
+        margin: 0px 40px;
+    }
+    
+    .fleck {
+        transform: translateY(-50px);
+        width: 15rem;
+        margin: 41px 0px 0px 30px;
+    }
+    
+    h2 {
+       font-size: 2rem;
+       margin: 80px 0px 40px 40px;
+    }
 
+ /* HEADER ---------------------------------------------------------- */
+
+ #logo-header {
+    max-width: 200px;
+    max-height: auto;
 }
 
-    /* INDEX ------------------------------------------------------------ */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
+    background-color: black;
+    padding: 25px 100px;
+}
 
-
-@media screen and (max-width: 900px) {
 
 /* INDEX ------------------------------------------------------------ */
 
@@ -380,8 +418,20 @@ footer {
 
     #index_middle {
         width: 75vw;
-        align-items: center;
+        justify-content: center;    
     }
+
+    .index_mitglieder_bild img {
+        height: 60px;
+        margin: 0px 0px;
+    }
+
+    .index_mitglieder_bild {
+        margin: 0px 40px  ;
+    }
+
+    
+/* LOGIN ------------------------------------------------------------ */
     
     #Bild_Gin {
       height: 90px;
@@ -390,14 +440,31 @@ footer {
       right: 10px;
     }
     
+
+ /* FOOTER ---------------------------------------------------------- */
+   
     .footer-nav {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
     }
     
     .footer-nav a, .footer-nav p {
-    margin: 5px;
+        font-size: 0.8rem;
+        margin: 10px 10px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 25px 40px;
+        bottom: 0px;
+        margin-top: 25px;
+    }
+
+    .socialmedia img {
+        margin-inline: 10px;
     }
 
     #Lo_Gin p {

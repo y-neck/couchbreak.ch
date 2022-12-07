@@ -3,6 +3,8 @@
     scroll-behavior: smooth;
     --default-text-color: rgb(0, 0, 0);     /*Define global text color*/
     --default-background-color: #f2eede;        /*Define global background color*/
+    --accent-color-1: #F3C25F;  /*Define global accent color yellow*/
+    --accent-color-2: #9EB4A5;   /*Define global accent color green*/
 }
 
 html {
@@ -102,6 +104,15 @@ header a {
     padding: 0;
 }
 
+.index_mitglieder_bild {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+}
+
+.index_mitglieder_bild img {
+    height: 180px;
+}
 
 
 
@@ -111,21 +122,38 @@ header a {
 
 
 
-.mitglieder_bild {
-  height: 100px;  
+
+.team_mitglieder_bild {
+    height: 180px;
+    padding-left: 20px;  
 }
 
 .profiles{
-  display: flex;
-  flex-direction: row;
-padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+    margin-bottom: 100px;
 }
 
-.lorem p {
- 
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal; /* Thickness */
+    font-size: 1.5rem;
+    font-style: normal; /* Font Slant */
+    letter-spacing: 0.05em;
+    color: rgb(0, 0, 0);
+
 }
 
-#Lo_Gin {
+.mitglieder h3{
+    padding-left: 100px;
+    text-align: left;
+}
+
+
+ #Lo_Gin {
 display: flex;
 justify-content: space-between;
 width: 200px;
@@ -170,15 +198,30 @@ display: block;
     
 
 .fliesstext{
-    background-color: #9EB4A5;
+    background-color: var(--accent-color-2);
     border-radius: 35px;
     padding: 30px 100px;
-    margin: 0vw 10vw;
+    margin: 0px 100px;
 }
 
-h1 {
-   font-size: 2rem; 
-   margin: 5vw 10vw;
+.index_untertitel {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fleck {
+    transform: translateY(-60px);
+    position: absolute;
+    width: 25%;
+    margin: 41px 0px 50px 70px;
+    z-index: 0;
+}
+
+h2 {
+   font-size: 2rem;
+   position: relative;
+   margin: 150px 0px 80px 100px;
+   z-index: 1;
 }
 
 #login_form {

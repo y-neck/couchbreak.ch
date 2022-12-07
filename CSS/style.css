@@ -301,7 +301,7 @@ footer {
     flex-wrap: wrap;
     background-color: black;
     padding: 25px;
-    position: sticky;
+    position: relative;
     bottom: 0px;
     margin-top: 25px;
 }

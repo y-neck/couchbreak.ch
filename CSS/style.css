@@ -237,8 +237,6 @@ display: block;
     justify-content: flex-end;
 }
    
-
-
 #login_form {
     margin: 0;
     text-align: center;
@@ -246,6 +244,14 @@ display: block;
 
 #credential_container div {
     padding: 10px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+#password {
+    text-align: center;
 }
 
 
@@ -257,6 +263,7 @@ display: block;
     width: 500px;
 }
 
+
 #login_form input {
     border: 1px black solid;
     border-radius: 15px;
@@ -264,7 +271,7 @@ display: block;
 }
 
 
-button.letsgo_btn {
+#letsgo_btn {
     /* reset button */
     border: none !important;
     background-color: transparent !important;

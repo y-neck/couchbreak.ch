@@ -3,8 +3,8 @@
     scroll-behavior: smooth;
     --default-text-color: rgb(0, 0, 0);     /*Define global text color*/
     --default-background-color: #f2eede;        /*Define global background color*/
-    --accent-color-1: #F3C25F 
-    --accent-color-2: #9EB4A5
+    --accent-color-1: #F3C25F;  /*Define global accent color yellow*/
+    --accent-color-2: #9EB4A5;   /*Define global accent color green*/
 }
 
 html {

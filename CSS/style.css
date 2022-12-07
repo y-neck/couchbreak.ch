@@ -187,9 +187,8 @@ display: block;
 
 
 
-#letsgo_btn input {
-    border: none;
-}
+
+    
     
 
 .fliesstext{
@@ -229,6 +228,7 @@ h2 {
     padding: 10px;
 }
 
+
 #login_btn_Matrikelnummer input {
     width: 500px;
 }
@@ -241,6 +241,12 @@ h2 {
     border: 1px black solid;
     border-radius: 15px;
 
+}
+
+#letsgo_btn {
+    border: none;
+    position: absolute;
+    font-size: 3rem;
 }
 
 .login_btn {
@@ -263,6 +269,7 @@ h2 {
       top: 170px;
     }
   }
+
 
 
 

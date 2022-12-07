@@ -3,6 +3,8 @@
     scroll-behavior: smooth;
     --default-text-color: rgb(0, 0, 0);     /*Define global text color*/
     --default-background-color: #f2eede;        /*Define global background color*/
+    --accent-color-1: #F3C25F 
+    --accent-color-2: #9EB4A5
 }
 
 html {
@@ -132,7 +134,8 @@ h3{
     font-style: normal; /* Font Slant */
     letter-spacing: 0.05em;
     color: rgb(0, 0, 0);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color-1);
  
 }
 
@@ -183,6 +186,7 @@ h2 {
    position: relative;
    margin: 150px 0px 80px 100px;
    z-index: 1;
+   
 }
 
 #login_form {

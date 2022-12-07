@@ -283,9 +283,10 @@ display: block;
 
  /* Footer ----------------------------------------------------------- */
 
-.socialmedia {
-    max-width: 200px;
+.socialmedia img {
+    width: 50px;
     max-height: auto;
+    margin-right: 40px;
 }
 
 footer {
@@ -293,12 +294,18 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
     background-color: black;
     padding: 25px;
+    position: relative;
+    bottom: 0px;
+    margin-top: 25px;
 }
 
-footer a {
+.footer-nav {
+    display: flex;
+    align-items: center;
+}
+.footer-nav a, .footer-nav p {
     color: white;
     margin: 10px;
 }
@@ -329,7 +336,16 @@ footer a {
       width: auto;
       top: 170px;
     }
+    
+    .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
   }
+  .footer-nav a, .footer-nav p {
+    margin: 5px;
+}
+}
 
 
 

@@ -426,12 +426,17 @@ footer {
     footer {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         padding: 25px 40px;
         bottom: 0px;
         margin-top: 25px;
     }
+
+    .socialmedia img {
+        margin-inline: 10px;
+    }
+
 }
 
 

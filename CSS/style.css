@@ -289,3 +289,19 @@ h2 {
    margin: 150px 0px 80px 100px;
    z-index: 1;
   }
+
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 25px;
+  }
+
+
+  #socialmedia{
+    max-width: 200px;
+    max-height: auto;
+  }

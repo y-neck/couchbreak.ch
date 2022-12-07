@@ -169,11 +169,6 @@ header a {
 
 
 
-
-
-
-
-
 /* TEAM.HTML ------------------------------------------------------- */
 
 .team_mitglieder_bild {
@@ -233,11 +228,6 @@ display: block;
 }
     
 
-.index_untertitel {
-    margin: 0px;
-    padding: 0px;
-}
-
 
 #login_form {
     margin: 0;
@@ -276,13 +266,13 @@ display: block;
 
 
 
-  h4{
+h4 {
    font-size: 4rem;
    position:relative;
    text-align: center;
    margin: 150px 0px 80px 100px;
    z-index: 1;
-  }
+}
 
 
 /* MEDIA QUERIES ---------------------------------------------------- */

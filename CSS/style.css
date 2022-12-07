@@ -134,9 +134,7 @@ h3{
     font-style: normal; /* Font Slant */
     letter-spacing: 0.05em;
     color: rgb(0, 0, 0);
-    text-decoration: underline;
-    text-decoration-color: var(--accent-color-1);
- 
+
 }
 
 .mitglieder h3{

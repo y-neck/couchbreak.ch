@@ -468,6 +468,8 @@ footer {
         margin-inline: 10px;
     }
 
+    /* LOGIN --------------------------------------------------------- */
+
     #Lo_Gin p {
     font-size: 2rem;
     }
@@ -513,7 +515,7 @@ footer {
 
 
 
-  h4{
+  h4{ /* TODO: #5 Global (-> verschieben) oder site-related?*/
    font-size: 4rem;
    position:relative;
    text-align: center;

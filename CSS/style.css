@@ -159,7 +159,7 @@ h3{
     
 
 .fliesstext{
-    background-color: #9EB4A5;
+    background-color: var(--accent-color-2);
     border-radius: 35px;
     padding: 30px 100px;
     margin: 0px 100px;

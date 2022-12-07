@@ -104,6 +104,14 @@ header a {
     padding: 0;
 }
 
+.index_mitglieder_bild {
+    display: flex;
+}
+
+.index_mitglieder_bild img {
+    height: 180px;
+}
+
 
 
 
@@ -114,8 +122,8 @@ header a {
 
 
 .team_mitglieder_bild {
-  height: 180px;
-  padding-left: 20px;  
+    height: 180px;
+    padding-left: 20px;  
 }
 
 .profiles{

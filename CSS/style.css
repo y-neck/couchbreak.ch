@@ -30,6 +30,10 @@ body {
     height: 100%;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
 .fliesstext{
     background-color: var(--accent-color-2);
     border-radius: 35px;
@@ -304,6 +308,8 @@ footer {
     position: relative;
     bottom: 0px;
     margin-top: 25px;
+
+    flex-shrink: 0; /* forces footer to end of page */
 }
 
 .footer-nav {

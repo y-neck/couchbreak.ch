@@ -206,8 +206,10 @@ header a {
 }
 
 .video {
-    align-content: center;
-    
+    background-color: var(--accent-color-2);
+    border-radius: 35px;
+    padding: 30px 80px;
+    margin: 0px 100px;
 }
 
 

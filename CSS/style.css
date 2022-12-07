@@ -28,12 +28,19 @@ body {
     padding: 0; /*reset default padding; [rem]*/
     margin: 0 auto; /*reset default margin [rem]*/
     height: 100%;
+    /* Force footer to end of page */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto; /* Force footer to end of page */
 }
 
 .fliesstext{
     background-color: var(--accent-color-2);
     border-radius: 35px;
-    padding: 30px 100px;
+    padding: 30px 80px;
     margin: 0px 100px;
 }
 
@@ -89,7 +96,7 @@ header {
     flex-wrap: wrap;
 
     background-color: black;
-    padding: 25px;
+    padding: 25px 100px;
 }
 
 header a {
@@ -172,7 +179,7 @@ header a {
     text-align: center;
 
     padding-top: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 
@@ -247,9 +254,6 @@ display: block;
     text-align: center;
 }
 
-#text {
-    text-align: center;
-}
 
 #login_btn_Matrikelnummer input {
     width: 500px;
@@ -266,12 +270,19 @@ display: block;
 
 }
 
+
 #letsgo_btn {
     /* reset button */
-    border: none;
-    background-color: transparent ;
-    position: center;
-    font-size: 3rem ;
+    border: none !important;
+    background-color: transparent !important;
+    font-family: inherit !important;
+    padding: 0 !important;
+    position: absolute !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    /* style */
+    font-size: 3rem !important;
 }
 
 .login_btn {
@@ -303,10 +314,12 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: black;
-    padding: 25px;
+    padding: 25px 100px;
     position: relative;
     bottom: 0px;
     margin-top: 25px;
+
+    flex-shrink: 0; /* forces footer to end of page */
 }
 
 .footer-nav {
@@ -339,6 +352,18 @@ footer {
 /* MOBIL */
 
 @media screen and (max-width: 600px) {
+
+/* INDEX ------------------------------------------------------------ */
+
+    #index_right, #index_left {
+        display: none; /* hide left and right element */
+    }
+
+    #index_middle {
+        width: 75vw;
+        align-items: center;
+    }
+    
     #Bild_Gin {
       height: 120px;
       width: auto;
@@ -349,10 +374,11 @@ footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-  }
-  .footer-nav a, .footer-nav p {
+    }
+    
+    .footer-nav a, .footer-nav p {
     margin: 5px;
-}
+    }
 }
 
 

@@ -275,6 +275,19 @@ h4 {
 }
 
 
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 25px;
+  }
+
+
+  #socialmedia{
+    max-width: 200px;
+    max-height: auto;
 /* MEDIA QUERIES ---------------------------------------------------- */
 
 

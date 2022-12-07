@@ -242,6 +242,7 @@ display: block;
 }
 
 
+
 #login_btn_Matrikelnummer input {
     width: 500px;
 }
@@ -257,18 +258,12 @@ display: block;
 }
 
 
-button.letsgo_btn {
+#letsgo_btn {
     /* reset button */
-    border: none !important;
-    background-color: transparent !important;
-    font-family: inherit !important;
-    padding: 0 !important;
-    position: absolute !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    /* style */
-    font-size: 3rem !important;
+    border: none;
+    background-color: transparent ;
+    position: center;
+    font-size: 3rem ;
 }
 
 .login_btn {

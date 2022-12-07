@@ -169,11 +169,6 @@ header a {
 
 
 
-
-
-
-
-
 /* TEAM.HTML ------------------------------------------------------- */
 
 .team_mitglieder_bild {
@@ -233,11 +228,6 @@ display: block;
 }
     
 
-.index_untertitel {
-    margin: 0px;
-    padding: 0px;
-}
-
 
 #login_form {
     margin: 0;
@@ -247,6 +237,7 @@ display: block;
 #credential_container div {
     padding: 10px;
 }
+
 
 #login_btn_Matrikelnummer input {
     width: 500px;
@@ -260,6 +251,12 @@ display: block;
     border: 1px black solid;
     border-radius: 15px;
 
+}
+
+#letsgo_btn {
+    border: none;
+    position: absolute;
+    font-size: 3rem;
 }
 
 .login_btn {
@@ -276,13 +273,13 @@ display: block;
 
 
 
-  h4{
+h4 {
    font-size: 4rem;
    position:relative;
    text-align: center;
    margin: 150px 0px 80px 100px;
    z-index: 1;
-  }
+}
 
 
  /* Footer ----------------------------------------------------------- */
@@ -340,4 +337,25 @@ footer a {
       width: auto;
       top: 170px;
     }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  h4{
+   font-size: 4rem;
+   position:relative;
+   text-align: center;
+   margin: 150px 0px 80px 100px;
+   z-index: 1;
   }

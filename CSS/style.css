@@ -66,6 +66,14 @@ h3{
     color: rgb(0, 0, 0);
 }
 
+h4 {
+    font-size: 4rem;
+    position:relative;
+    text-align: center;
+    margin: 150px 0px 80px 100px;
+    z-index: 1;
+}
+ 
 
 /* HEADER ----------------------------------------------------------- */
 
@@ -277,28 +285,44 @@ button.letsgo_btn {
 
 
 
-h4 {
-   font-size: 4rem;
-   position:relative;
-   text-align: center;
-   margin: 150px 0px 80px 100px;
-   z-index: 1;
+
+ /* Footer ----------------------------------------------------------- */
+
+.socialmedia {
+    max-width: 200px;
+    max-height: auto;
 }
 
-
-  footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
     background-color: black;
     padding: 25px;
-  }
+}
+
+footer a {
+    color: white;
+    margin: 10px;
+}
 
 
-  #socialmedia{
-    max-width: 200px;
-    max-height: auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERIES ---------------------------------------------------- */
 
 

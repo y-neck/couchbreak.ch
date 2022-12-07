@@ -205,6 +205,10 @@ display: block;
     margin: 0px 100px;
 }
 
+.fliesstext a {
+    text-decoration: underline;
+}
+
 .index_untertitel {
     margin: 0px;
     padding: 0px;

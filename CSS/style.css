@@ -162,6 +162,14 @@ h1 {
     padding: 10px;
 }
 
+#login_btn_Matrikelnummer input {
+    width: 500px;
+}
+
+#pw_btn input {
+    width: 500px;
+}
+
 #login_form input {
     border: 1px black solid;
     border-radius: 15px;
@@ -179,3 +187,12 @@ h1 {
     top: 130px;
     right: 40px;
 }
+
+
+@media screen and (max-width: 600px) {
+    #Bild_Gin {
+      height: 120px;
+      width: auto;
+      top: 170px;
+    }
+  }

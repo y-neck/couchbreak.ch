@@ -119,9 +119,9 @@ header a {
 }
 
 .profiles{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     padding: 0px;
     margin-bottom: 100px;
 }
@@ -184,7 +184,6 @@ h2 {
    position: relative;
    margin: 150px 0px 80px 100px;
    z-index: 1;
-   
 }
 
 #login_form {

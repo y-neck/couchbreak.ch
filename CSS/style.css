@@ -125,6 +125,34 @@ padding: 10px;
  
 }
 
+#Lo_Gin {
+display: flex;
+justify-content: space-between;
+width: 200px;
+margin: 0 auto;
+}
+
+#Lo_Gin p {
+    font-size: 4rem;
+}
+
+#tonic {
+    display: none;
+    transform: translateX(20px);
+}
+
+#Lo_Gin :hover + #lo {
+    color: orange;
+}
+
+#Lo_Gin :hover + #tonic {
+display: block;
+}
+
+#lo {
+    display: block;
+    transform: translateX(0);
+}
 
 
 

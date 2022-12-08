@@ -45,33 +45,49 @@
 
 <!--Login-->
 
-        <main id="login.html_main">
-            <div id="login_form">
+        <main id="registrieren.html_main">
+            <div id="registrieren_form">
                 <form action="/action_page.php" method="post">
-                    <div id="Lo_Gin">
+                   <!-- <div id="Lo_Gin">
                     <p id="lo">LO</p>
                     <p id="gin">GIN</p>
                     <p id="tonic">TONIC</p>
-                    </div>
+                    </div> -->
 
 
                     <div id="credential_container">
-                        <div id="login_btn_Matrikelnummer">
-                            <label for="uname">Matrikelnummer</label><br>
-                            <input id="text" placeholder="123-456-789" name="uname" id="uname" required="">
+                        <div id="registrieren_btn_vorname">
+                            <label for="vorname">Vorname</label><br>
+                            <input id="vorname" placeholder="Marie" name="vorname" id="vorname" required="">
                         </div>
-                        <div id="pw_btn">
-                            <label for="psw">Passwort</label><br>
-                            <input id="password" type="password" placeholder="*****" name="psw" id="psw" required="">
+                        <div id="registrieren_btn_name">
+                            <label for="name">Name</label><br>
+                            <input id="name" type="name" placeholder="Musterfrau" name="name" id="name" required="">
                         </div>
+                        <div id="registrieren_btn_email">
+                            <label for="email">E-Mail</label><br>
+                            <input id="email" type="email" placeholder="marie.musterfrau@stud.test.ch" name="email" id="email" required="">
+                        </div>
+                        <div id="registrieren_btn_matrikelnummer">
+                            <label for="matrikelnummer">Matrikelnummer</label><br>
+                            <input id="matrikelnummer" type="matrikelnummer" placeholder="123-456-789" name="matrikelnummer" id="matrikelnummer" required="">
+                        </div>
+                        <div id="registrieren_btn_passwort">
+                            <label for="passwort">Passwort</label><br>
+                            <input id="passwort" type="password" placeholder="*****" name="passwort" id="passwort" required="">
+                        </div>
+                        <div id="registrieren_btn_passwort_wiederholen">
+                            <label for="passwort_w">Passwort wiederholen</label><br>
+                            <input id="passwort_w" type="password" placeholder="*****" name="passwort_w" id="passwort_w" required="">
+                        </div>
+                        
                     </div>
                         <button id="letsgo_btn" type="submit">Let's go <br><img id="bild_pfeil" src="../img/illustrationen/Pfeil_Login.svg"></button>
             
 
                     <div id="text_login">
-                        <p>Noch keinen Account?</p>
-                        <span class="login_btn"><a href="#">Hier registrieren</a></span><br><br>
-                        <span class="login_btn"><a href="#">Passwort vergessen?</a></span>
+                        <p>Du hast bereits ein Login?</p>
+                        <span class="login_btn"><a href="#">Hier anmelden</a></span><br><br>
                     </div>
                 </form>
             </div>
@@ -79,9 +95,9 @@
 
 
         </main>
-        
-<!--Footer-->  
 
+<!--Footer-->     
+   
         <footer>
             <div class="socialmedia">
                 <img src="../img/Illustrationen/Instagram.svg" alt="Instagram">

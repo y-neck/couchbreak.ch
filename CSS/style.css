@@ -210,12 +210,15 @@ header a {
     border-radius: 35px;
     padding: 50px 20px;
     margin: 0px 100px;
-    margin-left: 250px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: center;
+
 }
 
 
-iframe{
-    padding-left: 200px;
+#portrait{
+    padding-left: 0px;
 }
 
 #video_title{
@@ -320,6 +323,117 @@ transform: translateY(-20px);
 #text_login p {
     margin: 0;
 }
+
+/* Registrieren.HTML ------------------------------------------------------- */
+
+/* #Lo_Gin {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+    } 
+    
+    #Lo_Gin p {
+        font-size: 4rem;
+    }
+    
+    #tonic {
+        display: none;
+        transform: translateX(20px);
+    }
+    
+    #Lo_Gin:hover #lo {
+        visibility: hidden;
+    }
+    
+    #Lo_Gin:hover #tonic {
+    display: block;
+    } */
+    
+    #registrieren.html_main {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+       
+    #registrieren_form {
+        margin: 0;
+        text-align: center;
+    }
+    
+    #credential_container div {
+        padding: 10px;
+    }
+    
+    ::placeholder {
+        text-align: center;
+    }
+    
+    #password {
+        text-align: center;
+    }
+    #text {
+        text-align: center;
+    }
+    
+    
+    #registrieren_btn_vorname input {
+        width: 500px;
+    }
+    
+    #registrieren_btn_name input {
+        width: 500px;
+    }
+
+    #registrieren_btn_email input {
+        width: 500px;
+    }
+
+    #registrieren_btn_matrikelnummer input {
+        width: 500px;
+    }
+    #registrieren_btn_passwort input {
+        width: 500px;
+    }
+    #registrieren_btn_passwort_wiederholen input {
+        width: 500px;
+    }
+    
+    #login_form input {
+        border: 1px black solid;
+        border-radius: 15px;
+    
+    }
+    
+    
+    #letsgo_btn {
+        /* reset button */
+        border: none;
+        background-color: transparent;
+        position: center;
+        font-size: 3rem
+    }
+    
+    #bild_pfeil {
+    width: 100px;
+    transform: translateY(-20px);
+    }
+    
+    .login_btn {
+        text-decoration: underline;
+    }
+    
+    #Bild_Gin {
+        height: 250px;
+        width: auto;
+        position: absolute;
+        top: 150px;
+        right: 40px;
+    }
+    
+    #text_login p {
+        margin: 0;
+    }
 
 
  /* Footer ----------------------------------------------------------- */
@@ -461,8 +575,23 @@ footer {
         margin: 0px 40px  ;
     }
 
+    /* Team ---------------------------------------------------------- */
      
+    .video{
+     background-color: var(--accent-color-2);
+    border-radius: 35px;
+    padding: 50px 20px;
+    margin: 20px 35px;
+    display: flex;
+    justify-content: center;
+    }
     
+    #portrait{
+        padding-left: 0px;
+        width: 400px;
+        height: 250px;
+    }
+}
 
 /* FOOTER ---------------------------------------------------------- */
    

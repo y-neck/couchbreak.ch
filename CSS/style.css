@@ -35,14 +35,13 @@ body {
 
 main {
     flex: 1 0 auto; /* Force footer to end of page */
-    padding-inline: 100px;
+    padding-inline: 10%;
 }
 
 .fliesstext{
     background-color: var(--accent-color-2);
     border-radius: 35px;
     padding: 30px 80px;
-    margin: 0px 100px;
 }
 
 .fliesstext a {
@@ -51,10 +50,10 @@ main {
 
 .fleck {
     max-width: none;
-    transform: translateY(-60px);
+    transform: translate(-30px, -60px);
     position: absolute;
     width: 20rem;
-    margin: 41px 0px 50px 70px;
+    margin: 41px 0px 50px 0px;
     z-index: 0;
 }
 
@@ -68,9 +67,9 @@ h1 {
 
 h2 {
     font-size: 2rem;
-   position: relative;
-   margin: 150px 0px 80px 100px;
-   z-index: 1;
+    position: relative;
+    margin: 150px 0px 80px 0px;
+    z-index: 1;
 }
 
 h3{
@@ -98,7 +97,7 @@ header {
     flex-wrap: wrap;
 
     background-color: black;
-    padding: 25px 100px;
+    padding: 25px 10%;
 }
 
 header a {
@@ -118,19 +117,21 @@ header a {
 /* INDEX.HTML ------------------------------------------------------- */
 
 #welcome-screen {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 80%;
+    height: fit-content;
 
-    margin-top: 40px;
+    margin-top: 5%;
     margin-bottom: 80px;
+    padding: 0;
 }
 
 #index_left {
     margin-top: 250px;
-    margin-right: 5vw;
+    margin-right: 5%;
     width: 10vw;
 }
 
@@ -152,26 +153,21 @@ header a {
     transform: scale(-1, 1) rotate(0turn);
 }
 
-#index_middle {
-    width: 50vw;
-}
-
 #index_right {
     margin-bottom: 150px;
-    padding: 0;
+    margin-left: 2%;
     width: 15vw;
 }
 
 #index_right p {
     padding: 0;
-    transform: translate(50px, 50px);
+    transform: translate(10px, 70px);
 }
 
 .index_mitglieder_bild {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0px 100px 0px 100px;
+    justify-content: space-evenly;
 }
 
 .index_mitglieder_bild img {
@@ -194,7 +190,7 @@ header a {
 
 .team_mitglieder_bild {
     height: 180px;
-    padding-left: 20px;  
+   padding-right: 30px;
 }
 
 .profiles {
@@ -213,19 +209,17 @@ header a {
 .video {
     background-color: var(--accent-color-2);
     border-radius: 35px;
-    padding: 50px 20px;
-    margin-left: 240px;
-    margin-right: 100px;
     display: flex;
     justify-content: center;
 
 }
 
 
-#portrait{
-    padding-left: 0px;
-    width: 600px;
-    height:300px ;
+#portrait {
+    padding:20px 30px ;
+    width: 80%;
+    aspect-ratio: 16/9;
+
 }
 
 #video_portrait{
@@ -390,10 +384,10 @@ display: block;
 /* Registrieren.HTML ------------------------------------------------------- */
 
 #registrieren_n {
-display: flex;
-justify-content: space-between;
-width: 200px;
-margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
 } 
 
 #registrieren_n p {
@@ -409,7 +403,7 @@ margin: 0 auto;
 }
 
 #registrieren_n:hover #egroni {
-display: block;
+    display: block;
 }
 
 #registrieren.html_main {
@@ -477,8 +471,8 @@ display: block;
 }
 
 #bild_pfeil {
-width: 100px;
-transform: translateY(-20px);
+    width: 100px;
+    transform: translateY(-20px);
 }
 
 .login_btn {
@@ -615,22 +609,7 @@ footer {
     }
 
   /* Team ---------------------------------------------------------- */
-     
-  .video{
-    background-color: var(--accent-color-2);
-   border-radius: 35px;
-   padding: 50px 20px;
-   margin: 20px 35px;
-   margin-left: 240px;
-   display: flex;
-   justify-content: center;
-   }
    
-   #portrait{
-       padding-left: 0px;
-       width: 500px;
-       height: 250px;
-   }
 
    h1 {
        font-size: 4rem;
@@ -638,30 +617,44 @@ footer {
        text-align: center;
        margin: 150px 0px 80px 0px;
        z-index: 1;
-   }
-
+    }
+   
+/* INDEX ------------------------------------------------------------ */
+   
+   #index_right, #index_left {
+       display: none; /* hide left and right element */
+    }
+    
 }
-
 
 /* MOBIL 800px */
 
 @media screen and (max-width: 800px) {
 
+    main {
+        padding-inline: 10%;
+    }
+
     .fliesstext{
         border-radius: 35px;
         padding: 20px 35px;
-        margin: 0px 40px;
     }
     
+    .index_untertitel {
+        justify-content: center;
+        position: relative;
+    }
+
     .fleck {
-        transform: translateY(-50px);
         width: 15rem;
-        margin: 41px 0px 0px 30px;
+        transform: translate(0px, -50px);
+        margin-left: calc(calc(100% - 15rem) / 2);     
     }
     
     h2 {
        font-size: 2rem;
-       margin: 80px 0px 40px 40px;
+       margin: 80px 0px 40px 0px;
+       text-align: center;
     }
 
  /* HEADER ---------------------------------------------------------- */
@@ -675,23 +668,14 @@ footer {
     header {
         justify-content: space-evenly;
 
-        padding: 25px 40px;
+        padding: 25px 0%;
     }
 
     header a {
         margin: 10px;
     }
-    
 
 /* INDEX ------------------------------------------------------------ */
-
-    #index_right, #index_left {
-        display: none; /* hide left and right element */
-    }
-
-    #index_middle {
-        width: 75vw;
-    }
 
     .index_mitglieder_bild img {
         height: 60px;
@@ -699,26 +683,11 @@ footer {
     }
 
     .index_mitglieder_bild {
-        margin: 0px 40px  ;
-    }
-
-    /* Team ---------------------------------------------------------- */
-     
-    .video{
-     background-color: var(--accent-color-2);
-    border-radius: 35px;
-    padding: 50px 20px;
-    margin: 20px 35px;
-    display: flex;
-    justify-content: center;
+        margin: 0px 0px  ;
     }
     
-    #portrait{
-        padding-left: 0px;
-        width: 400px;
-        height: 200px;
-    }
-
+    /* Team ---------------------------------------------------------- */
+    
     h1 {
         font-size: 4rem;
         position:relative;
@@ -727,12 +696,45 @@ footer {
         z-index: 1;
     }
 
-    h3{
-        margin-left:-55px ;
+    .mitglieder h3{
+        padding-left: 0px;
+        text-align:center;
     }
 
+    .profiles {
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+
+    }
+
+    
+    .team_mitglieder_bild {
+       padding-right: 0px;
+    }
+    
+    .video{
+        background-color: var(--accent-color-2);
+        border-radius: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin:0 auto;
+    }
+    
+    #portrait iframe {
+        padding-left: 0px; /* overwrite padding-left */
+        margin: 0; /* overwrite margin */
+        width: 100%;
+        height: auto;
+
+    }
+
+
     #video_portrait{
-        margin-left: 35px;
+        text-align: center;
+        margin-left: 0px; /* overwrite margin-left */
     }
 
 
@@ -813,6 +815,7 @@ footer {
         right: 10px;
         }
         
+
 
 
         #registrieren_n p {

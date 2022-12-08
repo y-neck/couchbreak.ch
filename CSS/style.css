@@ -223,12 +223,14 @@ header a {
 
 #portrait{
     padding-left: 0px;
+    width: 600px;
+    height:300px ;
 }
 
-#portrait_video{
+#video_portrait{
     margin-left: 240px ;
 }
-
+ 
 
 /* Event.HTML ------------------------------------------------------- */
 
@@ -561,7 +563,7 @@ footer {
    #portrait{
        padding-left: 0px;
        width: 500px;
-       height: 280px;
+       height: 250px;
    }
 
    h1 {
@@ -648,7 +650,7 @@ footer {
     #portrait{
         padding-left: 0px;
         width: 400px;
-        height: 225px;
+        height: 200px;
     }
 
     h1 {
@@ -663,7 +665,7 @@ footer {
         margin-left:-55px ;
     }
 
-    #portrait_video{
+    #video_portrait{
         margin-left: 35px;
     }
 }

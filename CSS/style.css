@@ -35,6 +35,7 @@ body {
 
 main {
     flex: 1 0 auto; /* Force footer to end of page */
+    padding-inline: 100px;
 }
 
 .fliesstext{

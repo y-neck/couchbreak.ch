@@ -215,7 +215,8 @@ header a {
     background-color: var(--accent-color-2);
     border-radius: 35px;
     padding: 50px 20px;
-    margin: 0px 100px;
+    margin-left: 240px;
+    margin-right: 100px;
     display: flex;
     justify-content: center;
 
@@ -227,7 +228,7 @@ header a {
 }
 
 #portrait_video{
-    margin-left: 250px ;
+    margin-left: 240px ;
 }
 
 

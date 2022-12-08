@@ -190,7 +190,7 @@ header a {
 
 .team_mitglieder_bild {
     height: 180px;
-    padding-left: 20px;  
+   padding-right: 30px;
 }
 
 .profiles {
@@ -202,34 +202,37 @@ header a {
 }
 
 .mitglieder h3{
-    padding-left: 100px;
-    text-align: left;
+    text-align: center;
 }
 
 .video {
     background-color: var(--accent-color-2);
     border-radius: 35px;
-    padding: 50px 20px;
-    margin-left: 240px;
-    margin-right: 100px;
     display: flex;
     justify-content: center;
 
 }
 
 
-#portrait{
-    padding-left: 0px;
-    width: 600px;
-    height:300px ;
+#portrait {
+    padding:30px 80px ;
+    width: 100%;
+    aspect-ratio: 16/9;
+
 }
 
 #video_portrait{
-    margin-left: 240px ;
+    text-align: center ;
 }
  
 
 /* Event.HTML ------------------------------------------------------- */
+
+
+tbody tr:hover, tfoot tr:hover { 
+    background-color:#eabc3e;
+  }
+
 
 #filter {
     background-color: white;
@@ -242,7 +245,6 @@ header a {
 #filter-position {
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px;
 }
 
 #Kartenansicht {
@@ -252,6 +254,27 @@ header a {
 
     padding: 10px 15px;
     transform: translate(0px, 0px);
+    
+}
+
+
+
+#white_Box {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+
+    padding: 10px 15px;
+    transform: translate(0px, 0px);
+}
+
+#oberste-zeile {
+    display: flex;
+    justify-content: space-between;
+}
+.Event {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -584,30 +607,10 @@ footer {
                 display: block;
     }
 
-/* Team ---------------------------------------------------------- */
-     
-    .video{
-        background-color: var(--accent-color-2);
-        border-radius: 35px;
-        padding: 50px 20px;
-        margin: 20px 35px;
-        margin-left: 240px;
-        display: flex;
-        justify-content: center;
-    }
+  /* Team ---------------------------------------------------------- */
    
     #portrait{
-       padding-left: 0px;
-       width: 500px;
-       height: 250px;
-    }
-
-    h1 {
-       font-size: 4rem;
-       position:relative;
-       text-align: center;
-       margin: 150px 0px 80px 0px;
-       z-index: 1;
+        padding: 20px 35px;
     }
    
 /* INDEX ------------------------------------------------------------ */
@@ -676,25 +679,9 @@ footer {
     .index_mitglieder_bild {
         margin: 0px 0px  ;
     }
-
-
-/* Team ---------------------------------------------------------- */  
-
-    .video{
-        background-color: var(--accent-color-2);
-        border-radius: 35px;
-        padding: 50px 20px;
-        margin: 20px 35px;
-        display: flex;
-        justify-content: center;
-    }
     
-    #portrait{
-        padding-left: 0px;
-        width: 400px;
-        height: 200px;
-    }
-
+    /* Team ---------------------------------------------------------- */
+    
     h1 {
         font-size: 4rem;
         position:relative;
@@ -703,12 +690,45 @@ footer {
         z-index: 1;
     }
 
-    h3{
-        margin-left:-55px ;
+    .mitglieder h3{
+        padding-left: 0px;
+        text-align:center;
     }
 
+    .profiles {
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+
+    }
+
+    
+    .team_mitglieder_bild {
+       padding-right: 0px;
+    }
+    
+    .video{
+        background-color: var(--accent-color-2);
+        border-radius: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin:0 auto;
+    }
+    
+    #portrait iframe {
+        padding-left: 0px; /* overwrite padding-left */
+        margin: 0; /* overwrite margin */
+        width: 100%;
+        height: auto;
+
+    }
+
+
     #video_portrait{
-        margin-left: 35px;
+        text-align: center;
+        margin-left: 0px; /* overwrite margin-left */
     }
 
 

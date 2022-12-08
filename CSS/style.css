@@ -379,7 +379,7 @@ margin: 0 auto;
 }
 
 #registrieren_n:hover #egroni {
-display: block;
+    display: block;
 }
 
 #registrieren.html_main {
@@ -447,8 +447,8 @@ display: block;
 }
 
 #bild_pfeil {
-width: 100px;
-transform: translateY(-20px);
+    width: 100px;
+    transform: translateY(-20px);
 }
 
 .login_btn {
@@ -587,28 +587,28 @@ footer {
 /* Team ---------------------------------------------------------- */
      
     .video{
-    background-color: var(--accent-color-2);
-   border-radius: 35px;
-   padding: 50px 20px;
-   margin: 20px 35px;
-   margin-left: 240px;
-   display: flex;
-   justify-content: center;
-   }
+        background-color: var(--accent-color-2);
+        border-radius: 35px;
+        padding: 50px 20px;
+        margin: 20px 35px;
+        margin-left: 240px;
+        display: flex;
+        justify-content: center;
+    }
    
-   #portrait{
+    #portrait{
        padding-left: 0px;
        width: 500px;
        height: 250px;
-   }
+    }
 
-   h1 {
+    h1 {
        font-size: 4rem;
        position:relative;
        text-align: center;
        margin: 150px 0px 80px 0px;
        z-index: 1;
-   }
+    }
    
 /* INDEX ------------------------------------------------------------ */
    

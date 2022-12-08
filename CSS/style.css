@@ -672,10 +672,4 @@ footer {
 
 
 
-  h4{ /* TODO: #5 Global (-> verschieben) oder site-related?*/
-   font-size: 4rem;
-   position:relative;
-   text-align: center;
-   margin: 150px 0px 80px 100px;
-   z-index: 1;
-  }
+ 

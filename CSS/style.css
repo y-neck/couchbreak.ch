@@ -122,6 +122,7 @@ header a {
     justify-content: center;
     align-items: center;
     width: 80%;
+    height: fit-content;
 
     margin-top: 5%;
     margin-bottom: 80px;
@@ -149,10 +150,6 @@ header a {
 
 #index_left lottie-player {
     transform: scale(-1, 1) rotate(0turn);
-}
-
-#index_middle {
-    width: 50vw;
 }
 
 #index_right {
@@ -614,6 +611,20 @@ footer {
 }
 
 
+
+/* MOBIL 1000px */
+
+@media screen and (max-width: 1000px) {
+
+/* INDEX ------------------------------------------------------------ */
+
+#index_right, #index_left {
+    display: none; /* hide left and right element */
+}
+
+}
+
+
 /* MOBIL 800px */
 
 @media screen and (max-width: 800px) {
@@ -662,17 +673,8 @@ footer {
     header a {
         margin: 10px;
     }
-    
 
 /* INDEX ------------------------------------------------------------ */
-
-    #index_right, #index_left {
-        display: none; /* hide left and right element */
-    }
-
-    #index_middle {
-        width: 75vw;
-    }
 
     .index_mitglieder_bild img {
         height: 60px;

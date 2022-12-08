@@ -124,7 +124,7 @@ header a {
     width: 80%;
     height: fit-content;
 
-    margin-top: 5%;
+    margin-top: 50px;
     margin-bottom: 80px;
     padding: 0;
 }
@@ -202,8 +202,7 @@ header a {
 }
 
 .mitglieder h3{
-    padding-left: 100px;
-    text-align: left;
+    text-align: center;
 }
 
 .video {
@@ -216,14 +215,14 @@ header a {
 
 
 #portrait {
-    padding:20px 30px ;
-    width: 80%;
+    padding:30px 80px ;
+    width: 100%;
     aspect-ratio: 16/9;
 
 }
 
 #video_portrait{
-    margin-left: 240px ;
+    text-align: center ;
 }
  
 
@@ -633,13 +632,8 @@ footer {
 
   /* Team ---------------------------------------------------------- */
    
-
-   h1 {
-       font-size: 4rem;
-       position:relative;
-       text-align: center;
-       margin: 150px 0px 80px 0px;
-       z-index: 1;
+    #portrait{
+        padding: 20px 35px;
     }
    
 /* INDEX ------------------------------------------------------------ */
@@ -719,11 +713,6 @@ footer {
         z-index: 1;
     }
 
-    .mitglieder h3{
-        padding-left: 0px;
-        text-align:center;
-    }
-
     .profiles {
         display: flex;
         flex-direction:column;
@@ -732,33 +721,11 @@ footer {
     }
 
     
-    .team_mitglieder_bild {
-       padding-right: 0px;
-    }
     
-    .video{
-        background-color: var(--accent-color-2);
-        border-radius: 35px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin:0 auto;
-    }
-    
-    #portrait iframe {
-        padding-left: 0px; /* overwrite padding-left */
-        margin: 0; /* overwrite margin */
-        width: 100%;
-        height: auto;
-
-    }
+    #portrait {
+        padding:25px 30px ;
 
 
-    #video_portrait{
-        text-align: center;
-        margin-left: 0px; /* overwrite margin-left */
-    }
 
 
 /* FOOTER ---------------------------------------------------------- */

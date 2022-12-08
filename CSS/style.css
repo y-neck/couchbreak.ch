@@ -631,19 +631,15 @@ footer {
     
 
     .index_untertitel {
-        margin: 0 auto;
         justify-content: center;
-        background-color: rgb(120, 108, 108);
         position: relative;
     }
 
-
     .fleck {
-        display: block;
         width: 15rem;
-        transform: translate(0px, 0px);
+        transform: translate(0px, -50px);
         margin-left: calc(calc(100% - 15rem) / 2);     
- }
+    }
     
     h2 {
        font-size: 2rem;

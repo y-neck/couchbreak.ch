@@ -215,8 +215,8 @@ header a {
     background-color: var(--accent-color-2);
     border-radius: 35px;
     padding: 50px 20px;
-    margin: 0px 100px;
     margin-left: 240px;
+    margin-right: 100px;
     display: flex;
     justify-content: center;
 
@@ -227,8 +227,8 @@ header a {
     padding-left: 0px;
 }
 
-#video_title{
-    margin-left: 250px ;
+#portrait_video{
+    margin-left: 240px ;
 }
 
 
@@ -335,9 +335,13 @@ display: block;
     font-size: 3rem
 }
 
+#letsgo_btn:hover {
+    color: #F3C25F;
+}
+
 #bild_pfeil {
-width: 100px;
-transform: translateY(-20px);
+    width: 100px;
+    transform: translateY(-20px);
 }
 
 .login_btn {
@@ -445,6 +449,10 @@ transform: translateY(-20px);
         font-size: 3rem
     }
     
+    #letsgo_btn:hover {
+        color: #F3C25F;
+    }
+    
     #bild_pfeil {
     width: 100px;
     transform: translateY(-20px);
@@ -467,7 +475,7 @@ transform: translateY(-20px);
     }
 
 
- /* Footer ----------------------------------------------------------- */
+/* Footer ----------------------------------------------------------- */
 
 .socialmedia img {
     width: 50px;
@@ -542,9 +550,36 @@ footer {
         
         #Lo_Gin:hover #tonic {
             display: block;
+}
 
+  /* Team ---------------------------------------------------------- */
+     
+  .video{
+    background-color: var(--accent-color-2);
+   border-radius: 35px;
+   padding: 50px 20px;
+   margin: 20px 35px;
+   margin-left: 240px;
+   display: flex;
+   justify-content: center;
+   }
+   
+   #portrait{
+       padding-left: 0px;
+       width: 500px;
+       height: 280px;
+   }
+
+   h1 {
+       font-size: 4rem;
+       position:relative;
+       text-align: center;
+       margin: 150px 0px 80px 0px;
+       z-index: 1;
+   }
 
 }
+
 
 /* MOBIL 800px */
 
@@ -619,7 +654,7 @@ footer {
     #portrait{
         padding-left: 0px;
         width: 400px;
-        height: 250px;
+        height: 225px;
     }
 
     h1 {
@@ -628,6 +663,14 @@ footer {
         text-align: center;
         margin: 150px 0px 80px 0px;
         z-index: 1;
+    }
+
+    h3{
+        margin-left:-55px ;
+    }
+
+    #portrait_video{
+        margin-left: 35px;
     }
 }
 

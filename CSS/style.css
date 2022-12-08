@@ -309,9 +309,13 @@ display: block;
     font-size: 3rem
 }
 
+#letsgo_btn:hover {
+    color: #F3C25F;
+}
+
 #bild_pfeil {
-width: 100px;
-transform: translateY(-20px);
+    width: 100px;
+    transform: translateY(-20px);
 }
 
 .login_btn {
@@ -417,6 +421,10 @@ transform: translateY(-20px);
         background-color: transparent;
         position: center;
         font-size: 3rem
+    }
+    
+    #letsgo_btn:hover {
+        color: #F3C25F;
     }
     
     #bild_pfeil {

@@ -50,10 +50,10 @@ main {
 
 .fleck {
     max-width: none;
-    transform: translateY(-60px);
+    transform: translate(-30px, -60px);
     position: absolute;
     width: 20rem;
-    margin: 41px 0px 50px 70px;
+    margin: 41px 0px 50px 0px;
     z-index: 0;
 }
 
@@ -67,9 +67,9 @@ h1 {
 
 h2 {
     font-size: 2rem;
-   position: relative;
-   margin: 150px 0px 80px 100px;
-   z-index: 1;
+    position: relative;
+    margin: 150px 0px 80px 0px;
+    z-index: 1;
 }
 
 h3{
@@ -122,14 +122,16 @@ header a {
     justify-content: center;
     align-items: center;
     width: 80%;
+    height: fit-content;
 
-    margin-top: 60px;
+    margin-top: 5%;
     margin-bottom: 80px;
     padding: 0;
 }
 
 #index_left {
     margin-top: 250px;
+    margin-right: 5%;
     width: 10vw;
 }
 
@@ -151,13 +153,9 @@ header a {
     transform: scale(-1, 1) rotate(0turn);
 }
 
-#index_middle {
-    width: 50vw;
-}
-
 #index_right {
     margin-bottom: 150px;
-    padding: 0;
+    margin-left: 5%;
     width: 15vw;
 }
 
@@ -169,8 +167,7 @@ header a {
 .index_mitglieder_bild {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0px 100px 0px 100px;
+    justify-content: space-evenly;
 }
 
 .index_mitglieder_bild img {
@@ -361,10 +358,10 @@ display: block;
 /* Registrieren.HTML ------------------------------------------------------- */
 
 #registrieren_n {
-display: flex;
-justify-content: space-between;
-width: 200px;
-margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
 } 
 
 #registrieren_n p {
@@ -380,7 +377,7 @@ margin: 0 auto;
 }
 
 #registrieren_n:hover #egroni {
-display: block;
+    display: block;
 }
 
 #registrieren.html_main {
@@ -448,8 +445,8 @@ display: block;
 }
 
 #bild_pfeil {
-width: 100px;
-transform: translateY(-20px);
+    width: 100px;
+    transform: translateY(-20px);
 }
 
 .login_btn {
@@ -594,10 +591,15 @@ footer {
        text-align: center;
        margin: 150px 0px 80px 0px;
        z-index: 1;
-   }
-
+    }
+   
+/* INDEX ------------------------------------------------------------ */
+   
+   #index_right, #index_left {
+       display: none; /* hide left and right element */
+    }
+    
 }
-
 
 /* MOBIL 800px */
 
@@ -612,11 +614,15 @@ footer {
         padding: 20px 35px;
     }
     
-    .fleck {
-        transform: translateY(-50px) translateX(30px);
-        width: 15rem;
-        margin: 41px 0px 0px 0px;
+    .index_untertitel {
         justify-content: center;
+        position: relative;
+    }
+
+    .fleck {
+        width: 15rem;
+        transform: translate(0px, -50px);
+        margin-left: calc(calc(100% - 15rem) / 2);     
     }
     
     h2 {
@@ -636,23 +642,14 @@ footer {
     header {
         justify-content: space-evenly;
 
-        padding: 25px 40px;
+        padding: 25px 0%;
     }
 
     header a {
         margin: 10px;
     }
-    
 
 /* INDEX ------------------------------------------------------------ */
-
-    #index_right, #index_left {
-        display: none; /* hide left and right element */
-    }
-
-    #index_middle {
-        width: 75vw;
-    }
 
     .index_mitglieder_bild img {
         height: 60px;

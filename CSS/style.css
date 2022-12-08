@@ -57,8 +57,16 @@ main {
     z-index: 0;
 }
 
+h1 {
+    font-size: 4rem;
+    position:relative;
+    text-align: center;
+    margin: 150px 0px 80px 100px;
+    z-index: 1;
+}
+
 h2 {
-   font-size: 2rem;
+    font-size: 2rem;
    position: relative;
    margin: 150px 0px 80px 100px;
    z-index: 1;
@@ -73,13 +81,6 @@ h3{
     color: rgb(0, 0, 0);
 }
 
-h4 {
-    font-size: 4rem;
-    position:relative;
-    text-align: center;
-    margin: 150px 0px 80px 100px;
-    z-index: 1;
-}
  
 
 /* HEADER ----------------------------------------------------------- */
@@ -134,7 +135,8 @@ header a {
 }
 
 #index_left p {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    transform: translate(10px, 30px);
 }
 
 #welcome-screen p {
@@ -142,8 +144,12 @@ header a {
     margin: 0px;
 }
 
-#index_right img {
-    transform: rotate(-0.25turn) scale(1, -1);
+#index_right lottie-player {
+    transform: rotate(0.1turn);
+}
+
+#index_left lottie-player {
+    transform: scale(-1, 1) rotate(0turn);
 }
 
 #index_middle {
@@ -152,7 +158,6 @@ header a {
 
 #index_right {
     margin-bottom: 150px;
-    margin-left: 5vw;
     margin-right: 10vw;
     padding: 0;
     width: 10vw;
@@ -160,6 +165,7 @@ header a {
 
 #index_right p {
     padding: 0;
+    transform: translate(10px, 30px);
 }
 
 .index_mitglieder_bild {
@@ -210,12 +216,15 @@ header a {
     border-radius: 35px;
     padding: 50px 20px;
     margin: 0px 100px;
-    margin-left: 250px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: center;
+
 }
 
 
-iframe{
-    padding-left: 200px;
+#portrait{
+    padding-left: 0px;
 }
 
 #video_title{
@@ -571,8 +580,31 @@ footer {
         margin: 0px 40px  ;
     }
 
+    /* Team ---------------------------------------------------------- */
      
+    .video{
+     background-color: var(--accent-color-2);
+    border-radius: 35px;
+    padding: 50px 20px;
+    margin: 20px 35px;
+    display: flex;
+    justify-content: center;
+    }
     
+    #portrait{
+        padding-left: 0px;
+        width: 400px;
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        position:relative;
+        text-align: center;
+        margin: 150px 0px 80px 0px;
+        z-index: 1;
+    }
+}
 
 /* FOOTER ---------------------------------------------------------- */
    
@@ -653,10 +685,4 @@ footer {
 
 
 
-  h4{ /* TODO: #5 Global (-> verschieben) oder site-related?*/
-   font-size: 4rem;
-   position:relative;
-   text-align: center;
-   margin: 150px 0px 80px 100px;
-   z-index: 1;
-  }
+ 

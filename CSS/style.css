@@ -323,29 +323,28 @@ transform: translateY(-20px);
 
 /* Registrieren.HTML ------------------------------------------------------- */
 
-/* #Lo_Gin {
+    #registrieren_n {
     display: flex;
     justify-content: space-between;
     width: 200px;
     margin: 0 auto;
     } 
     
-    #Lo_Gin p {
-        font-size: 4rem;
+    #registrieren_n p {
+        font-size: 3rem;
     }
     
-    #tonic {
+    #egroni {
         display: none;
-        transform: translateX(20px);
     }
     
-    #Lo_Gin:hover #lo {
+    #registrieren_n:hover #registriere {
         visibility: hidden;
     }
     
-    #Lo_Gin:hover #tonic {
+    #registrieren_n:hover #egroni {
     display: block;
-    } */
+    }
     
     #registrieren.html_main {
         display: flex;
@@ -420,7 +419,7 @@ transform: translateY(-20px);
         text-decoration: underline;
     }
     
-    #Bild_Gin {
+    #Bild_Negroni {
         height: 250px;
         width: auto;
         position: absolute;

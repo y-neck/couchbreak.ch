@@ -131,6 +131,7 @@ header a {
 
 #index_left {
     margin-top: 250px;
+    margin-right: 5%;
     width: 10vw;
 }
 
@@ -154,6 +155,7 @@ header a {
 
 #index_right {
     margin-bottom: 150px;
+    margin-left: 5%;
     width: 15vw;
 }
 
@@ -582,9 +584,9 @@ footer {
                 display: block;
     }
 
-  /* Team ---------------------------------------------------------- */
+/* Team ---------------------------------------------------------- */
      
-  .video{
+    .video{
     background-color: var(--accent-color-2);
    border-radius: 35px;
    padding: 50px 20px;
@@ -607,23 +609,14 @@ footer {
        margin: 150px 0px 80px 0px;
        z-index: 1;
    }
-
-}
-
-
-
-/* MOBIL 1000px */
-
-@media screen and (max-width: 1000px) {
-
+   
 /* INDEX ------------------------------------------------------------ */
-
-#index_right, #index_left {
-    display: none; /* hide left and right element */
+   
+   #index_right, #index_left {
+       display: none; /* hide left and right element */
+    }
+    
 }
-
-}
-
 
 /* MOBIL 800px */
 
@@ -638,7 +631,6 @@ footer {
         padding: 20px 35px;
     }
     
-
     .index_untertitel {
         justify-content: center;
         position: relative;
@@ -685,15 +677,16 @@ footer {
         margin: 0px 0px  ;
     }
 
-    /* Team ---------------------------------------------------------- */
-     
+
+/* Team ---------------------------------------------------------- */  
+
     .video{
-     background-color: var(--accent-color-2);
-    border-radius: 35px;
-    padding: 50px 20px;
-    margin: 20px 35px;
-    display: flex;
-    justify-content: center;
+        background-color: var(--accent-color-2);
+        border-radius: 35px;
+        padding: 50px 20px;
+        margin: 20px 35px;
+        display: flex;
+        justify-content: center;
     }
     
     #portrait{

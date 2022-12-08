@@ -435,10 +435,10 @@ footer {
 /* LOGIN ------------------------------------------------------------ */
     
     #Bild_Gin {
-      height: 90px;
-      width: auto;
-      top: 170px;
-      right: 10px;
+        height: 90px;
+        width: auto;
+        top: 170px;
+        right: 10px;
     }
     
 
@@ -471,7 +471,7 @@ footer {
     /* LOGIN --------------------------------------------------------- */
 
     #Lo_Gin p {
-    font-size: 2rem;
+        font-size: 2rem;
     }
 
     #Lo_Gin {
@@ -479,32 +479,32 @@ footer {
         justify-content: space-between;
         width: 100px;
         margin: 0 auto;
-        }
+    }
         
-        #Lo_Gin p {
-            font-size: 2rem;
-        }
+    #Lo_Gin p {
+        font-size: 2rem;
+    }
         
-        #tonic {
-            display: none;
-            transform: translateX(10px);
-        }
-        
-        #Lo_Gin:hover #lo {
-            visibility: hidden;
-        }
-        
-        #Lo_Gin:hover #tonic {
+    #tonic {
+        display: none;
+        transform: translateX(10px);
+    }
+    
+    #Lo_Gin:hover #lo {
+        visibility: hidden;
+    }
+    
+    #Lo_Gin:hover #tonic {
         display: block;
-        }
+    }
 
-        #pw_btn input {
-            width: 300px;
-        }
+    #pw_btn input {
+        width: 300px;
+    }
 
-        #login_btn_Matrikelnummer input {
-            width: 300px;
-        }        
+    #login_btn_Matrikelnummer input {
+        width: 300px;
+    }        
         
 }
 

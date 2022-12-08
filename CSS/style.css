@@ -97,7 +97,7 @@ header {
     flex-wrap: wrap;
 
     background-color: black;
-    padding: 25px 100px;
+    padding: 25px 10%;
 }
 
 header a {
@@ -123,7 +123,7 @@ header a {
     align-items: center;
     width: 80%;
 
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 80px;
     padding: 0;
 }
@@ -792,7 +792,7 @@ footer {
         }
         
 
-}
+
 
         #registrieren_n p {
             font-size: 2rem;

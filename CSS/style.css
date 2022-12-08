@@ -202,8 +202,7 @@ header a {
 }
 
 .mitglieder h3{
-    padding-left: 100px;
-    text-align: left;
+    text-align: center;
 }
 
 .video {
@@ -216,14 +215,14 @@ header a {
 
 
 #portrait {
-    padding:20px 30px ;
-    width: 80%;
+    padding:30px 80px ;
+    width: 100%;
     aspect-ratio: 16/9;
 
 }
 
 #video_portrait{
-    margin-left: 240px ;
+    text-align: center ;
 }
  
 

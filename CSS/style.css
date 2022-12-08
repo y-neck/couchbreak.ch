@@ -232,6 +232,32 @@ header a {
 }
 
 
+/* Event.HTML ------------------------------------------------------- */
+
+#filter {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+
+    padding: 10px 15px;
+}
+
+#filter-position {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+#Kartenansicht {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+
+    padding: 10px 15px;
+    transform: translate(0px, 0px);
+}
+
+
 /* LOGIN.HTML ------------------------------------------------------- */
 
  #Lo_Gin {

@@ -130,7 +130,6 @@ header a {
 #index_left {
     margin-top: 250px;
     margin-right: 5vw;
-    margin-left: 5vw;
     width: 10vw;
 }
 
@@ -158,14 +157,13 @@ header a {
 
 #index_right {
     margin-bottom: 150px;
-    margin-right: 10vw;
     padding: 0;
     width: 15vw;
 }
 
 #index_right p {
     padding: 0;
-    transform: translate(70px, 70px);
+    transform: translate(50px, 50px);
 }
 
 .index_mitglieder_bild {

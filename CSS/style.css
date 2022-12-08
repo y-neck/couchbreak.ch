@@ -461,8 +461,23 @@ footer {
         margin: 0px 40px  ;
     }
 
+    /* Team ---------------------------------------------------------- */
      
+    .video{
+     background-color: var(--accent-color-2);
+    border-radius: 35px;
+    padding: 50px 20px;
+    margin: 20px 35px;
+    display: flex;
+    justify-content: center;
+    }
     
+    iframe{
+        padding-left: 0px;
+        width: 400px;
+        height: 250px;
+    }
+}
 
 /* FOOTER ---------------------------------------------------------- */
    

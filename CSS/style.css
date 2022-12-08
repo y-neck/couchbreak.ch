@@ -210,12 +210,15 @@ header a {
     border-radius: 35px;
     padding: 50px 20px;
     margin: 0px 100px;
-    margin-left: 250px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: center;
+
 }
 
 
-iframe{
-    padding-left: 200px;
+#portrait{
+    padding-left: 0px;
 }
 
 #video_title{
@@ -583,7 +586,7 @@ footer {
     justify-content: center;
     }
     
-    iframe{
+    #portrait{
         padding-left: 0px;
         width: 400px;
         height: 250px;

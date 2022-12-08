@@ -155,13 +155,13 @@ header a {
 
 #index_right {
     margin-bottom: 150px;
-    margin-left: 5%;
+    margin-left: 2%;
     width: 15vw;
 }
 
 #index_right p {
     padding: 0;
-    transform: translate(30px, 50px);
+    transform: translate(10px, 70px);
 }
 
 .index_mitglieder_bild {

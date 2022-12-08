@@ -259,7 +259,8 @@ tr:not(:first-of-type):hover {
 
 
 
-.white_Box {
+tr:not(:first-of-type) {
+   height:50px;
     background-color: white;
     color: black;
     border-radius: 15px;
@@ -281,12 +282,14 @@ tr:not(:first-of-type):hover {
 
 table{
     border-collapse: collapse;
-    width: 100%;
+    width: 120%;
 }
 th{
-    text-align: left;
+    text-align: center;
 }
-
+td{
+    text-align: center;
+}
 tr{
     border-bottom: 1px solid black;
 }

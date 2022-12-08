@@ -360,10 +360,10 @@ display: block;
 /* Registrieren.HTML ------------------------------------------------------- */
 
 #registrieren_n {
-display: flex;
-justify-content: space-between;
-width: 200px;
-margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
 } 
 
 #registrieren_n p {

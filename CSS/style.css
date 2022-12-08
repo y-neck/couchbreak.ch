@@ -524,7 +524,43 @@ footer {
         
         #Lo_Gin:hover #tonic {
             display: block;
-}
+        }
+
+
+        #Bild_Negroni {
+            height: 150px;
+            width: auto;
+            top: 170px;
+            right: 20px;
+            }
+    
+            #registrieren_n p {
+                font-size: 3rem;
+            }
+        
+            #registrieren_n {
+                display: flex;
+                justify-content: space-between;
+                width: 100px;
+                margin: 0 auto;
+            }
+                
+            #registrieren_n p {
+                font-size: 3rem;
+            }
+                
+            #egroni {
+                display: none;
+                transform: translateX(20px);
+            }
+            
+            #Lo_Gin:hover #registriere {
+                visibility: hidden;
+            }
+            
+            #Lo_Gin:hover #egroni {
+                display: block;
+    }
 
   /* Team ---------------------------------------------------------- */
      
@@ -646,7 +682,7 @@ footer {
     #portrait_video{
         margin-left: 35px;
     }
-}
+
 
 /* FOOTER ---------------------------------------------------------- */
    
@@ -717,7 +753,41 @@ footer {
     #login_btn_Matrikelnummer input {
         width: 300px;
     }        
+     
+    #Bild_Negroni {
+        height: 120px;
+        width: auto;
+        top: 170px;
+        right: 10px;
+        }
+
+        #registrieren_n p {
+            font-size: 2rem;
+        }
+    
+        #registrieren_n {
+            display: flex;
+            justify-content: space-between;
+            width: 100px;
+            margin: 0 auto;
+        }
+            
+        #registrieren_n p {
+            font-size: 2rem;
+        }
+            
+        #egroni {
+            display: none;
+            transform: translateX(10px);
+        }
         
+        #Lo_Gin:hover #registriere {
+            visibility: hidden;
+        }
+        
+        #Lo_Gin:hover #egroni {
+            display: block;
+}
 }
 
 

@@ -202,8 +202,7 @@ header a {
 }
 
 .mitglieder h3{
-    padding-left: 100px;
-    text-align: left;
+    text-align: center;
 }
 
 .video {
@@ -216,18 +215,24 @@ header a {
 
 
 #portrait {
-    padding:20px 30px ;
-    width: 80%;
+    padding:30px 80px ;
+    width: 100%;
     aspect-ratio: 16/9;
 
 }
 
 #video_portrait{
-    margin-left: 240px ;
+    text-align: center ;
 }
  
 
 /* Event.HTML ------------------------------------------------------- */
+
+
+tbody tr:hover, tfoot tr:hover { 
+    background-color:#eabc3e;
+  }
+
 
 #filter {
     background-color: white;
@@ -240,7 +245,6 @@ header a {
 #filter-position {
     display: flex;
     justify-content: space-between;
-    margin: 0px 200px;
 }
 
 #Kartenansicht {
@@ -250,6 +254,27 @@ header a {
 
     padding: 10px 15px;
     transform: translate(0px, 0px);
+    
+}
+
+
+
+#white_Box {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+
+    padding: 10px 15px;
+    transform: translate(0px, 0px);
+}
+
+#oberste-zeile {
+    display: flex;
+    justify-content: space-between;
+}
+.Event {
+    display: flex;
+    justify-content: space-between;
 }
 
 

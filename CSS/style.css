@@ -134,7 +134,8 @@ header a {
 }
 
 #index_left p {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    transform: translate(10px, 30px);
 }
 
 #welcome-screen p {
@@ -142,8 +143,12 @@ header a {
     margin: 0px;
 }
 
-#index_right img {
-    transform: rotate(-0.25turn) scale(1, -1);
+#index_right lottie-player {
+    transform: rotate(0.1turn);
+}
+
+#index_left lottie-player {
+    transform: scale(-1, 1) rotate(0turn);
 }
 
 #index_middle {
@@ -152,7 +157,6 @@ header a {
 
 #index_right {
     margin-bottom: 150px;
-    margin-left: 5vw;
     margin-right: 10vw;
     padding: 0;
     width: 10vw;
@@ -160,6 +164,7 @@ header a {
 
 #index_right p {
     padding: 0;
+    transform: translate(10px, 30px);
 }
 
 .index_mitglieder_bild {

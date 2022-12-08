@@ -193,7 +193,7 @@ header a {
 
 .team_mitglieder_bild {
     height: 180px;
-    padding-left: 20px;  
+   
 }
 
 .profiles {
@@ -710,6 +710,13 @@ footer {
 
     #video_portrait{
         margin-left: 35px;
+    }
+
+    .profiles {
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+
     }
 
 

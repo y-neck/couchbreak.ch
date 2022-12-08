@@ -50,10 +50,10 @@ main {
 
 .fleck {
     max-width: none;
-    transform: translateY(-60px);
+    transform: translate(-30px, -60px);
     position: absolute;
     width: 20rem;
-    margin: 41px 0px 50px 70px;
+    margin: 41px 0px 50px 0px;
     z-index: 0;
 }
 
@@ -67,9 +67,9 @@ h1 {
 
 h2 {
     font-size: 2rem;
-   position: relative;
-   margin: 150px 0px 80px 100px;
-   z-index: 1;
+    position: relative;
+    margin: 150px 0px 80px 0px;
+    z-index: 1;
 }
 
 h3{
@@ -630,10 +630,9 @@ footer {
     }
     
     .fleck {
-        transform: translateY(-50px) translateX(30px);
+        transform: translateY(-50px);
         width: 15rem;
         margin: 41px 0px 0px 0px;
-        justify-content: center;
     }
     
     h2 {

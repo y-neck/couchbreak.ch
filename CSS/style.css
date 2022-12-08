@@ -268,10 +268,7 @@ tr:not(:first-of-type):hover {
     transform: translate(0px, 0px);
 }
 
-.event_list{
-    grid-template-columns: <5>;
-    grid-row: <10>;
-}
+
 #oberste-zeile {
     display: flex;
     justify-content: space-between;
@@ -834,7 +831,6 @@ footer {
         
         #Lo_Gin:hover #egroni {
             display: block;
-}
 }
 
 

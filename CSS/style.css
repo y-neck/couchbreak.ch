@@ -229,7 +229,7 @@ header a {
 /* Event.HTML ------------------------------------------------------- */
 
 
-tbody tr:hover, tfoot tr:hover { 
+tr:not(:first-of-type):hover { 
     background-color:#eabc3e;
   }
 
@@ -259,7 +259,8 @@ tbody tr:hover, tfoot tr:hover {
 
 
 
-#white_Box {
+tr:not(:first-of-type) {
+   height:50px;
     background-color: white;
     color: black;
     border-radius: 15px;
@@ -268,14 +269,36 @@ tbody tr:hover, tfoot tr:hover {
     transform: translate(0px, 0px);
 }
 
+
 #oberste-zeile {
     display: flex;
     justify-content: space-between;
 }
-.Event {
+.event {
     display: flex;
     justify-content: space-between;
 }
+
+
+table{
+    border-collapse: collapse;
+    width: 120%;
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+tr{
+    border-bottom: 1px solid black;
+}
+
+td,th{
+    padding: 15px 0;
+}
+
+
 
 
 /* LOGIN.HTML ------------------------------------------------------- */
@@ -811,7 +834,6 @@ footer {
         
         #Lo_Gin:hover #egroni {
             display: block;
-}
 }
 
 

@@ -57,8 +57,16 @@ main {
     z-index: 0;
 }
 
+h1 {
+    font-size: 4rem;
+    position:relative;
+    text-align: center;
+    margin: 150px 0px 80px 100px;
+    z-index: 1;
+}
+
 h2 {
-   font-size: 2rem;
+    font-size: 2rem;
    position: relative;
    margin: 150px 0px 80px 100px;
    z-index: 1;
@@ -73,13 +81,6 @@ h3{
     color: rgb(0, 0, 0);
 }
 
-h4 {
-    font-size: 4rem;
-    position:relative;
-    text-align: center;
-    margin: 150px 0px 80px 100px;
-    z-index: 1;
-}
  
 
 /* HEADER ----------------------------------------------------------- */
@@ -596,6 +597,14 @@ footer {
         width: 400px;
         height: 250px;
     }
+
+    h1 {
+        font-size: 4rem;
+        position:relative;
+        text-align: center;
+        margin: 150px 0px 80px 0px;
+        z-index: 1;
+    }
 }
 
 /* FOOTER ---------------------------------------------------------- */
@@ -677,10 +686,4 @@ footer {
 
 
 
-  h4{ /* TODO: #5 Global (-> verschieben) oder site-related?*/
-   font-size: 4rem;
-   position:relative;
-   text-align: center;
-   margin: 150px 0px 80px 100px;
-   z-index: 1;
-  }
+ 

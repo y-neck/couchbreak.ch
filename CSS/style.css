@@ -242,6 +242,19 @@ header a {
 
 /* EVENTS.HTML --------------------------------------------------------- */
 
+#Kartenansicht:hover { 
+    background-color:var(--accent-color-1);
+}
+
+#filter:hover { 
+    background-color:var(--accent-color-1);
+}
+
+#login:hover { 
+    background-color:var(--accent-color-1);
+}
+
+
 tr:not(:first-of-type):hover { 
     background-color:var(--accent-color-1);
 }
@@ -258,7 +271,27 @@ tr:not(:first-of-type):hover {
     display: flex;
     justify-content: space-between;
 }
-
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content p:hover{
+  background-color:var(--accent-color-1);}
 #Kartenansicht {
     background-color: white;
     color: black;

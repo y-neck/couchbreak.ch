@@ -276,27 +276,29 @@ tr:not(:first-of-type) {
     transform: translate(0px, 0px);
 }
 
-
 #oberste-zeile {
     display: flex;
     justify-content: space-between;
 }
+
 .event {
     display: flex;
     justify-content: space-between;
 }
 
-
 table{
     border-collapse: collapse;
     width: 120%;
 }
+
 th{
     text-align: center;
 }
+
 td{
     text-align: center;
 }
+
 tr{
     border-bottom: 1px solid black;
 }

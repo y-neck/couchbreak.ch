@@ -714,7 +714,7 @@ footer {
     /* Team ---------------------------------------------------------- */
     
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         position:relative;
         text-align: center;
         margin: 150px 0px 80px 0px;
@@ -727,7 +727,6 @@ footer {
         flex-wrap: wrap;
 
     }
-
     
     
     #portrait {

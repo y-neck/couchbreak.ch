@@ -58,6 +58,15 @@ main {
     z-index: 0; /* set img behind title */
 }
 
+.fleck_gross {
+    max-width: none;    /* reset width */
+    transform: translate(-30px, -60px);
+    position: absolute;
+    width: 20rem;
+   /*  margin: 41px 0px 50px 0px; */
+    z-index: 0; /* set img behind title */
+}
+
 h1 {
     font-size: 4rem;
     position: relative;
@@ -82,7 +91,7 @@ h3 {
 
 #logo-header {
     max-width: 200px;
-    max-height: auto;
+    height: auto;
 }
 
 header {
@@ -128,7 +137,7 @@ header a {
     padding: 0;
 }
 
-#welcome-screen p {
+#welcome-screen .cta {
     font-size: 1.6rem;
     margin: 0px;
 }
@@ -139,7 +148,7 @@ header a {
     width: 10vw;
 }
 
-#index_left p {
+#index_left .cta {
     padding-bottom: 0px;
     transform: translate(10px, 30px);
 }
@@ -154,7 +163,7 @@ header a {
     width: 15vw;
 }
 
-#index_right p {
+#index_right .cta {
     padding: 0;
     transform: translate(10px, 70px);
 }
@@ -478,7 +487,6 @@ td,th {
     /* reset button */
     border: none;
     background-color: transparent;
-    position: center;
     font-size: 3rem
 }
 
@@ -591,7 +599,6 @@ td,th {
     /* reset button */
     border: none;
     background-color: transparent;
-    position: center;
     font-size: 3rem
 }
 
@@ -619,12 +626,35 @@ td,th {
 
 /* KONTAKT&IMPRESSUM.HTML ---------------------------------------------- */
 
+#kontaktdaten{
+    position: relative;
+    z-index: 1;
+}
+
+#unternehmen_info{
+    display: flex;
+    justify-content:space-between;
+}
+
+#unternehmen_beschrieb{
+    width: 60%;
+}
+
+#unternehmen_kontakt{
+   width: 30%;
+   display: flex;
+   justify-content: center;
+}
+
+#kontaktdaten{
+    transform: translate(-20px, 10px);
+}
 
 /* FOOTER -------------------------------------------------------------- */
 
 .socialmedia img {
     width: 50px;
-    max-height: auto;
+    height: auto;
     margin-right: 40px;
 }
 
@@ -790,7 +820,7 @@ footer {
 
     #logo-header {
         max-width: 220px;
-        max-height: auto;
+        height: auto;
         justify-content: center;
         margin-bottom: 15px;
     }
@@ -935,6 +965,15 @@ footer {
     
     #Lo_Gin:hover #egroni {
         display: block;
+    }
+
+    #unternehmen_info {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #unternehmen_kontakt {
+        margin: 80px;
     }
 
 }

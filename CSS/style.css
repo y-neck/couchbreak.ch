@@ -38,7 +38,7 @@ main {
     padding-inline: 10%;
 }
 
-.fliesstext{
+.fliesstext {
     background-color: var(--accent-color-2);
     border-radius: 35px;
     padding: 30px 80px;
@@ -72,7 +72,7 @@ h2 {
     z-index: 1;
 }
 
-h3{
+h3 { 
     font-family: 'Quicksand', sans-serif;
     font-weight: normal; /* Thickness */
     font-size: 1.5rem;
@@ -209,7 +209,7 @@ header a {
     margin-bottom: 100px;
 }
 
-.mitglieder h3{
+.mitglieder h3 {
     text-align: center;
 }
 
@@ -229,7 +229,7 @@ header a {
 
 }
 
-#video_portrait{
+#video_portrait {
     text-align: center ;
 }
  
@@ -239,7 +239,7 @@ header a {
 
 tr:not(:first-of-type):hover { 
     background-color:#eabc3e;
-  }
+}
 
 
 #filter {
@@ -262,7 +262,6 @@ tr:not(:first-of-type):hover {
 
     padding: 10px 15px;
     transform: translate(0px, 0px);
-    
 }
 
 
@@ -277,45 +276,45 @@ tr:not(:first-of-type) {
     transform: translate(0px, 0px);
 }
 
-
 #oberste-zeile {
     display: flex;
     justify-content: space-between;
 }
+
 .event {
     display: flex;
     justify-content: space-between;
 }
 
-
-table{
+table {
     border-collapse: collapse;
     width: 120%;
 }
-th{
+
+th {
     text-align: center;
 }
-td{
+
+td {
     text-align: center;
 }
-tr{
+
+tr {
     border-bottom: 1px solid black;
 }
 
-td,th{
+td,th {
     padding: 15px 0;
 }
-
-
 
 
 /* LOGIN.HTML ------------------------------------------------------- */
 
  #Lo_Gin {
-display: flex;
-justify-content: space-between;
-width: 200px;
-margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
 }
 
 #Lo_Gin p {
@@ -332,7 +331,7 @@ margin: 0 auto;
 }
 
 #Lo_Gin:hover #tonic {
-display: block;
+    display: block;
 }
 
 #login.html_main {
@@ -357,10 +356,10 @@ display: block;
 #password {
     text-align: center;
 }
+
 #text {
     text-align: center;
 }
-
 
 #login_btn_Matrikelnummer input {
     width: 500px;
@@ -374,7 +373,6 @@ display: block;
 #login_form input {
     border: 1px black solid;
     border-radius: 15px;
-
 }
 
 
@@ -567,87 +565,88 @@ footer {
 /* MOBIL 1100px */
 
 @media screen and (max-width: 1100px) {
+
     #Bild_Gin {
         height: 150px;
         width: auto;
         top: 170px;
         right: 20px;
-        }
-
-        #Lo_Gin p {
-            font-size: 3rem;
-        }
-    
-        #Lo_Gin {
-            display: flex;
-            justify-content: space-between;
-            width: 100px;
-            margin: 0 auto;
-        }
-            
-        #Lo_Gin p {
-            font-size: 3rem;
-        }
-            
-        #tonic {
-            display: none;
-            transform: translateX(20px);
-        }
-        
-        #Lo_Gin:hover #lo {
-            visibility: hidden;
-        }
-        
-        #Lo_Gin:hover #tonic {
-            display: block;
-        }
-
-
-        #Bild_Negroni {
-            height: 150px;
-            width: auto;
-            top: 170px;
-            right: 20px;
-            }
-    
-            #registrieren_n p {
-                font-size: 3rem;
-            }
-        
-            #registrieren_n {
-                display: flex;
-                justify-content: space-between;
-                width: 100px;
-                margin: 0 auto;
-            }
-                
-            #registrieren_n p {
-                font-size: 3rem;
-            }
-                
-            #egroni {
-                display: none;
-                transform: translateX(20px);
-            }
-            
-            #Lo_Gin:hover #registriere {
-                visibility: hidden;
-            }
-            
-            #Lo_Gin:hover #egroni {
-                display: block;
     }
 
-  /* Team ---------------------------------------------------------- */
+    #Lo_Gin p {
+        font-size: 3rem;
+    }
+
+    #Lo_Gin {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin: 0 auto;
+    }
+        
+    #Lo_Gin p {
+        font-size: 3rem;
+    }
+        
+    #tonic {
+        display: none;
+        transform: translateX(20px);
+    }
+    
+    #Lo_Gin:hover #lo {
+        visibility: hidden;
+    }
+    
+    #Lo_Gin:hover #tonic {
+        display: block;
+    }
+
+    #Bild_Negroni {
+        height: 150px;
+        width: auto;
+        top: 170px;
+        right: 20px;
+    }
+
+    #registrieren_n p {
+        font-size: 3rem;
+    }
+
+    #registrieren_n {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin: 0 auto;
+    }
+        
+    #registrieren_n p {
+        font-size: 3rem;
+    }
+        
+    #egroni {
+        display: none;
+        transform: translateX(20px);
+    }
+    
+    #Lo_Gin:hover #registriere {
+        visibility: hidden;
+    }
+    
+    #Lo_Gin:hover #egroni {
+        display: block;
+    }   
+
+
+/* Team ---------------------------------------------------------- */
    
-    #portrait{
+    #portrait {
         padding: 20px 35px;
     }
    
 /* INDEX ------------------------------------------------------------ */
    
-   #index_right, #index_left {
-       display: none; /* hide left and right element */
+    #index_right, #index_left {
+        display: none; /* hide left and right element */
     }
     
 }
@@ -655,7 +654,7 @@ footer {
 /* MOBIL 800px */
 
 @media screen and (max-width: 800px) {
-
+    
     main {
         padding-inline: 10%;
     }
@@ -692,7 +691,6 @@ footer {
 
     header {
         justify-content: space-evenly;
-
         padding: 25px 0%;
     }
 
@@ -710,8 +708,8 @@ footer {
     .index_mitglieder_bild {
         margin: 0px 0px  ;
     }
-    
-    /* Team ---------------------------------------------------------- */
+
+/* Team ---------------------------------------------------------- */
     
     h1 {
         font-size: 3rem;
@@ -728,11 +726,9 @@ footer {
 
     }
     
-    
     #portrait {
         padding:25px 30px ;
     }
-
 
 
 /* FOOTER ---------------------------------------------------------- */
@@ -762,11 +758,12 @@ footer {
     }
 
 /* LOGIN --------------------------------------------------------- */
+
     #Bild_Gin {
-    height: 120px;
-    width: auto;
-    top: 170px;
-    right: 10px;
+        height: 120px;
+        width: auto;
+        top: 170px;
+        right: 10px;
     }
 
     #Lo_Gin p {
@@ -810,38 +807,35 @@ footer {
         width: auto;
         top: 170px;
         right: 10px;
-        }
-        
-
-
-
-        #registrieren_n p {
-            font-size: 2rem;
-        }
+    }
     
-        #registrieren_n {
-            display: flex;
-            justify-content: space-between;
-            width: 100px;
-            margin: 0 auto;
-        }
-            
-        #registrieren_n p {
-            font-size: 2rem;
-        }
-            
-        #egroni {
-            display: none;
-            transform: translateX(10px);
-        }
+    #registrieren_n p {
+        font-size: 2rem;
+    }
+
+    #registrieren_n {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin: 0 auto;
+    }
         
-        #Lo_Gin:hover #registriere {
-            visibility: hidden;
-        }
+    #registrieren_n p {
+        font-size: 2rem;
+    }
         
-        #Lo_Gin:hover #egroni {
-            display: block;
-        }
+    #egroni {
+        display: none;
+        transform: translateX(10px);
+    }
+    
+    #Lo_Gin:hover #registriere {
+        visibility: hidden;
+    }
+    
+    #Lo_Gin:hover #egroni {
+        display: block;
+    }
 
 }
 

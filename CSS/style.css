@@ -567,11 +567,11 @@ footer {
 /* MOBIL 1100px */
 
 @media screen and (max-width: 1100px) {
-    #Bild_Gin {
-        height: 150px;
-        width: auto;
-        top: 170px;
-        right: 20px;
+        #Bild_Gin {
+            height: 150px;
+            width: auto;
+            top: 170px;
+            right: 20px;
         }
 
         #Lo_Gin p {
@@ -602,7 +602,6 @@ footer {
             display: block;
         }
 
-
         #Bild_Negroni {
             height: 150px;
             width: auto;
@@ -610,35 +609,35 @@ footer {
             right: 20px;
             }
     
-            #registrieren_n p {
-                font-size: 3rem;
-            }
+        #registrieren_n p {
+            font-size: 3rem;
+        }
+    
+        #registrieren_n {
+            display: flex;
+            justify-content: space-between;
+            width: 100px;
+            margin: 0 auto;
+        }
+            
+        #registrieren_n p {
+            font-size: 3rem;
+        }
+            
+        #egroni {
+            display: none;
+            transform: translateX(20px);
+        }
         
-            #registrieren_n {
-                display: flex;
-                justify-content: space-between;
-                width: 100px;
-                margin: 0 auto;
-            }
-                
-            #registrieren_n p {
-                font-size: 3rem;
-            }
-                
-            #egroni {
-                display: none;
-                transform: translateX(20px);
-            }
-            
-            #Lo_Gin:hover #registriere {
-                visibility: hidden;
-            }
-            
-            #Lo_Gin:hover #egroni {
-                display: block;
+        #Lo_Gin:hover #registriere {
+            visibility: hidden;
+        }
+        
+        #Lo_Gin:hover #egroni {
+            display: block;
     }
 
-  /* Team ---------------------------------------------------------- */
+/* Team ---------------------------------------------------------- */
    
     #portrait{
         padding: 20px 35px;
@@ -646,8 +645,8 @@ footer {
    
 /* INDEX ------------------------------------------------------------ */
    
-   #index_right, #index_left {
-       display: none; /* hide left and right element */
+    #index_right, #index_left {
+        display: none; /* hide left and right element */
     }
     
 }
@@ -692,7 +691,6 @@ footer {
 
     header {
         justify-content: space-evenly;
-
         padding: 25px 0%;
     }
 

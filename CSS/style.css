@@ -732,7 +732,7 @@ footer {
     
     #portrait {
         padding:25px 30px ;
-
+    }
 
 
 
@@ -842,10 +842,9 @@ footer {
         
         #Lo_Gin:hover #egroni {
             display: block;
+        }
+
 }
-
-
-
 
 
 

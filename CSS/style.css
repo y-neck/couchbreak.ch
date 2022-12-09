@@ -131,7 +131,7 @@ header a {
 
 #index_left {
     margin-top: 250px;
-    margin-right: 5%;
+    margin-right: 2%;
     width: 10vw;
 }
 
@@ -151,6 +151,14 @@ header a {
 
 #index_left lottie-player {
     transform: scale(-1, 1) rotate(0turn);
+}
+
+#index_middle {
+    width: 100%;
+}
+
+#index_middle img {
+    width: 100%;
 }
 
 #index_right {

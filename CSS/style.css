@@ -58,6 +58,15 @@ main {
     z-index: 0; /* set img behind title */
 }
 
+.fleck_gross {
+    max-width: none;    /* reset width */
+    transform: translate(-30px, -60px);
+    position: absolute;
+    width: 20rem;
+   /*  margin: 41px 0px 50px 0px; */
+    z-index: 0; /* set img behind title */
+}
+
 h1 {
     font-size: 4rem;
     position: relative;
@@ -556,7 +565,29 @@ td,th {
 
 /* KONTAKT&IMPRESSUM.HTML ---------------------------------------------- */
 
+#kontaktdaten{
+    position: relative;
+    z-index: 1;
+}
 
+#unternehmen_info{
+    display: flex;
+    justify-content:space-between;
+}
+
+#unternehmen_beschrieb{
+    width: 60%;
+}
+
+#unternehmen_kontakt{
+   width: 30%;
+   display: flex;
+   justify-content: center;
+}
+
+#kontaktdaten{
+    transform: translate(-20px, 10px);
+}
 
 /* FOOTER -------------------------------------------------------------- */
 
@@ -866,6 +897,15 @@ footer {
     
     #Lo_Gin:hover #egroni {
         display: block;
+    }
+
+    #unternehmen_info {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #unternehmen_kontakt {
+        margin: 80px;
     }
 
 }

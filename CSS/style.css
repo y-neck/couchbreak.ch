@@ -710,8 +710,8 @@ footer {
     .index_mitglieder_bild {
         margin: 0px 0px  ;
     }
-    
-    /* Team ---------------------------------------------------------- */
+
+/* Team ---------------------------------------------------------- */
     
     h1 {
         font-size: 4rem;
@@ -727,13 +727,10 @@ footer {
         flex-wrap: wrap;
 
     }
-
-    
     
     #portrait {
         padding:25px 30px ;
     }
-
 
 
 /* FOOTER ---------------------------------------------------------- */
@@ -763,11 +760,12 @@ footer {
     }
 
 /* LOGIN --------------------------------------------------------- */
+
     #Bild_Gin {
-    height: 120px;
-    width: auto;
-    top: 170px;
-    right: 10px;
+        height: 120px;
+        width: auto;
+        top: 170px;
+        right: 10px;
     }
 
     #Lo_Gin p {
@@ -811,38 +809,35 @@ footer {
         width: auto;
         top: 170px;
         right: 10px;
-        }
-        
-
-
-
-        #registrieren_n p {
-            font-size: 2rem;
-        }
+    }
     
-        #registrieren_n {
-            display: flex;
-            justify-content: space-between;
-            width: 100px;
-            margin: 0 auto;
-        }
-            
-        #registrieren_n p {
-            font-size: 2rem;
-        }
-            
-        #egroni {
-            display: none;
-            transform: translateX(10px);
-        }
+    #registrieren_n p {
+        font-size: 2rem;
+    }
+
+    #registrieren_n {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin: 0 auto;
+    }
         
-        #Lo_Gin:hover #registriere {
-            visibility: hidden;
-        }
+    #registrieren_n p {
+        font-size: 2rem;
+    }
         
-        #Lo_Gin:hover #egroni {
-            display: block;
-        }
+    #egroni {
+        display: none;
+        transform: translateX(10px);
+    }
+    
+    #Lo_Gin:hover #registriere {
+        visibility: hidden;
+    }
+    
+    #Lo_Gin:hover #egroni {
+        display: block;
+    }
 
 }
 

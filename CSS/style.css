@@ -62,7 +62,6 @@ h1 {
     position: relative;
     text-align: center;
     margin: 150px 0px 80px 100px;
-    z-index: 1; /* set text before img */
 }
 
 h2 {

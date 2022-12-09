@@ -232,7 +232,6 @@ header a {
     padding:30px 80px ;
     width: 100%;
     aspect-ratio: 16/9;
-
 }
 
 #video_portrait {
@@ -242,11 +241,9 @@ header a {
 
 /* EVENTS.HTML --------------------------------------------------------- */
 
-
 tr:not(:first-of-type):hover { 
     background-color:#eabc3e;
 }
-
 
 #filter {
     background-color: white;
@@ -492,7 +489,6 @@ td,th {
 #login_form input {
     border: 1px black solid;
     border-radius: 15px;
-
 }
 
 
@@ -543,11 +539,11 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: black;
-    padding: 25px 10%;
+    padding: 25px 10%;  /* 10% padding left and right */
     position: relative;
-    bottom: 0px;
     margin-top: 25px;
 
+    bottom: 0px;    /* fix to end of page */
     flex-shrink: 0; /* forces footer to end of page */
 }
 
@@ -555,6 +551,7 @@ footer {
     display: flex;
     align-items: center;
 }
+
 .footer-nav a, .footer-nav p {
     color: white;
     margin: 10px;
@@ -662,7 +659,7 @@ footer {
 @media screen and (max-width: 800px) {
     
     main {
-        padding-inline: 10%;
+        padding-inline: 10%;    /* left and right padding on all pages */
     }
 
     .fliesstext{
@@ -678,7 +675,7 @@ footer {
     .fleck {
         width: 15rem;
         transform: translate(0px, -50px);
-        margin-left: calc(calc(100% - 15rem) / 2);     
+        margin-left: calc(calc(100% - 15rem) / 2);  /* center img */
     }
     
     h2 {
@@ -693,15 +690,16 @@ footer {
         max-width: 220px;
         max-height: auto;
         justify-content: center;
+        margin-bottom: 15px;
     }
 
     header {
-        justify-content: space-evenly;
-        padding: 25px 0%;
+        justify-content: center;
+        padding: 25px 10% 35px;  /* padding 10% left and right */
     }
 
     header a {
-        margin: 10px;
+        margin: 5px;
     }
 
 /* INDEX --------------------------------------------------------------- */
@@ -750,13 +748,7 @@ footer {
     }
 
     footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        padding: 25px 40px;
-        bottom: 0px;
-        margin-top: 25px;
+        justify-content: space-between;
     }
 
     .socialmedia img {

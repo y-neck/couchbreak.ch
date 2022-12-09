@@ -242,7 +242,7 @@ header a {
 /* EVENTS.HTML --------------------------------------------------------- */
 
 tr:not(:first-of-type):hover { 
-    background-color:#eabc3e;
+    background-color:var(--accent-color-1);
 }
 
 #filter {

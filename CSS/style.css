@@ -49,7 +49,7 @@ main {
 }
 
 .fleck {
-    max-width: none;
+    max-width: none;    /* reset width */
     transform: translate(-30px, -60px);
     position: absolute;
     width: 20rem;
@@ -68,16 +68,16 @@ h2 {
     font-size: 2rem;
     position: relative;
     margin: 150px 0px 80px 0px;
-    z-index: 1; /* set text befor img */
+    z-index: 1; /* set text before img */
 }
 
 h3 { 
     font-size: 1.5rem;
 }
 
- 
 
-/* HEADER ----------------------------------------------------------- */
+
+/* HEADER -------------------------------------------------------------- */
 
 #logo-header {
     max-width: 200px;
@@ -91,7 +91,7 @@ header {
     flex-wrap: wrap;
 
     background-color: black;
-    padding: 25px 10%;
+    padding: 25px 10%;  /* padding 10% left and right */
 }
 
 header a {
@@ -99,7 +99,7 @@ header a {
     margin: 10px;
 }
 
-#nav-login {
+#nav-login {    /* Button */
     background-color: white;
     color: black;
     border-radius: 15px;
@@ -108,10 +108,11 @@ header a {
 }
 
 
-/* INDEX.HTML ------------------------------------------------------- */
+/* INDEX.HTML ---------------------------------------------------------- */
 
+/* Welcome Screen */
 #welcome-screen {
-    margin: 0 auto;
+    margin: 0 auto; /* centers container */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,6 +122,11 @@ header a {
     margin-top: 50px;
     margin-bottom: 80px;
     padding: 0;
+}
+
+#welcome-screen p {
+    font-size: 1.6rem;
+    margin: 0px;
 }
 
 #index_left {
@@ -134,25 +140,8 @@ header a {
     transform: translate(10px, 30px);
 }
 
-#welcome-screen p {
-    font-size: 1.6rem;
-    margin: 0px;
-}
-
-#index_right lottie-player {
-    transform: scale(0.8) rotate(0.1turn);
-}
-
 #index_left lottie-player {
     transform: scale(-1, 1) rotate(0turn);
-}
-
-#index_middle {
-    width: 100%;
-}
-
-#index_middle img {
-    width: 100%;
 }
 
 #index_right {
@@ -166,6 +155,19 @@ header a {
     transform: translate(10px, 70px);
 }
 
+#index_right lottie-player {
+    transform: scale(0.8) rotate(0.1turn);
+}
+
+#index_middle {
+    width: 100%;
+}
+
+#index_middle img {
+    width: 100%;
+}
+
+/* Mitglieder Bilder */
 .index_mitglieder_bild {
     display: flex;
     flex-wrap: wrap;
@@ -188,11 +190,11 @@ header a {
 
 
 
-/* TEAM.HTML ------------------------------------------------------- */
+/* TEAM.HTML ----------------------------------------------------------- */
 
 .team_mitglieder_bild {
     height: 180px;
-   padding-right: 30px;
+    padding-right: 30px;
 }
 
 .profiles {
@@ -205,12 +207,12 @@ header a {
 }
 
 
+
 .video {
     background-color: var(--accent-color-2);
     border-radius: 35px;
     display: flex;
     justify-content: center;
-
 }
 
 #portrait {
@@ -225,7 +227,7 @@ header a {
 }
  
 
-/* Event.HTML ------------------------------------------------------- */
+/* EVENTS.HTML --------------------------------------------------------- */
 
 
 tr:not(:first-of-type):hover { 
@@ -299,7 +301,7 @@ td,th {
 }
 
 
-/* LOGIN.HTML ------------------------------------------------------- */
+/* LOGIN.HTML ---------------------------------------------------------- */
 
  #Lo_Gin {
     display: flex;
@@ -400,7 +402,7 @@ td,th {
     margin: 0;
 }
 
-/* Registrieren.HTML ------------------------------------------------------- */
+/* REGISTRIEREN.HTML --------------------------------------------------- */
 
 #registrieren_n {
     display: flex;
@@ -511,10 +513,10 @@ td,th {
 }
 
 
-/* Kontakt.HTML ---------------------------------------------------------- */
+/* KONTAKT&IMPRESSUM.HTML ---------------------------------------------- */
 
 
-/* Footer ----------------------------------------------------------- */
+/* FOOTER -------------------------------------------------------------- */
 
 .socialmedia img {
     width: 50px;
@@ -551,7 +553,7 @@ footer {
 
 
 
-/* MEDIA QUERIES ---------------------------------------------------- */
+/* MEDIA QUERIES ------------------------------------------------------- */
 
 /* MOBIL 1100px */
 
@@ -628,13 +630,13 @@ footer {
     }   
 
 
-/* Team ---------------------------------------------------------- */
+/* TEAM ---------------------------------------------------------------- */
    
     #portrait {
         padding: 20px 35px;
     }
    
-/* INDEX ------------------------------------------------------------ */
+/* INDEX --------------------------------------------------------------- */
    
     #index_right, #index_left {
         display: none; /* hide left and right element */
@@ -672,7 +674,7 @@ footer {
        text-align: center;
     }
 
- /* HEADER ---------------------------------------------------------- */
+ /* HEADER -------------------------------------------------------------- */
 
     #logo-header {
         max-width: 220px;
@@ -689,7 +691,7 @@ footer {
         margin: 10px;
     }
 
-/* INDEX ------------------------------------------------------------ */
+/* INDEX --------------------------------------------------------------- */
 
     .index_mitglieder_bild img {
         height: 60px;
@@ -700,7 +702,7 @@ footer {
         margin: 0px 0px  ;
     }
 
-/* Team ---------------------------------------------------------- */
+/* TEAM ---------------------------------------------------------------- */
     
     h1 {
         font-size: 3rem;
@@ -722,7 +724,7 @@ footer {
     }
 
 
-/* FOOTER ---------------------------------------------------------- */
+/* FOOTER -------------------------------------------------------------- */
    
     .footer-nav {
         display: flex;
@@ -748,7 +750,7 @@ footer {
         margin-inline: 10px;
     }
 
-/* LOGIN --------------------------------------------------------- */
+/* LOGIN --------------------------------------------------------------- */
 
     #Bild_Gin {
         height: 120px;

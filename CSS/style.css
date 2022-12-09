@@ -42,6 +42,9 @@ main {
     background-color: var(--accent-color-2);    /* box color */
     border-radius: 35px;    /* round corners */
     padding: 30px 80px; /* padding to border of box */
+    grid-area: fliesstext;
+    grid-column: 2 / span 3;
+    grid-row: 2;
 }
 
 .fliesstext a {
@@ -195,18 +198,28 @@ header a {
 .team_mitglieder_bild {
     height: 180px;
     padding-right: 30px;
+    grid-area: bild;
 }
 
 .profiles {
-
     margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2;
+    grid-template-areas: 
+        "h3 h3 h3 h3"
+        "bild fliesstext fliesstext fliesstext";
 }
 
 .mitglieder{
     text-align: center;
 }
 
-
+.name{
+    grid-area: h3;
+    grid-column: 1/span 4;
+    grid-row: first-line/ 2;
+}
 
 .video {
     background-color: var(--accent-color-2);

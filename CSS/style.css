@@ -286,24 +286,24 @@ tr:not(:first-of-type) {
     justify-content: space-between;
 }
 
-table{
+table {
     border-collapse: collapse;
     width: 120%;
 }
 
-th{
+th {
     text-align: center;
 }
 
-td{
+td {
     text-align: center;
 }
 
-tr{
+tr {
     border-bottom: 1px solid black;
 }
 
-td,th{
+td,th {
     padding: 15px 0;
 }
 

@@ -128,7 +128,7 @@ header a {
     padding: 0;
 }
 
-#welcome-screen p {
+#welcome-screen .cta {
     font-size: 1.6rem;
     margin: 0px;
 }
@@ -139,7 +139,7 @@ header a {
     width: 10vw;
 }
 
-#index_left p {
+#index_left .cta {
     padding-bottom: 0px;
     transform: translate(10px, 30px);
 }
@@ -154,7 +154,7 @@ header a {
     width: 15vw;
 }
 
-#index_right p {
+#index_right .cta {
     padding: 0;
     transform: translate(10px, 70px);
 }

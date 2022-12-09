@@ -82,7 +82,7 @@ h3 {
 
 #logo-header {
     max-width: 200px;
-    max-height: auto;
+    height: auto;
 }
 
 header {
@@ -417,7 +417,6 @@ td,th {
     /* reset button */
     border: none;
     background-color: transparent;
-    position: center;
     font-size: 3rem
 }
 
@@ -530,7 +529,6 @@ td,th {
     /* reset button */
     border: none;
     background-color: transparent;
-    position: center;
     font-size: 3rem
 }
 
@@ -563,7 +561,7 @@ td,th {
 
 .socialmedia img {
     width: 50px;
-    max-height: auto;
+    height: auto;
     margin-right: 40px;
 }
 
@@ -722,7 +720,7 @@ footer {
 
     #logo-header {
         max-width: 220px;
-        max-height: auto;
+        height: auto;
         justify-content: center;
         margin-bottom: 15px;
     }

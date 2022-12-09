@@ -72,7 +72,7 @@ h2 {
     z-index: 1;
 }
 
-h3{
+h3 { 
     font-family: 'Quicksand', sans-serif;
     font-weight: normal; /* Thickness */
     font-size: 1.5rem;
@@ -239,7 +239,7 @@ header a {
 
 tr:not(:first-of-type):hover { 
     background-color:#eabc3e;
-  }
+}
 
 
 #filter {
@@ -262,7 +262,6 @@ tr:not(:first-of-type):hover {
 
     padding: 10px 15px;
     transform: translate(0px, 0px);
-    
 }
 
 
@@ -307,15 +306,13 @@ td,th{
 }
 
 
-
-
 /* LOGIN.HTML ------------------------------------------------------- */
 
  #Lo_Gin {
-display: flex;
-justify-content: space-between;
-width: 200px;
-margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
 }
 
 #Lo_Gin p {
@@ -332,7 +329,7 @@ margin: 0 auto;
 }
 
 #Lo_Gin:hover #tonic {
-display: block;
+    display: block;
 }
 
 #login.html_main {
@@ -357,10 +354,10 @@ display: block;
 #password {
     text-align: center;
 }
+
 #text {
     text-align: center;
 }
-
 
 #login_btn_Matrikelnummer input {
     width: 500px;
@@ -374,7 +371,6 @@ display: block;
 #login_form input {
     border: 1px black solid;
     border-radius: 15px;
-
 }
 
 

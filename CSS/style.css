@@ -237,7 +237,7 @@ header a {
 /* Event.HTML ------------------------------------------------------- */
 
 
-tbody tr:hover, tfoot tr:hover { 
+tr:not(:first-of-type):hover { 
     background-color:#eabc3e;
   }
 
@@ -267,7 +267,8 @@ tbody tr:hover, tfoot tr:hover {
 
 
 
-#white_Box {
+tr:not(:first-of-type) {
+   height:50px;
     background-color: white;
     color: black;
     border-radius: 15px;
@@ -276,14 +277,36 @@ tbody tr:hover, tfoot tr:hover {
     transform: translate(0px, 0px);
 }
 
+
 #oberste-zeile {
     display: flex;
     justify-content: space-between;
 }
-.Event {
+.event {
     display: flex;
     justify-content: space-between;
 }
+
+
+table{
+    border-collapse: collapse;
+    width: 120%;
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+tr{
+    border-bottom: 1px solid black;
+}
+
+td,th{
+    padding: 15px 0;
+}
+
+
 
 
 /* LOGIN.HTML ------------------------------------------------------- */
@@ -698,11 +721,6 @@ footer {
         z-index: 1;
     }
 
-    .mitglieder h3{
-        padding-left: 0px;
-        text-align:center;
-    }
-
     .profiles {
         display: flex;
         flex-direction:column;
@@ -711,33 +729,11 @@ footer {
     }
 
     
-    .team_mitglieder_bild {
-       padding-right: 0px;
-    }
     
-    .video{
-        background-color: var(--accent-color-2);
-        border-radius: 35px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin:0 auto;
-    }
-    
-    #portrait iframe {
-        padding-left: 0px; /* overwrite padding-left */
-        margin: 0; /* overwrite margin */
-        width: 100%;
-        height: auto;
-
-    }
+    #portrait {
+        padding:25px 30px ;
 
 
-    #video_portrait{
-        text-align: center;
-        margin-left: 0px; /* overwrite margin-left */
-    }
 
 
 /* FOOTER ---------------------------------------------------------- */
@@ -846,7 +842,6 @@ footer {
         
         #Lo_Gin:hover #egroni {
             display: block;
-}
 }
 
 

@@ -208,17 +208,17 @@ header a {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
-        "h3 h3 h3 h3"
+        "name name name name"
         "bild fliesstext fliesstext fliesstext";
 }
 
-.lorem{
+.beschrieb{
     grid-area: fliesstext;
 }
 
 .mitglieder{
     text-align: center;
-    grid-area: h3;
+    grid-area: name;
 }
 
 

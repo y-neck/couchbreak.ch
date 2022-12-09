@@ -683,15 +683,16 @@ footer {
         max-width: 220px;
         max-height: auto;
         justify-content: center;
+        margin-bottom: 15px;
     }
 
     header {
-        justify-content: space-evenly;
-        padding: 25px 0%;
+        justify-content: center;
+        padding: 25px 10% 35px;  /* padding 10% left and right */
     }
 
     header a {
-        margin: 10px;
+        margin: 5px;
     }
 
 /* INDEX --------------------------------------------------------------- */
@@ -744,7 +745,7 @@ footer {
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        padding: 25px 40px;
+        padding: 25px 10%;
         bottom: 0px;
         margin-top: 25px;
     }

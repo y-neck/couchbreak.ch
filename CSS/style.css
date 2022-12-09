@@ -741,13 +741,7 @@ footer {
     }
 
     footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        padding: 25px 10%;
-        bottom: 0px;
-        margin-top: 25px;
+        justify-content: space-between;
     }
 
     .socialmedia img {

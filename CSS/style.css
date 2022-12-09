@@ -91,7 +91,7 @@ header {
     flex-wrap: wrap;
 
     background-color: black;
-    padding: 25px 10%;
+    padding: 25px 10%;  /* padding 10% left and right */
 }
 
 header a {
@@ -99,7 +99,7 @@ header a {
     margin: 10px;
 }
 
-#nav-login {
+#nav-login {    /* Button */
     background-color: white;
     color: black;
     border-radius: 15px;
@@ -110,8 +110,9 @@ header a {
 
 /* INDEX.HTML ---------------------------------------------------------- */
 
+/* Welcome Screen */
 #welcome-screen {
-    margin: 0 auto;
+    margin: 0 auto; /* centers container */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,6 +122,11 @@ header a {
     margin-top: 50px;
     margin-bottom: 80px;
     padding: 0;
+}
+
+#welcome-screen p {
+    font-size: 1.6rem;
+    margin: 0px;
 }
 
 #index_left {
@@ -134,25 +140,8 @@ header a {
     transform: translate(10px, 30px);
 }
 
-#welcome-screen p {
-    font-size: 1.6rem;
-    margin: 0px;
-}
-
-#index_right lottie-player {
-    transform: scale(0.8) rotate(0.1turn);
-}
-
 #index_left lottie-player {
     transform: scale(-1, 1) rotate(0turn);
-}
-
-#index_middle {
-    width: 100%;
-}
-
-#index_middle img {
-    width: 100%;
 }
 
 #index_right {
@@ -166,6 +155,19 @@ header a {
     transform: translate(10px, 70px);
 }
 
+#index_right lottie-player {
+    transform: scale(0.8) rotate(0.1turn);
+}
+
+#index_middle {
+    width: 100%;
+}
+
+#index_middle img {
+    width: 100%;
+}
+
+/* Mitglieder Bilder */
 .index_mitglieder_bild {
     display: flex;
     flex-wrap: wrap;
@@ -192,7 +194,7 @@ header a {
 
 .team_mitglieder_bild {
     height: 180px;
-   padding-right: 30px;
+    padding-right: 30px;
 }
 
 .profiles {
@@ -211,12 +213,12 @@ header a {
 #fliesstext_team{
     width: 76%;
 }
+
 .video {
     background-color: var(--accent-color-2);
     border-radius: 35px;
     display: flex;
     justify-content: center;
-
 }
 
 #portrait {

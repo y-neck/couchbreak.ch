@@ -536,7 +536,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: black;
-    padding: 25px 100px;
+    padding: 25px 10%;
     position: relative;
     bottom: 0px;
     margin-top: 25px;

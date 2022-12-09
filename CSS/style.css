@@ -196,21 +196,15 @@ header a {
 }
 
 .profiles {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding: 0px;
+
     margin-bottom: 100px;
 }
 
-.mitglieder h3 {
+.mitglieder{
     text-align: center;
-    transform: translateX(-(100%-(calc(76%+100px))));
 }
 
-#fliesstext_team{
-    width: 76%;
-}
+
 .video {
     background-color: var(--accent-color-2);
     border-radius: 35px;

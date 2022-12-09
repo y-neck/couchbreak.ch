@@ -108,6 +108,9 @@ header a {
     padding: 10px 15px;
 }
 
+#nav-login:hover{
+    background-color: var(--accent-color-1);
+}
 
 /* INDEX.HTML ---------------------------------------------------------- */
 

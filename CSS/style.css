@@ -1,917 +1,960 @@
 /* GLOBAL ------------------------------------------------------------ */
 :root {
-    box-sizing: border-box; /*Prevent overflow/vertical scroll bars*/
-    scroll-behavior: smooth;
-    --default-text-color: rgb(0, 0, 0); /*Define global text color*/
-    --default-background-color: #f2eede;    /*Define global background color*/
-    --accent-color-1: #F3C25F;  /*Define global accent color yellow*/
-    --accent-color-2: #9EB4A5;  /*Define global accent color green*/
+  box-sizing: border-box; /*Prevent overflow/vertical scroll bars*/
+  scroll-behavior: smooth;
+  --default-text-color: rgb(0, 0, 0); /*Define global text color*/
+  --default-background-color: #f2eede; /*Define global background color*/
+  --accent-color-1: #f3c25f; /*Define global accent color yellow*/
+  --accent-color-2: #9eb4a5; /*Define global accent color green*/
 }
 
 html {
-    background-color: var(--default-background-color);  /* set color for background */
-    color: var(--default-text-color);   /* set color for text */
-    height: 100%;
+  background-color: var(
+    --default-background-color
+  ); /* set color for background */
+  color: var(--default-text-color); /* set color for text */
+  height: 100%;
 }
 
 * {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: normal; /* Thickness */
-    font-size: 1rem;
-    font-style: normal; /* Font Slant */
-    letter-spacing: 0.05em;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal; /* Thickness */
+  font-size: 1rem;
+  font-style: normal; /* Font Slant */
+  letter-spacing: 0.05em;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 body {
-    padding: 0; /*reset default padding; [rem]*/
-    margin: 0 auto; /*reset default margin [rem]*/
-    height: 100%;
-    /* Force footer to end of page */
-    display: flex;
-    flex-direction: column;
+  padding: 0; /*reset default padding; [rem]*/
+  margin: 0 auto; /*reset default margin [rem]*/
+  height: 100%;
+  /* Force footer to end of page */
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-    flex: 1 0 auto; /* Force footer to end of page */
-    padding-inline: 10%; /* Padding for all pages */
+  flex: 1 0 auto; /* Force footer to end of page */
+  padding-inline: 10%; /* Padding for all pages */
 }
 
 .fliesstext {
-    background-color: var(--accent-color-2);    /* box color */
-    border-radius: 35px;    /* round corners */
-    padding: 30px 80px; /* padding to border of box */
-
+  background-color: var(--accent-color-2); /* box color */
+  border-radius: 35px; /* round corners */
+  padding: 30px 80px; /* padding to border of box */
 }
 
 .fliesstext a {
-    text-decoration: underline; /* underline all links */
+  text-decoration: underline; /* underline all links */
 }
 
 .fleck {
-    max-width: none;    /* reset width */
-    transform: translate(-30px, -60px);
-    position: absolute;
-    width: 20rem;
-    margin: 41px 0px 50px 0px;
-    z-index: 0; /* set img behind title */
+  max-width: none; /* reset width */
+  transform: translate(-30px, -60px);
+  position: absolute;
+  width: 20rem;
+  margin: 41px 0px 50px 0px;
+  z-index: 0; /* set img behind title */
 }
 
 .fleck_gross {
-    max-width: none;    /* reset width */
-    transform: translate(-30px, -60px);
-    position: absolute;
-    width: 20rem;
-   /*  margin: 41px 0px 50px 0px; */
-    z-index: 0; /* set img behind title */
+  max-width: none; /* reset width */
+  transform: translate(-30px, -60px);
+  position: absolute;
+  width: 20rem;
+  /*  margin: 41px 0px 50px 0px; */
+  z-index: 0; /* set img behind title */
 }
 
 h1 {
-    font-size: 4rem;
-    position: relative;
-    text-align: center;
-    margin: 100px 0px 80px 100px;
+  font-size: 4rem;
+  position: relative;
+  text-align: center;
+  margin: 100px 0px 80px 100px;
 }
 
 h2 {
-    font-size: 2rem;
-    position: relative;
-    margin: 150px 0px 80px 0px;
-    z-index: 1; /* set text before img */
+  font-size: 2rem;
+  position: relative;
+  margin: 150px 0px 80px 0px;
+  z-index: 1; /* set text before img */
 }
 
-h3 { 
-    font-size: 1.5rem;
+h3 {
+  font-size: 1.5rem;
 }
-
-
 
 /* HEADER -------------------------------------------------------------- */
 
 #logo-header {
-    max-width: 200px;
-    height: auto;
+  max-width: 200px;
+  height: auto;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
-    background-color: black;
-    padding: 25px 10%;  /* padding 10% left and right */
+  background-color: black;
+  padding: 25px 10%; /* padding 10% left and right */
 }
 
 header a {
-    color: white;
-    margin: 10px;
+  color: white;
+  margin: 10px;
 }
 
-#nav-login {    /* Button */
-    background-color: white;
-    color: black;
-    border-radius: 15px;
+#nav-login {
+  /* Button */
+  background-color: white;
+  color: black;
+  border-radius: 15px;
 
-    padding: 10px 15px;
+  padding: 10px 15px;
 }
 
-#nav-login:hover{
-    background-color: var(--accent-color-1);
+#nav-login:hover {
+  background-color: var(--accent-color-1);
 }
 
 /* INDEX.HTML ---------------------------------------------------------- */
 
 /* Welcome Screen */
 #welcome-screen {
-    margin: 0 auto; /* centers container */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: fit-content;
+  margin: 0 auto; /* centers container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: fit-content;
 
-    margin-top: 50px;
-    margin-bottom: 80px;
-    padding: 0;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding: 0;
 }
 
 #welcome-screen .cta {
-    font-size: 1.6rem;
-    margin: 0px;
+  font-size: 1.6rem;
+  margin: 0px;
 }
 
 #index_left {
-    margin-top: 250px;
-    margin-right: 2%;
-    width: 10vw;
+  margin-top: 250px;
+  margin-right: 2%;
+  width: 10vw;
 }
 
 #index_left .cta {
-    padding-bottom: 0px;
-    transform: translate(10px, 30px);
+  padding-bottom: 0px;
+  transform: translate(10px, 30px);
 }
 
 #index_left lottie-player {
-    transform: scale(-1, 1) rotate(0turn);
+  transform: scale(-1, 1) rotate(0turn);
 }
 
 #index_right {
-    margin-bottom: 150px;
-    margin-left: 2%;
-    width: 15vw;
+  margin-bottom: 150px;
+  margin-left: 2%;
+  width: 15vw;
 }
 
 #index_right .cta {
-    padding: 0;
-    transform: translate(10px, 70px);
+  padding: 0;
+  transform: translate(10px, 70px);
 }
 
 #index_right lottie-player {
-    transform: scale(0.8) rotate(0.1turn);
+  transform: scale(0.8) rotate(0.1turn);
 }
 
 #index_middle {
-    width: 100%;
+  width: 100%;
 }
 
 #index_middle img {
-    width: 100%;
+  width: 100%;
 }
 
 /* Mitglieder Bilder */
 .index_mitglieder_bild {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .index_mitglieder_bild img {
-    height: 180px;
-    margin: 20px 20px;
+  height: 180px;
+  margin: 20px 20px;
 }
 
 #index_teamlink {
-    display: block;
-    text-decoration: underline;
-    text-align: center;
+  display: block;
+  text-decoration: underline;
+  text-align: center;
 
-    padding-top: 25px;
-    padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
-
-
 
 /* TEAM.HTML ----------------------------------------------------------- */
 
 .team_mitglieder_bild {
-    height: 180px;
-    padding-right: 30px;
-    grid-area: bild;
+  height: 180px;
+  padding-right: 30px;
+  grid-area: bild;
 }
 
 .profiles {
-    margin-bottom: 100px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: 
-        "name name name name"
-        "bild fliesstext fliesstext fliesstext";
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    'name name name name'
+    'bild fliesstext fliesstext fliesstext';
 }
 
-.beschrieb{
-    grid-area: fliesstext;
+.beschrieb {
+  grid-area: fliesstext;
 }
 
-.mitglieder{
-    text-align: center;
-    grid-area: name;
+.mitglieder {
+  text-align: center;
+  grid-area: name;
 }
-
 
 .video {
-    background-color: var(--accent-color-2);
-    border-radius: 35px;
-    display: flex;
-    justify-content: center;
+  background-color: var(--accent-color-2);
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
 }
 
 #portrait {
-    padding:30px 80px ;
-    width: 100%;
-    aspect-ratio: 16/9;
+  padding: 30px 80px;
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 
 #video_portrait {
-    text-align: center ;
+  text-align: center;
 }
- 
 
 /* EVENTS.HTML --------------------------------------------------------- */
 
-#Kartenansicht:hover { 
-    background-color:var(--accent-color-1);
+/* Kartenansicht */
+#Kartenansicht {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+
+  padding: 10px 15px;
+  transform: translate(0px, 0px);
 }
 
-#filter:hover { 
-    background-color:var(--accent-color-1);
+#Kartenansicht:hover {
+  background-color: var(--accent-color-1);
 }
 
-#login:hover { 
-    background-color:var(--accent-color-1);
-}
-
-
-tr:not(:first-of-type):hover { 
-    background-color:var(--accent-color-1);
-}
-
+/* Filter */
 #filter {
-    background-color: white;
-    color: black;
-    border-radius: 15px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
 
-    padding: 10px 15px;
+  padding: 10px 15px;
+}
+
+#filter:hover {
+  background-color: var(--accent-color-1);
 }
 
 #filter-position {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown-content p:hover{
-  background-color:var(--accent-color-1);}
-#Kartenansicht {
-    background-color: white;
-    color: black;
-    border-radius: 15px;
-
-    padding: 10px 15px;
-    transform: translate(0px, 0px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-
-tr:not(:first-of-type) {
-   height:50px;
-    background-color: white;
-    color: black;
-    border-radius: 15px;
-
-    padding: 10px 15px;
-    transform: translate(0px, 0px);
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 70px;
+  background-color: #f9f9f9;
+  min-width: 100px; /* block width */
+  min-height: 1.25rem; /* block height */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 10px;
 }
 
-#oberste-zeile {
-    display: flex;
-    justify-content: space-between;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
+
+.dropdown-content {
+  text-align: center;
+}
+
+.dropdown-content p {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.dropdown-content p:hover {
+  background-color: var(--accent-color-1);
+}
+
+/* Event Table */
 
 .event {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-inverted {
+  display: none;
 }
 
 table {
-    border-collapse: collapse;
-    width: 120%;
+  border-collapse: collapse;
+  width: 120%;
+}
+
+tr:not(:first-of-type) {
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+
+  padding: 10px 15px;
+  transform: translate(0px, 0px);
+}
+
+tr:not(:first-of-type):hover {
+  background-color: var(--accent-color-1);
+}
+
+#oberste-zeile {
+  display: flex;
+  justify-content: space-between;
 }
 
 th {
-    text-align: center;
+  text-align: center;
 }
 
 td {
-    text-align: center;
+  text-align: center;
 }
 
 tr {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
-td,th {
-    padding: 15px 0;
+td,
+th {
+  padding: 15px 0;
 }
-
 
 /* LOGIN.HTML ---------------------------------------------------------- */
 
- #Lo_Gin {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-    margin: 0 auto;
+#Lo_Gin {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
 }
 
 #Lo_Gin p {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 #tonic {
-    display: none;
-    transform: translateX(20px);
+  display: none;
+  transform: translateX(20px);
 }
 
 #Lo_Gin:hover #lo {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 #Lo_Gin:hover #tonic {
-    display: block;
+  display: block;
 }
 
 #login.html_main {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-   
+
 #login_form {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 #credential_container div {
-    padding: 10px;
+  padding: 10px;
 }
 
 ::placeholder {
-    text-align: center;
+  text-align: center;
 }
 
 #password {
-    text-align: center;
+  text-align: center;
 }
 
 #text {
-    text-align: center;
+  text-align: center;
 }
 
 #login_btn_Matrikelnummer input {
-    width: 500px;
+  width: 500px;
 }
 
 #pw_btn input {
-    width: 500px;
+  width: 500px;
 }
-
 
 #login_form input {
-    border: 1px black solid;
-    border-radius: 15px;
+  border: 1px black solid;
+  border-radius: 15px;
 }
 
-
 #letsgo_btn {
-    /* reset button */
-    border: none;
-    background-color: transparent;
-    font-size: 3rem
+  /* reset button */
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
 }
 
 #letsgo_btn:hover {
-    color: #F3C25F;
+  color: #f3c25f;
 }
 
 #bild_pfeil {
-    width: 100px;
-    transform: translateY(-20px);
+  width: 100px;
+  transform: translateY(-20px);
 }
 
 .login_btn {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #Bild_Gin {
-    height: 250px;
-    width: auto;
-    position: absolute;
-    top: 150px;
-    right: 40px;
+  height: 250px;
+  width: auto;
+  position: absolute;
+  top: 150px;
+  right: 40px;
 }
 
 #text_login p {
-    margin: 0;
+  margin: 0;
 }
 
 /* REGISTRIEREN.HTML --------------------------------------------------- */
 
 #registrieren_n {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
-    margin: 0 auto;
-} 
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0 auto;
+}
 
 #registrieren_n p {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #egroni {
-    display: none;
+  display: none;
 }
 
 #registrieren_n:hover #registriere {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 #registrieren_n:hover #egroni {
-    display: block;
+  display: block;
 }
 
 #registrieren.html_main {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-    
+
 #registrieren_form {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 #credential_container div {
-    padding: 10px;
+  padding: 10px;
 }
 
 ::placeholder {
-    text-align: center;
+  text-align: center;
 }
 
 #password {
-    text-align: center;
+  text-align: center;
 }
 #text {
-    text-align: center;
+  text-align: center;
 }
 
-
 #registrieren_btn_vorname input {
-    width: 500px;
+  width: 500px;
 }
 
 #registrieren_btn_name input {
-    width: 500px;
+  width: 500px;
 }
 
 #registrieren_btn_email input {
-    width: 500px;
+  width: 500px;
 }
 
 #registrieren_btn_matrikelnummer input {
-    width: 500px;
+  width: 500px;
 }
 #registrieren_btn_passwort input {
-    width: 500px;
+  width: 500px;
 }
 #registrieren_btn_passwort_wiederholen input {
-    width: 500px;
+  width: 500px;
 }
 
 #login_form input {
-    border: 1px black solid;
-    border-radius: 15px;
+  border: 1px black solid;
+  border-radius: 15px;
 }
 
-
 #letsgo_btn {
-    /* reset button */
-    border: none;
-    background-color: transparent;
-    font-size: 3rem
+  /* reset button */
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
 }
 
 #bild_pfeil {
-    width: 100px;
-    transform: translateY(-20px);
+  width: 100px;
+  transform: translateY(-20px);
 }
 
 .login_btn {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #Bild_Negroni {
-    height: 250px;
-    width: auto;
-    position: absolute;
-    top: 150px;
-    right: 40px;
+  height: 250px;
+  width: auto;
+  position: absolute;
+  top: 150px;
+  right: 40px;
 }
 
 #text_login p {
-    margin: 0;
+  margin: 0;
 }
-
 
 /* KONTAKT&IMPRESSUM.HTML ---------------------------------------------- */
 
-#kontaktdaten{
-    position: relative;
-    z-index: 1;
+#kontaktdaten {
+  position: relative;
+  z-index: 1;
 }
 
-#unternehmen_info{
-    display: flex;
-    justify-content:space-between;
+#unternehmen_info {
+  display: flex;
+  justify-content: space-between;
 }
 
-#unternehmen_beschrieb{
-    width: 60%;
+#unternehmen_beschrieb {
+  width: 60%;
 }
 
-#unternehmen_kontakt{
-   width: 30%;
-   display: flex;
-   justify-content: center;
+#unternehmen_kontakt {
+  width: 30%;
+  display: flex;
+  justify-content: center;
 }
 
-#kontaktdaten{
-    transform: translate(-20px, 10px);
+#kontaktdaten {
+  transform: translate(-20px, 10px);
 }
 
 /* FOOTER -------------------------------------------------------------- */
 
 .socialmedia img {
-    width: 50px;
-    height: auto;
-    margin-right: 40px;
+  width: 50px;
+  height: auto;
+  margin-right: 40px;
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: black;
-    padding: 25px 10%;  /* 10% padding left and right */
-    position: relative;
-    margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 25px 10%; /* 10% padding left and right */
+  position: relative;
+  margin-top: 25px;
 
-    bottom: 0px;    /* fix to end of page */
-    flex-shrink: 0; /* forces footer to end of page */
+  bottom: 0px; /* fix to end of page */
+  flex-shrink: 0; /* forces footer to end of page */
 }
 
 .footer-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.footer-nav a, .footer-nav p {
-    color: white;
-    margin: 10px;
+.footer-nav a,
+.footer-nav p {
+  color: white;
+  margin: 10px;
 }
-
-
-
-
-
-
 
 /* MEDIA QUERIES ------------------------------------------------------- */
 
 /* MOBIL 1100px */
 
 @media screen and (max-width: 1100px) {
+  #Bild_Gin {
+    height: 150px;
+    width: auto;
+    top: 170px;
+    right: 20px;
+  }
 
-    #Bild_Gin {
-        height: 150px;
-        width: auto;
-        top: 170px;
-        right: 20px;
-    }
+  #Lo_Gin p {
+    font-size: 3rem;
+  }
 
-    #Lo_Gin p {
-        font-size: 3rem;
-    }
+  #Lo_Gin {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+  }
 
-    #Lo_Gin {
-        display: flex;
-        justify-content: space-between;
-        width: 100px;
-        margin: 0 auto;
-    }
-        
-    #Lo_Gin p {
-        font-size: 3rem;
-    }
-        
-    #tonic {
-        display: none;
-        transform: translateX(20px);
-    }
-    
-    #Lo_Gin:hover #lo {
-        visibility: hidden;
-    }
-    
-    #Lo_Gin:hover #tonic {
-        display: block;
-    }
+  #Lo_Gin p {
+    font-size: 3rem;
+  }
 
-    #Bild_Negroni {
-        height: 150px;
-        width: auto;
-        top: 170px;
-        right: 20px;
-    }
+  #tonic {
+    display: none;
+    transform: translateX(20px);
+  }
 
-    #registrieren_n p {
-        font-size: 3rem;
-    }
+  #Lo_Gin:hover #lo {
+    visibility: hidden;
+  }
 
-    #registrieren_n {
-        display: flex;
-        justify-content: space-between;
-        width: 100px;
-        margin: 0 auto;
-    }
-        
-    #registrieren_n p {
-        font-size: 3rem;
-    }
-        
-    #egroni {
-        display: none;
-        transform: translateX(20px);
-    }
-    
-    #Lo_Gin:hover #registriere {
-        visibility: hidden;
-    }
-    
-    #Lo_Gin:hover #egroni {
-        display: block;
-    }   
+  #Lo_Gin:hover #tonic {
+    display: block;
+  }
 
+  #Bild_Negroni {
+    height: 150px;
+    width: auto;
+    top: 170px;
+    right: 20px;
+  }
 
-/* TEAM ---------------------------------------------------------------- */
-   
-    #portrait {
-        padding: 20px 35px;
-    }
-   
-/* INDEX --------------------------------------------------------------- */
-   
-    #index_right, #index_left {
-        display: none; /* hide left and right element */
-    }
-    
+  #registrieren_n p {
+    font-size: 3rem;
+  }
+
+  #registrieren_n {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  #registrieren_n p {
+    font-size: 3rem;
+  }
+
+  #egroni {
+    display: none;
+    transform: translateX(20px);
+  }
+
+  #Lo_Gin:hover #registriere {
+    visibility: hidden;
+  }
+
+  #Lo_Gin:hover #egroni {
+    display: block;
+  }
+
+  /* TEAM ---------------------------------------------------------------- */
+
+  #portrait {
+    padding: 20px 35px;
+  }
+
+  /* INDEX --------------------------------------------------------------- */
+
+  #index_right,
+  #index_left {
+    display: none; /* hide left and right element */
+  }
+
 }
-
 /* MOBIL 800px */
 
 @media screen and (max-width: 800px) {
-    
-    main {
-        padding-inline: 10%;    /* left and right padding on all pages */
-    }
+  main {
+    padding-inline: 10%; /* left and right padding on all pages */
+  }
 
-    .fliesstext{
-        border-radius: 35px;
-        padding: 20px 35px;
-    }
-    
-    .index_untertitel {
-        justify-content: center;
-        position: relative;
-    }
+  .fliesstext {
+    border-radius: 35px;
+    padding: 20px 35px;
+  }
 
-    .fleck {
-        width: 15rem;
-        transform: translate(0px, -50px);
-        margin-left: calc(calc(100% - 15rem) / 2);  /* center img */
-    }
-    
-    h2 {
-       font-size: 2rem;
-       margin: 80px 0px 40px 0px;
-       text-align: center;
-    }
+  .index_untertitel {
+    justify-content: center;
+    position: relative;
+  }
 
- /* HEADER -------------------------------------------------------------- */
+  .fleck {
+    width: 15rem;
+    transform: translate(0px, -50px);
+    margin-left: calc(calc(100% - 15rem) / 2); /* center img */
+  }
 
-    #logo-header {
-        max-width: 220px;
-        height: auto;
-        justify-content: center;
-        margin-bottom: 15px;
-    }
+  h2 {
+    font-size: 2rem;
+    margin: 80px 0px 40px 0px;
+    text-align: center;
+  }
 
-    header {
-        justify-content: center;
-        padding: 25px 10% 35px;  /* padding 10% left and right */
-    }
+  /* HEADER -------------------------------------------------------------- */
 
-    header a {
-        margin: 5px;
-    }
+  #logo-header {
+    max-width: 220px;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
 
-/* INDEX --------------------------------------------------------------- */
+  header {
+    justify-content: center;
+    padding: 25px 10% 35px; /* padding 10% left and right */
+  }
 
-    .index_mitglieder_bild img {
-        height: 60px;
-        margin: 0px 0px;
-    }
+  header a {
+    margin: 5px;
+  }
 
-    .index_mitglieder_bild {
-        margin: 0px 0px  ;
-    }
+  /* INDEX --------------------------------------------------------------- */
 
-/* TEAM ---------------------------------------------------------------- */
-    
-    h1 {
-        font-size: 3rem;
-        position:relative;
-        text-align: center;
-        margin: 80px 0px 80px 0px;
-        z-index: 1;
-    }
+  .index_mitglieder_bild img {
+    height: 60px;
+    margin: 0px 0px;
+  }
 
-    .profiles {
-        display: flex;
-        flex-direction:column;
-        flex-wrap: wrap;
+  .index_mitglieder_bild {
+    margin: 0px 0px;
+  }
 
-    }
-    
-    #portrait {
-        padding:25px 30px ;
-    }
+  /* TEAM ---------------------------------------------------------------- */
 
+  h1 {
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    margin: 80px 0px 80px 0px;
+    z-index: 1;
+  }
 
-/* FOOTER -------------------------------------------------------------- */
-   
-    .footer-nav {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .footer-nav a, .footer-nav p {
-        font-size: 0.8rem;
-        margin: 10px 10px;
-    }
+  .profiles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-    footer {
-        justify-content: space-between;
-    }
+  #portrait {
+    padding: 25px 30px;
+  }
 
-    .socialmedia img {
-        margin-inline: 10px;
-    }
+  /* FOOTER -------------------------------------------------------------- */
 
-/* LOGIN --------------------------------------------------------------- */
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    #Bild_Gin {
-        height: 120px;
-        width: auto;
-        top: 170px;
-        right: 10px;
-    }
+  .footer-nav a,
+  .footer-nav p {
+    font-size: 0.8rem;
+    margin: 10px 10px;
+  }
 
-    #Lo_Gin p {
-        font-size: 2rem;
-    }
+  footer {
+    justify-content: space-between;
+  }
 
-    #Lo_Gin {
-        display: flex;
-        justify-content: space-between;
-        width: 100px;
-        margin: 0 auto;
-    }
-        
-    #Lo_Gin p {
-        font-size: 2rem;
-    }
-        
-    #tonic {
-        display: none;
-        transform: translateX(10px);
-    }
-    
-    #Lo_Gin:hover #lo {
-        visibility: hidden;
-    }
-    
-    #Lo_Gin:hover #tonic {
-        display: block;
-    }
+  .socialmedia img {
+    margin-inline: 10px;
+  }
 
-    #pw_btn input {
-        width: 300px;
-    }
+/* EVENTS----------------------------------------------------------------- */
 
-    #login_btn_Matrikelnummer input {
-        width: 300px;
-    }        
-     
-    #Bild_Negroni {
-        height: 120px;
-        width: auto;
-        top: 170px;
-        right: 10px;
-    }
-    
-    #registrieren_n p {
-        font-size: 2rem;
-    }
+  /* Table inverted */  
+  .event {
+    display: none;      /* Deactivate default table */
+  }
+  .event-inverted {     /* Activate inverted table */
+    display: flex;
+    justify-content: space-between;
+  }
 
-    #registrieren_n {
-        display: flex;
-        justify-content: space-between;
-        width: 100px;
-        margin: 0 auto;
-    }
-        
-    #registrieren_n p {
-        font-size: 2rem;
-    }
-        
-    #egroni {
-        display: none;
-        transform: translateX(10px);
-    }
-    
-    #Lo_Gin:hover #registriere {
-        visibility: hidden;
-    }
-    
-    #Lo_Gin:hover #egroni {
-        display: block;
-    }
+  .event-table-inverted {
+    border-collapse: collapse;
+    width: 120%;
+  }
 
-    #unternehmen_info {
-        flex-direction: column;
-        justify-content: center;
-    }
+  .event-table-inverted tr:not(:first-of-type) {
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
 
-    #unternehmen_kontakt {
-        margin: 80px;
-    }
+    padding: 10px 15px;
+    transform: translate(0px, 0px);
+  }
 
+  #oberste-zeile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .event-table-inverted th {
+    text-align: center;
+  }
+
+  .event-table-inverted td {
+    text-align: center;
+  }
+
+  .event-table-inverted tr {
+    border-bottom: 1px solid black;
+  }
+
+  .event-table-inverted td,
+  th {
+    padding: 15px 0;
+  }
+
+  /* LOGIN --------------------------------------------------------------- */
+
+  #Bild_Gin {
+    height: 120px;
+    width: auto;
+    top: 170px;
+    right: 10px;
+  }
+
+  #Lo_Gin p {
+    font-size: 2rem;
+  }
+
+  #Lo_Gin {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  #Lo_Gin p {
+    font-size: 2rem;
+  }
+
+  #tonic {
+    display: none;
+    transform: translateX(10px);
+  }
+
+  #Lo_Gin:hover #lo {
+    visibility: hidden;
+  }
+
+  #Lo_Gin:hover #tonic {
+    display: block;
+  }
+
+  #pw_btn input {
+    width: 300px;
+  }
+
+  #login_btn_Matrikelnummer input {
+    width: 300px;
+  }
+
+/* REGISTRIEREN-------------------------------------------------------------- */
+
+  #Bild_Negroni {
+    height: 120px;
+    width: auto;
+    top: 170px;
+    right: 10px;
+  }
+
+  #registrieren_n p {
+    font-size: 2rem;
+  }
+
+  #registrieren_n {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  #registrieren_n p {
+    font-size: 2rem;
+  }
+
+  #egroni {
+    display: none;
+    transform: translateX(10px);
+  }
+
+  #Lo_Gin:hover #registriere {
+    visibility: hidden;
+  }
+
+  #Lo_Gin:hover #egroni {
+    display: block;
+  }
+
+/* KONTAKT&IMPRESSUM-------------------------------------------------- */
+
+  #unternehmen_info {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #unternehmen_kontakt {
+    margin: 80px;
+  }
 }
-
-
-
-
-
- 

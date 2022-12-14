@@ -449,7 +449,7 @@ th {
 #bild_pfeil:hover{
     filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
 }
-
+/* TODO #9 Fix simultaneous hover animation for both elements @y-neck*/
 /*#letsgo_btn:hover p{
    color: #f3c25f;
    font-size: 3rem;

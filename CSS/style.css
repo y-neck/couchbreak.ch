@@ -596,6 +596,30 @@ th {
   transform: translate(-20px, 10px);
 }
 
+#text{
+  border-radius: 15px;
+}
+
+#senden_button{
+  background-color: transparent ;
+  border-color: transparent;
+  margin-left: 36%;
+  margin-top: 1%;
+
+}
+
+#Kontaktformular{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-left: 30%;
+}
+
+
+#eingabe_nachricht #text{
+padding: 50px 50px 50px 50px;
+}
+
 /* FOOTER -------------------------------------------------------------- */
 
 .socialmedia img {

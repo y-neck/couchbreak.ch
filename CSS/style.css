@@ -471,6 +471,7 @@ th {
   justify-content: space-between;
   width: 200px;
   margin: 0 auto;
+  transform: translateX(-60px);
 }
 
 #registrieren_n p {
@@ -552,6 +553,10 @@ th {
 #bild_pfeil {
   width: 100px;
   transform: translateY(-20px);
+}
+
+#bild_pfeil:hover {
+    filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
 }
 
 .login_btn {

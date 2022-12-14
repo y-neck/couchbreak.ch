@@ -609,6 +609,30 @@ th {
   transform: translate(-20px, 10px);
 }
 
+#text{
+  border-radius: 15px;
+}
+
+#senden_button{
+  background-color: transparent ;
+  border-color: transparent;
+  margin-left: 36%;
+  margin-top: 1%;
+
+}
+
+#Kontaktformular{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-left: 30%;
+}
+
+
+#eingabe_nachricht #text{
+padding: 50px 50px 50px 50px;
+}
+
 /* FOOTER -------------------------------------------------------------- */
 
 .socialmedia img {
@@ -690,7 +714,7 @@ footer {
   }
 
   #registrieren_n p {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #registrieren_n {
@@ -701,12 +725,12 @@ footer {
   }
 
   #registrieren_n p {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #egroni {
     display: none;
-    transform: translateX(20px);
+    transform: translateX(0px);
   }
 
   #Lo_Gin:hover #registriere {
@@ -926,7 +950,7 @@ footer {
 /* REGISTRIEREN-------------------------------------------------------------- */
 
   #Bild_Negroni {
-    height: 120px;
+    height: 100px;
     width: auto;
     top: 170px;
     right: 10px;

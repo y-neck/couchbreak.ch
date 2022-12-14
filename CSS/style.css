@@ -555,7 +555,7 @@ th {
   transform: translateY(-20px);
 }
 
-#bild_pfeil:hover {
+#bild_pfeil {
     filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
 }
 

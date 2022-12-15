@@ -449,7 +449,7 @@ th {
 #bild_pfeil:hover{
     filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
 }
-
+/* TODO #9 Fix simultaneous hover animation for both elements @y-neck*/
 /*#letsgo_btn:hover p{
    color: #f3c25f;
    font-size: 3rem;
@@ -798,12 +798,18 @@ footer {
   #logo-header {
     max-width: 220px;
     height: auto;
-    justify-content: center;
     margin-bottom: 15px;
+    position: relative;
+    margin-left: calc(calc(100% - 220px) / 2); /* center img */
+  }
+
+  .menue {
+    position: relative;
+    margin-left: calc(calc(100% - 200px) / 2); /* center img */
   }
 
   header {
-    justify-content: center;
+    display: inline-block;
     padding: 25px 10% 35px; /* padding 10% left and right */
   }
 
@@ -856,7 +862,7 @@ footer {
   }
 
   footer {
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .socialmedia img {

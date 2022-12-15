@@ -789,12 +789,18 @@ footer {
   #logo-header {
     max-width: 220px;
     height: auto;
-    justify-content: center;
     margin-bottom: 15px;
+    position: relative;
+    margin-left: calc(calc(100% - 220px) / 2); /* center img */
+  }
+
+  .menue {
+    position: relative;
+    margin-left: calc(calc(100% - 200px) / 2); /* center img */
   }
 
   header {
-    justify-content: center;
+    display: inline-block;
     padding: 25px 10% 35px; /* padding 10% left and right */
   }
 
@@ -847,7 +853,7 @@ footer {
   }
 
   footer {
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .socialmedia img {

@@ -753,8 +753,17 @@ footer {
   #index_left {
     display: none; /* hide left and right element */
   }
-
+  
+  /* KONTAKT&IMPRESSUM.HTML ---------------------------------------------- */
+    
+  .fleck_gross{
+    height: 40%;
+    width: auto;
+    margin-top: 4%;
+  }
+  
 }
+
 /* MOBIL 800px */
 
 @media screen and (max-width: 800px) {

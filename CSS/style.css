@@ -438,7 +438,7 @@ th {
   background-color: transparent;
 }
 
-#letsgo_btn a{
+#letsgo_btn a{ /* Reference a tag to address btn text */
   font-size: 3rem !important;
 }
 

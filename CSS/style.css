@@ -436,29 +436,28 @@ th {
   /* reset button */
   border: none;
   background-color: transparent;
+}
+
+#letsgo_btn a{
   font-size: 3rem !important;
 }
+
 #bild_pfeil {
     width: 100px;
     transform: translateY(-20px);
   }
-#letsgo_btn:hover {
-    color: #f3c25f;
-}
 
-#bild_pfeil:hover{
-    filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
-}
-/* TODO #9 Fix simultaneous hover animation for both elements @y-neck*/
-/*#letsgo_btn:hover p{
+ /* TODO #9 Fix simultaneous hover animation for both elements @y-neck*/
+/* Fixed #9 */
+ #letsgo_btn:hover a{ /* Needs reference to a element to work; Change color on parent div:hover*/
    color: #f3c25f;
    font-size: 3rem;
 }
 
-#letsgo_btn:hover #bild_pfeil{
+#letsgo_btn:hover #bild_pfeil{ /* Change color on parent div:hover */
     filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
  }
-*/
+
 .login_btn {
   text-decoration: underline;
 }
@@ -564,7 +563,6 @@ th {
 #bild_pfeil {
   width: 100px;
   transform: translateY(-20px);
-  filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
 }
 
 .login_btn {

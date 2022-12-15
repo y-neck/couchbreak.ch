@@ -447,8 +447,6 @@ th {
     transform: translateY(-20px);
   }
 
- /* TODO #9 Fix simultaneous hover animation for both elements @y-neck*/
-/* Fixed #9 */
  #letsgo_btn:hover a{ /* Needs reference to a element to work; Change color on parent div:hover*/
    color: #f3c25f;
    font-size: 3rem;

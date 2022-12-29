@@ -618,12 +618,20 @@ th {
 }
 
 #Kontaktformular{
-  display: flex;
   flex-direction: column;
-  justify-content:center;
-  margin-left: 30%;
+  /* margin-left: 30%; */
 }
 
+#eingabe_name{
+ /*  flex-direction: column; */
+  max-width: 40% ;
+  display: flex;
+  justify-content: center;
+}
+
+#eingabe_nachricht{
+  
+}
 
 #eingabe_nachricht #text{
 padding: 50px 50px 50px 50px;
@@ -1058,4 +1066,18 @@ footer {
   #unternehmen_kontakt {
     margin: 80px;
   }
+    
+  .fleck_gross{
+    height: 370px;
+    width: auto;
+    margin-top: 4%;}       
+    
+    #senden_button{
+      background-color: transparent ;
+      border-color: transparent;
+      margin-left: 36%;
+      margin-top: 1%;
+    
+    }  
+    
 }

@@ -610,35 +610,59 @@ th {
   padding: 10px;
 }
 
+label{
+ display: flex;
+justify-content: center;
+}
+
+
 ::placeholder {
   text-align: center;
 }
 
 #text{
   border-radius: 15px;
-  text-align: center;
 }
 
+#eingabe_name{
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+}
 
 #eingabe_name input {
   width: 500px;
+  align-self: center;
+}
+
+#eingabe_email{
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
 }
 
 #eingabe_email input {
   width: 500px;
+  align-self: center;
+}
+
+#eingabe_nachricht{
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
 }
 
 #eingabe_nachricht input {
   width: 500px;
   height: 150px;
+  align-self: center;
 }
-
 
 #senden_button {
   /* reset button */
   border: none;
   background-color: transparent;
-  
+
 }
 
 #senden_button a{ /* Reference a tag to address btn text */
@@ -655,61 +679,15 @@ th {
    font-size: 3rem;
 }
 
-#letsgo_btn:hover #bild_pfeil{ /* Change color on parent div:hover */
+#senden_button:hover #bild_pfeil{ /* Change color on parent div:hover */
     filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
  }
 
-.login_btn {
+.senden_button {
   text-decoration: underline;
 }
 
-#Bild_Gin {
-  height: 250px;
-  width: auto;
-  position: absolute;
-  top: 150px;
-  right: 40px;
-}
 
-#text_login p {
-  margin: 0;
-}
-
-
-/* #Kontaktformular{
-  display: flex;
-  flex-direction: column;
-  margin-left: 30%;
-}
-
-#eingabe_name{
-  flex-direction: column;
-  max-width: 40% ;
-  display: flex;
-  justify-content: center;
-}
-
-#eingabe_email{
-  display: flex;
-  justify-content: center;
-}
-
-#eingabe_nachricht{
-  display: flex;
-  justify-content: center;
-}
-
-#eingabe_nachricht #text{
-padding: 50px 50px 50px 50px;
-}
-
-#senden_button{
-  background-color: transparent ;
-  border-color: transparent;
-  margin-left: 36%;
-  margin-top: 1%;
-
-} */
 
 /* FOOTER -------------------------------------------------------------- */
 

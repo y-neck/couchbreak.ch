@@ -1124,12 +1124,17 @@ footer {
     width: auto;
     margin-top: 4%;}       
     
-    #senden_button{
-      background-color: transparent ;
-      border-color: transparent;
-      margin-left: 36%;
-      margin-top: 1%;
     
-    }  
+    #eingabe_name input {
+      width: 300px;
+    }
+    
+    #eingabe_email input {
+      width: 300px;
+    }
+    
+    #eingabe_nachricht input {
+      width: 300px;
+    }
     
 }

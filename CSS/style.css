@@ -432,33 +432,20 @@ th {
   border-radius: 15px;
 }
 
-#letsgo_btn {
-  /* reset button */
+#letsgo_btn{
   border: none;
   background-color: transparent;
-  font-size: 3rem !important;
+  font-size: 3rem;
 }
 #bild_pfeil {
     width: 100px;
     transform: translateY(-20px);
   }
-#letsgo_btn:hover {
-    color: #f3c25f;
-}
 
 #bild_pfeil:hover{
     filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
 }
-/* TODO #9 Fix simultaneous hover animation for both elements @y-neck*/
-/*#letsgo_btn:hover p{
-   color: #f3c25f;
-   font-size: 3rem;
-}
 
-#letsgo_btn:hover #bild_pfeil{
-    filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
- }
-*/
 .login_btn {
   text-decoration: underline;
 }
@@ -555,10 +542,13 @@ th {
 }
 
 #letsgo_btn {
-  /* reset button */
   border: none;
   background-color: transparent;
   font-size: 3rem;
+}
+
+#letsgo_btn:hover {
+  color: #f3c25f;
 }
 
 #bild_pfeil {
@@ -698,6 +688,7 @@ footer {
     justify-content: space-between;
     width: 100px;
     margin: 0 auto;
+    transform: translateX(-25px);
   }
 
   #Lo_Gin p {
@@ -956,6 +947,7 @@ footer {
     justify-content: space-between;
     width: 100px;
     margin: 0 auto;
+    transform: translateX(0px);
   }
 
   #Lo_Gin p {

@@ -435,9 +435,8 @@ th {
 #letsgo_btn{
   border: none;
   background-color: transparent;
-  font-size: 3rem !important;
+  font-size: 3rem;
 }
-
 #bild_pfeil {
     width: 100px;
     transform: translateY(-20px);
@@ -446,16 +445,7 @@ th {
 #bild_pfeil:hover{
     filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
 }
-/* TODO #9 Fix simultaneous hover animation for both elements @y-neck*/
-/*#letsgo_btn:hover p{
-   color: #f3c25f;
-   font-size: 3rem;
-}
 
-#letsgo_btn:hover #bild_pfeil{
-    filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
- }
-*/
 .login_btn {
   text-decoration: underline;
 }
@@ -564,6 +554,7 @@ th {
 #bild_pfeil {
   width: 100px;
   transform: translateY(-20px);
+  filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
 }
 
 .login_btn {
@@ -608,89 +599,29 @@ th {
   transform: translate(-20px, 10px);
 }
 
-
-#Kontaktformular div {
-  padding: 10px;
-}
-
-label{
- display: flex;
-justify-content: center;
-}
-
-
-::placeholder {
-  text-align: center;
-}
-
 #text{
   border-radius: 15px;
 }
 
-#eingabe_name{
+#senden_button{
+  background-color: transparent ;
+  border-color: transparent;
+  margin-left: 36%;
+  margin-top: 1%;
+
+}
+
+#Kontaktformular{
   display: flex;
+  flex-direction: column;
   justify-content:center;
-  flex-direction:column;
-}
-
-#eingabe_name input {
-  width: 500px;
-  align-self: center;
-}
-
-#eingabe_email{
-  display: flex;
-  justify-content:center;
-  flex-direction:column;
-}
-
-#eingabe_email input {
-  width: 500px;
-  align-self: center;
-}
-
-#eingabe_nachricht{
-  display: flex;
-  justify-content:center;
-  flex-direction:column;
-}
-
-#eingabe_nachricht input {
-  width: 500px;
-  height: 150px;
-  align-self: center;
-}
-
-#senden_button {
-  /* reset button */
-  border: none;
-  background-color: transparent;
-
-}
-
-#senden_button a{ /* Reference a tag to address btn text */
-  font-size: 3rem !important;
-}
-
-#bild_pfeil {
-    width: 100px;
-    transform: translateY(-20px);
-  }
-
- #senden_button:hover a{ /* Needs reference to a element to work; Change color on parent div:hover*/
-   color: #f3c25f;
-   font-size: 3rem;
-}
-
-#senden_button:hover #bild_pfeil{ /* Change color on parent div:hover */
-    filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
- }
-
-.senden_button {
-  text-decoration: underline;
+  margin-left: 30%;
 }
 
 
+#eingabe_nachricht #text{
+padding: 50px 50px 50px 50px;
+}
 
 /* FOOTER -------------------------------------------------------------- */
 
@@ -736,7 +667,6 @@ footer {
     top: 150px;
     right: 20px;
   }
-  
 }
 
   /* MOBIL 1100px */
@@ -825,14 +755,13 @@ footer {
   #index_left {
     display: none; /* hide left and right element */
   }
-
+  
   /* KONTAKT&IMPRESSUM.HTML ---------------------------------------------- */
     
   .fleck_gross{
-    height: 360px;
+    height: 40%;
     width: auto;
-    margin-top: 4%;}
-  
+    margin-top: 4%;
   }
   
   /* MOBIL 900px */
@@ -844,14 +773,8 @@ footer {
       top: 150px;
       right: 20px;
     }
-    /* KONTAKT&IMPRESSUM.HTML ---------------------------------------------- */
-    
-    .fleck_gross{
-      height: 320px;
-      width: auto;
-      margin-top: 4%;}
-
   }
+}
 
 /* MOBIL 800px */
 
@@ -1024,7 +947,7 @@ footer {
     justify-content: space-between;
     width: 100px;
     margin: 0 auto;
-    transform: translateX(0px);
+    transform: translateX(-10px);
   }
 
   #Lo_Gin p {
@@ -1117,29 +1040,9 @@ footer {
   #unternehmen_info {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 
   #unternehmen_kontakt {
     margin: 80px;
   }
-    
-  .fleck_gross{
-    height: 370px;
-    width: auto;
-    margin-top: 4%;}       
-    
-    
-    #eingabe_name input {
-      width: 300px;
-    }
-    
-    #eingabe_email input {
-      width: 300px;
-    }
-    
-    #eingabe_nachricht input {
-      width: 300px;
-    }
-    
 }

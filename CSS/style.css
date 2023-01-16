@@ -432,33 +432,20 @@ th {
   border-radius: 15px;
 }
 
-#letsgo_btn {
-  /* reset button */
+#letsgo_btn{
   border: none;
   background-color: transparent;
-  font-size: 3rem !important;
+  font-size: 3rem;
 }
 #bild_pfeil {
     width: 100px;
     transform: translateY(-20px);
   }
-#letsgo_btn:hover {
-    color: #f3c25f;
-}
 
 #bild_pfeil:hover{
     filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
 }
-/* TODO #9 Fix simultaneous hover animation for both elements @y-neck*/
-/*#letsgo_btn:hover p{
-   color: #f3c25f;
-   font-size: 3rem;
-}
 
-#letsgo_btn:hover #bild_pfeil{
-    filter: invert(86%) sepia(84%) saturate(6247%) hue-rotate(313deg) brightness(103%) contrast(91%);
- }
-*/
 .login_btn {
   text-decoration: underline;
 }
@@ -549,16 +536,19 @@ th {
   width: 500px;
 }
 
-#login_form input {
+#registrieren_form input {
   border: 1px black solid;
   border-radius: 15px;
 }
 
 #letsgo_btn {
-  /* reset button */
   border: none;
   background-color: transparent;
   font-size: 3rem;
+}
+
+#letsgo_btn:hover {
+  color: #f3c25f;
 }
 
 #bild_pfeil {
@@ -668,13 +658,24 @@ footer {
 
 /* MEDIA QUERIES ------------------------------------------------------- */
 
-/* MOBIL 1100px */
+/* MOBIL 1300px */
+
+@media screen and (max-width: 1300px) {
+  #Bild_Negroni {
+    height: 150px;
+    width: auto;
+    top: 150px;
+    right: 20px;
+  }
+}
+
+  /* MOBIL 1100px */
 
 @media screen and (max-width: 1100px) {
   #Bild_Gin {
     height: 150px;
     width: auto;
-    top: 170px;
+    top: 150px;
     right: 20px;
   }
 
@@ -687,6 +688,7 @@ footer {
     justify-content: space-between;
     width: 100px;
     margin: 0 auto;
+    transform: translateX(-25px);
   }
 
   #Lo_Gin p {
@@ -709,7 +711,7 @@ footer {
   #Bild_Negroni {
     height: 150px;
     width: auto;
-    top: 170px;
+    top: 150px;
     right: 20px;
   }
 
@@ -753,8 +755,27 @@ footer {
   #index_left {
     display: none; /* hide left and right element */
   }
-
+  
+  /* KONTAKT&IMPRESSUM.HTML ---------------------------------------------- */
+    
+  .fleck_gross{
+    height: 40%;
+    width: auto;
+    margin-top: 4%;
+  }
+  
+  /* MOBIL 900px */
+  
+  @media screen and (max-width: 900px) {
+    #Bild_Negroni {
+      height: 140px;
+      width: auto;
+      top: 150px;
+      right: 20px;
+    }
+  }
 }
+
 /* MOBIL 800px */
 
 @media screen and (max-width: 800px) {
@@ -926,6 +947,7 @@ footer {
     justify-content: space-between;
     width: 100px;
     margin: 0 auto;
+    transform: translateX(-10px);
   }
 
   #Lo_Gin p {
@@ -956,14 +978,14 @@ footer {
 /* REGISTRIEREN-------------------------------------------------------------- */
 
   #Bild_Negroni {
-    height: 100px;
+    height: 60px;
     width: auto;
     top: 170px;
     right: 10px;
   }
 
   #registrieren_n p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   #registrieren_n {
@@ -971,15 +993,16 @@ footer {
     justify-content: space-between;
     width: 100px;
     margin: 0 auto;
+    transform: translateX(-35px);
   }
 
   #registrieren_n p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   #egroni {
     display: none;
-    transform: translateX(10px);
+    transform: translateX(0px);
   }
 
   #Lo_Gin:hover #registriere {
@@ -988,6 +1011,28 @@ footer {
 
   #Lo_Gin:hover #egroni {
     display: block;
+  }
+
+  #registrieren_btn_vorname input {
+    width: 300px;
+  }
+  
+  #registrieren_btn_name input {
+    width: 300px;
+  }
+  
+  #registrieren_btn_email input {
+    width: 300px;
+  }
+  
+  #registrieren_btn_matrikelnummer input {
+    width: 300px;
+  }
+  #registrieren_btn_passwort input {
+    width: 300px;
+  }
+  #registrieren_btn_passwort_wiederholen input {
+    width: 300px;
   }
 
 /* KONTAKT&IMPRESSUM-------------------------------------------------- */

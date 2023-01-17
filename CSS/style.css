@@ -603,13 +603,11 @@ th {
   transform: translate(-20px, 10px);
 }
 
-
-
 #Kontaktformular{
   display: flex;
   flex-direction: column;
   justify-content:center;
-  margin-left: 20%;
+  margin-left: 39%;
 }
 
 #senden_button{
@@ -680,6 +678,7 @@ footer {
     top: 150px;
     right: 20px;
   }
+
 }
 
   /* MOBIL 1100px */
@@ -779,6 +778,11 @@ footer {
     width: auto;
     margin-top: 4%;
   }
+
+  #Kontaktformular{
+    margin-left:35%;
+  }
+}
   
   /* MOBIL 900px */
   
@@ -790,7 +794,7 @@ footer {
       right: 20px;
     }
   }
-}
+
 
 /* MOBIL 800px */
 
@@ -1063,5 +1067,9 @@ footer {
 
   #unternehmen_kontakt {
     margin: 80px;
+  }
+ 
+  #Kontaktformular{
+    margin-left: 10%;
   }
 }

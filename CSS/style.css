@@ -603,17 +603,13 @@ th {
   transform: translate(-20px, 10px);
 }
 
-.text{
-  border-radius: 15px;
-  text-align: center;
-}
 
 #senden_button{
   background-color: transparent ;
   border-color: transparent;
   margin-left: 36%;
   margin-top: 1%;
-
+  
 }
 
 #Kontaktformular{
@@ -623,6 +619,15 @@ th {
   margin-left: 30%;
 }
 
+#text_email{
+  border-radius: 15px;
+  text-align: center;
+}
+
+#text_name{
+  border-radius: 15px;
+  text-align: center;
+}
 
 #text_nachricht {
 padding: 50px 50px 50px 50px;

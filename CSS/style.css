@@ -604,19 +604,21 @@ th {
 }
 
 
-#senden_button{
-  background-color: transparent ;
-  border-color: transparent;
-  margin-left: 36%;
-  margin-top: 1%;
-  
-}
 
 #Kontaktformular{
   display: flex;
   flex-direction: column;
   justify-content:center;
-  margin-left: 30%;
+  margin-left: 20%;
+}
+
+#senden_button{
+  background-color: transparent ;
+  border-color: transparent;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #text_email{

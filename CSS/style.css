@@ -373,15 +373,17 @@ th {
   justify-content: space-between;
   width: 200px;
   margin: 0 auto;
+  font-size: 4rem;
 }
 
-#Lo_Gin p {
+#Lo_Gin h1 {
   font-size: 4rem;
 }
 
 #tonic {
   display: none;
   transform: translateX(20px);
+  font-size: 4rem;
 }
 
 #Lo_Gin:hover #lo {
@@ -470,14 +472,16 @@ th {
   width: 200px;
   margin: 0 auto;
   transform: translateX(-60px);
+  font-size: 3rem;
 }
 
-#registrieren_n p {
+#registrieren_n h1 {
   font-size: 3rem;
 }
 
 #egroni {
   display: none;
+  font-size: 3rem;
 }
 
 #registrieren_n:hover #registriere {
@@ -679,7 +683,7 @@ footer {
     right: 20px;
   }
 
-  #Lo_Gin p {
+  #Lo_Gin h1 {
     font-size: 3rem;
   }
 
@@ -689,9 +693,10 @@ footer {
     width: 100px;
     margin: 0 auto;
     transform: translateX(-25px);
+    font-size: 3rem;
   }
 
-  #Lo_Gin p {
+  #Lo_Gin h1 {
     font-size: 3rem;
   }
 
@@ -724,15 +729,17 @@ footer {
     justify-content: space-between;
     width: 100px;
     margin: 0 auto;
+    font-size: 2rem;
   }
 
-  #registrieren_n p {
+  #registrieren_n h1 {
     font-size: 2rem;
   }
 
   #egroni {
     display: none;
     transform: translateX(0px);
+    font-size: 2rem;
   }
 
   #Lo_Gin:hover #registriere {
@@ -938,7 +945,7 @@ footer {
     right: 10px;
   }
 
-  #Lo_Gin p {
+  #Lo_Gin h1 {
     font-size: 2rem;
   }
 
@@ -948,9 +955,10 @@ footer {
     width: 100px;
     margin: 0 auto;
     transform: translateX(-10px);
+    font-size: 2rem;
   }
 
-  #Lo_Gin p {
+  #Lo_Gin h1 {
     font-size: 2rem;
   }
 
@@ -994,15 +1002,17 @@ footer {
     width: 100px;
     margin: 0 auto;
     transform: translateX(-35px);
+    font-size: 1.5rem;
   }
 
-  #registrieren_n p {
+  #registrieren_n h1 {
     font-size: 1.5rem;
   }
 
   #egroni {
     display: none;
     transform: translateX(0px);
+    font-size: 1.5rem;
   }
 
   #Lo_Gin:hover #registriere {

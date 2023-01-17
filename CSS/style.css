@@ -603,8 +603,9 @@ th {
   transform: translate(-20px, 10px);
 }
 
-#text{
+.text{
   border-radius: 15px;
+  text-align: center;
 }
 
 #senden_button{
@@ -623,8 +624,9 @@ th {
 }
 
 
-#eingabe_nachricht #text{
+#text_nachricht {
 padding: 50px 50px 50px 50px;
+border-radius: 15px;
 }
 
 /* FOOTER -------------------------------------------------------------- */

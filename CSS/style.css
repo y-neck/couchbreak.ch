@@ -29,8 +29,7 @@ html {
 body {
   padding: 0; /*reset default padding; [rem]*/
   margin: 0 auto; /*reset default margin [rem]*/
-  height: 100%;
-  /* Force footer to end of page */
+  height: 100%; /* Force footer to end of page */
   display: flex;
   flex-direction: column;
 }
